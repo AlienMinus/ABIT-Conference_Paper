@@ -1,0 +1,99 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(5, 5, 8, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mark {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--neon-purple);
+  border: 2px solid var(--neon-purple);
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-list a {
+  font-weight: 500;
+  color: var(--text-secondary);
+  position: relative;
+}
+
+.nav-list a:hover {
+  color: var(--neon-purple);
+  text-shadow: 0 0 8px var(--neon-purple);
+}
+
+.has-dropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  min-width: 220px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+.has-dropdown:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown li a {
+  display: block;
+  padding: 0.8rem 1.5rem;
+  color: var(--text-secondary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dropdown li:last-child a {
+  border-bottom: none;
+}
+
+.dropdown li a:hover {
+  background: rgba(176, 38, 255, 0.1);
+  color: var(--neon-purple);
+  padding-left: 1.8rem; /* Slide effect */
+}

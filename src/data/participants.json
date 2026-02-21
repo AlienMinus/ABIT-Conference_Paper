@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Suryakanta Senapati",
+    "title": "Professor of AI & ML",
+    "testimonial": "This was a fantastic high-quality professional and intellectual engagement platform. The conference offered excellent opportunities for networking and knowledge sharing.",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "name": "Dr. Manas Das",
+    "title": "Research Scholar",
+    "testimonial": "Exceptional conference with diverse topics covering the latest innovations in intelligent computing. The sessions were inspiring and well-organized.",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "name": "Prof. Ashok Kumar Dash",
+    "title": "Department Head",
+    "testimonial": "Outstanding organization and quality of presentations. The conference successfully brought together leading experts and emerging talents in the field.",
+    "image": "https://randomuser.me/api/portraits/men/64.jpg"
+  },
+  {
+    "name": "Dr. Kamal Das",
+    "title": "Tech Lead",
+    "testimonial": "An incredible platform for showcasing cutting-edge research. The networking opportunities and technical insights were invaluable for my work.",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "name": "Prof. Soumya Patnayak",
+    "title": "Innovation Lead",
+    "testimonial": "The conference demonstrated a perfect blend of academic rigor and industry relevance. Highly recommended for anyone interested in technology.",
+    "image": "https://randomuser.me/api/portraits/men/85.jpg"
+  }
+]

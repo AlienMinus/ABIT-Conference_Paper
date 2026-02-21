@@ -1,0 +1,67 @@
+.important-dates-section {
+  padding: 80px 0;
+  position: relative;
+}
+
+.dates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.date-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.date-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-purple);
+  box-shadow: 0 10px 30px rgba(176, 38, 255, 0.15);
+}
+
+.date-card.featured {
+  border-color: var(--neon-cyan);
+  background: rgba(0, 243, 255, 0.03);
+}
+
+.date-icon {
+  font-size: 2.5rem;
+  color: var(--neon-purple);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.date-card.featured .date-icon {
+  color: var(--neon-cyan);
+}
+
+.date-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.date-value {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .dates-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .dates-grid {
+    grid-template-columns: 1fr;
+  }
+}

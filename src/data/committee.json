@@ -1,0 +1,164 @@
+{
+  "program": {
+    "title": "Program Committee",
+    "description": "Meet the distinguished committee members organizing IC-SIT 2026. Our team brings together expertise from academia and industry to ensure a high-quality conference experience.",
+    "subsections": {
+      "steering": {
+        "title": "Steering Committee",
+        "members": [
+          { "name": "Jaideep Talukdar", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Chitaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Saroj Kanta Misra", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "general": {
+        "title": "General Chairs",
+        "members": [
+          { "name": "Saraju P. Mohanty", "affiliation": "University of North Texas, USA" },
+          { "name": "Laavanya Rachakonda", "affiliation": "University of North Carolina Wilmington, USA" },
+          { "name": "Chittaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "programChairs": {
+        "title": "Program Chairs",
+        "members": [
+          { "name": "Alakananda Mitra", "affiliation": "University of Nebraska-Lincoln, USA" },
+          { "name": "Siba K. Udgata", "affiliation": "University of Hyderabad, India" },
+          { "name": "Somanath Tripathy", "affiliation": "IIT Patna, India" },
+          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "organizing": {
+        "title": "Organizing Chairs",
+        "members": [
+          { "name": "Saroj Kumar Meher", "affiliation": "ISI Bangalore, India" },
+          { "name": "Ch. Sanjeev Ku Dash", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Samaleswari Prasad Nayak", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "ieeeLiaison": {
+        "title": "IEEE Liaison Chairs",
+        "members": [
+          { "name": "Subhransu Ranjan Samantaray", "affiliation": "Chair, IEEE Bhubaneswar Section, Odisha, India" },
+          { "name": "Niranjan Roy", "affiliation": "KIIT University, Odisha, India" },
+          { "name": "Subham Kumar Padhy", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "wie": {
+        "title": "WiE Chairs",
+        "members": [
+          { "name": "Bharati Mishra", "affiliation": "IIIT Bhubaneswar, India" },
+          { "name": "Debasmita Pradhan", "affiliation": "KIIT University, India" },
+          { "name": "Soumya Priyadarshini Panda", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "publication": {
+        "title": "Publication Chairs",
+        "members": [
+          { "name": "Siba Narayan Swain", "affiliation": "IIT Dharwad, India" },
+          { "name": "Rabi Narayan Mishra", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Deepika Rani Sahu", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Pulak Sahoo", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Ramakrushna Swain", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "web": {
+        "title": "Web Chairs",
+        "members": [
+          { "name": "Surajit Das", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Sushree Satapathy", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "publicity": {
+        "title": "Publicity Chairs",
+        "members": [
+          { "name": "Suvendu Rup", "affiliation": "NIT Raipur, India" },
+          { "name": "Jitendra Kumar Rout", "affiliation": "NIT Raipur, India" },
+          { "name": "Sushri Samita Rout", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Mukti Routray", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Ranjit K. Behera", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Tapas Kumar Maji", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "sponsorship": {
+        "title": "Sponsorship Chairs",
+        "members": [
+          { "name": "Bikram Keshari Mishra", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Rabindra Dalei", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Suvendu Chandan Nayak", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Bivasa Ranjan Parida", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "finance": {
+        "title": "Finance Chairs",
+        "members": [
+          { "name": "Ajit Kumar Behera", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Nayan Ranjan Paul", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      },
+      "registration": {
+        "title": "Registration Chairs",
+        "members": [
+          { "name": "Soumya Ranjan Dash", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Kasturi Dhal", "affiliation": "Silicon University, Odisha, India" },
+          { "name": "Sarthak Padhi", "affiliation": "Silicon University, Odisha, India" }
+        ]
+      }
+    }
+  },
+  "advisory": {
+    "title": "Advisory Committee",
+    "description": "The Advisory Committee consists of renowned experts who provide strategic guidance and ensure the overall direction of the conference. Their insights help shape the conference into a leading event in the field.",
+    "members": [
+      { "name": "Dhabaleswar Panda", "affiliation": "Ohio State University, USA" },
+      { "name": "Ashok Srinivasan", "affiliation": "Florida State University, USA" },
+      { "name": "Vladimir Poulkov", "affiliation": "Technical University of Sofia, Bulgaria" },
+      { "name": "Somanath Majhi", "affiliation": "IIT Guwahati, India" },
+      { "name": "Gadadhar Sahoo", "affiliation": "IIT Dhanwad, India" },
+      { "name": "Bidyadhar Subudhi", "affiliation": "NIT Warangal, India" },
+      { "name": "Sudarsan Padhy", "affiliation": "Former Director at IMA Bhubaneswar, India" },
+      { "name": "Chandrashekhar Narayan Bhende", "affiliation": "IIT Bhubaneswar, India" },
+      { "name": "Debi Prosad Dogra", "affiliation": "IIT Bhubaneswar, India" },
+      { "name": "Subhranshu Ranjan Samantaray", "affiliation": "IIT Bhubaneswar, India" },
+      { "name": "Shazia Hasan", "affiliation": "BITS-Pilani, Dubai" },
+      { "name": "Amiya Kumar Rath", "affiliation": "BPUT, Odisha, India" },
+      { "name": "Subhankar Mishra", "affiliation": "NISER, India" },
+      { "name": "Satchidananda Dehuri", "affiliation": "FM University, India" },
+      { "name": "Hemant Kumar Rath", "affiliation": "TCS Research, India" },
+      { "name": "Saroj Patra", "affiliation": "OSRAM, Germany" },
+      { "name": "Siddharth Shankar Swain", "affiliation": "Arm, UK" },
+      { "name": "Suparna Kar Chowdhury", "affiliation": "IEEE Kolkata Section, Kolkata, India" },
+      { "name": "Subhransu Ranjan Samantaray", "affiliation": "Chair, IEEE Bhubaneswar Section, Odisha, India" },
+      { "name": "Bhaskar Gupta", "affiliation": "IEEE Kolkata Section, Kolkata, India" },
+      { "name": "Atanu Kundu", "affiliation": "IEEE Kolkata Section, Kolkata, India" },
+      { "name": "Ashok Kumar Tripathy", "affiliation": "IEEE Bhubaneswar Subsection, India" },
+      { "name": "Debi Prasad Das", "affiliation": "CSIR-IMMT, India" },
+      { "name": "Jaideep Talukdar", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Debabrata Kar", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Ram Prasad Panda", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Chittaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Saroj Kanta Misra", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Manoranjan Behera", "affiliation": "Silicon University, Odisha, India" }
+    ]
+  },
+  "technical": {
+    "title": "Technical Committee",
+    "description": "The Technical Committee provides functional and logical support to the overall technical structure of the conference, offering strategic guidance to ensure thematic coherence and relevance.",
+    "members": [
+      { "name": "Prof. Milan Biswal", "affiliation": "New Mexico State University, USA" },
+      { "name": "Prof. Rameswar Panda", "affiliation": "MIT-IBM Watson, USA" },
+      { "name": "Prof. Sarmishtha Satpathy", "affiliation": "Optical Scientist, Openwater, USA" },
+      { "name": "Prof. Manas Ranjan Kabat", "affiliation": "IMIT Cuttack, India" },
+      { "name": "Prof. Rudra Mohan Tripathy", "affiliation": "XUB, Odisha, India" },
+      { "name": "Prof. Ajit Kumar Nayak", "affiliation": "SOA University, Odisha, India" },
+      { "name": "Prof. Sudhakar Sahoo", "affiliation": "IMA Bhubaneswar, Odisha, India" },
+      { "name": "Prof. Arkashree P. Mishra", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Prof. Debasish Nayak", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Prof. Pradipta Kumar Pattanayak", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Prof. Rekha Sahu", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Prof. Milan Samantaray", "affiliation": "Silicon University, Odisha, India" },
+      { "name": "Prof. Tophan Kumar Jena", "affiliation": "Silicon University, Odisha, India" }
+    ]
+  }
+}

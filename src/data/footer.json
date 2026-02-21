@@ -1,0 +1,31 @@
+{
+  "address": "Ajay Binay Institute of Technology, Markat Nagar, Cuttack Development Authority Sector - 1, Cuttack - 753014",
+  "contact": {
+    "phone": "0671 - 2362012, 2363014",
+    "email": "info@abit.edu.in"
+  },
+  "social": [
+    {
+      "platform": "Facebook",
+      "url": "#"
+    },
+    {
+      "platform": "Instagram",
+      "url": "#"
+    },
+    {
+      "platform": "X",
+      "url": "#"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "#"
+    },
+    {
+      "platform": "YouTube",
+      "url": "#"
+    }
+  ],
+  "mapUrl": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
+  "copyrightText": "All rights reserved. Ajay Binay Institute of Technology, Odisha, India."
+}

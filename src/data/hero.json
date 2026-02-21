@@ -1,0 +1,18 @@
+{
+  "badge": "2nd International Conference on",
+  "title": "Intelligent Computing and Sustainable Innovation in Technology (IC-SIT) 2026",
+  "recordNumber": "69723",
+  "location": "Ajay Binay Institute of Technology, Cuttack",
+  "date": "September 08-10, 2026",
+  "countdownTarget": "2026-09-08T00:00:00",
+  "buttons": [
+    {
+      "label": "Call for Papers →",
+      "variant": "primary"
+    },
+    {
+      "label": "Paper Submission →",
+      "variant": "secondary"
+    }
+  ]
+}

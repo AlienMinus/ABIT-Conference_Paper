@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "FaFileAlt",
+    "title": "Paper Submission Deadline",
+    "date": "Apr 30, 2026",
+    "featured": true
+  },
+  {
+    "icon": "FaCheckCircle",
+    "title": "Notification of Acceptance",
+    "date": "Jul 1, 2026",
+    "featured": false
+  },
+  {
+    "icon": "FaUser",
+    "title": "Author Registration",
+    "date": "Jul 8 - Aug 6, 2026",
+    "featured": true
+  },
+  {
+    "icon": "FaEarlybirds",
+    "title": "Early Bird Registration Closes",
+    "date": "Jul 15, 2026",
+    "featured": false
+  },
+  {
+    "icon": "FaVideo",
+    "title": "Camera Ready Submission",
+    "date": "Jul 8 - Aug 10, 2026",
+    "featured": true
+  },
+  {
+    "icon": "FaBullseye",
+    "title": "Date of Conference",
+    "date": "Sep 8-10, 2026",
+    "featured": false
+  }
+]
