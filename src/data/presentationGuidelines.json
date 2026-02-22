@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "Presentation & Video Guidelines",
+    "description": "Follow these essential instructions to create and submit your presentation materials, including PowerPoint slides and a pre-recorded video, in compliance with IEEE conference standards. Ensure your content meets all technical and formatting requirements for a successful submission."
+  },
+  "oral": {
+    "title": "Oral Presentation Guidelines",
+    "guidelines": [
+      "Each paper is allocated 15 minutes: 12 minutes for presentation and 3 minutes for Q&A.",
+      "Presenters should be present in the session room at least 10 minutes before the start of the session.",
+      "Prepare your slides in PowerPoint (PPT/PPTX) or PDF format.",
+      "Aspect ratio of slides should be 16:9.",
+      "Bring your presentation on a USB flash drive."
+    ]
+  },
+  "video": {
+    "title": "Video Submission Guidelines",
+    "description": "Virtual presenters are required to submit a pre-recorded video of their presentation.",
+    "specs": [
+      {
+        "label": "Duration",
+        "value": "10-12 minutes"
+      },
+      {
+        "label": "File Format",
+        "value": "MP4 (MPEG-4)"
+      },
+      {
+        "label": "Resolution",
+        "value": "1080p (1920x1080) or 720p (1280x720)"
+      },
+      {
+        "label": "File Size",
+        "value": "Maximum 500MB"
+      }
+    ],
+    "instructions": [
+      "Ensure clear audio and video quality.",
+      "The video should include the presenter's face (picture-in-picture) along with the slides.",
+      "Name the file as: PaperID_PresenterName.mp4"
+    ]
+  }
+}

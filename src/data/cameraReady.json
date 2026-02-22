@@ -1,0 +1,39 @@
+{
+  "header": {
+    "title": "Camera Ready Submission",
+    "description": "Carefully follow these instructions to prepare and submit your final, camera-ready paper in accordance with IEEE formatting and submission requirements. Ensure all revisions, copyright, and compliance checks are completed before the final upload.",
+    "buttonText": "Submit Camera Ready",
+    "buttonLink": "https://cmt3.research.microsoft.com/"
+  },
+  "steps": {
+    "title": "Submission Steps",
+    "list": [
+      {
+        "title": "Revise Your Paper",
+        "description": "Revise your paper based on the reviewers' comments. Ensure that the paper follows the IEEE two-column format and does not exceed the page limit."
+      },
+      {
+        "title": "PDF eXpress Validation",
+        "description": "Validate your final PDF using IEEE PDF eXpress to ensure compatibility with IEEE Xplore. Use Conference ID: 69723X."
+      },
+      {
+        "title": "IEEE Copyright Form",
+        "description": "Complete the IEEE Electronic Copyright Form (eCF). This is usually done through the submission system."
+      },
+      {
+        "title": "Final Submission",
+        "description": "Upload the validated PDF and the copyright receipt to the Microsoft CMT portal."
+      }
+    ]
+  },
+  "checklist": {
+    "title": "Submission Checklist",
+    "items": [
+      "Paper revised according to reviewer comments.",
+      "Formatting checks (fonts, margins, etc.) completed.",
+      "PDF validated via IEEE PDF eXpress.",
+      "Copyright form signed and downloaded.",
+      "At least one author registered for the conference."
+    ]
+  }
+}

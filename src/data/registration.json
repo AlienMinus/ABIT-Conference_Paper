@@ -1,0 +1,63 @@
+{
+  "title": "Author Registration",
+  "description": "Secure your spot at IC-SIT 2026 by registering as an author. Our registration process is secure and hassle-free, ensuring a smooth experience for you.",
+  "table": {
+    "headers": [
+      { "text": "Sl No.", "rowSpan": 2 },
+      { "text": "Category", "rowSpan": 2 },
+      { "text": "Indian Delegates (in INR)", "colSpan": 2 },
+      { "text": "Foreign Delegates (in USD)", "colSpan": 2 }
+    ],
+    "subHeaders": [
+      "Non-IEEE", "IEEE", "Non-IEEE", "IEEE"
+    ],
+    "rows": [
+      { "sl": 1, "category": "Industry/R&D", "values": ["₹ 12,000", "₹ 10,000", "$ 300", "$ 280"] },
+      { "sl": 2, "category": "Academic/Faculty", "values": ["₹ 9,000", "₹ 8,500", "$ 250", "$ 200"] },
+      { "sl": 3, "category": "Student/Research Scholar", "values": ["₹ 8,500", "₹ 8,000", "$ 180", "$ 150"] },
+      { "sl": 4, "category": "Participation (Industry)", "values": [{ "text": "₹ 5000", "colSpan": 2 }, { "text": "$ 100", "colSpan": 2 }] },
+      { "sl": 5, "category": "Participation (Faculty)", "values": [{ "text": "₹ 2500", "colSpan": 2 }, { "text": "$ 80", "colSpan": 2 }] },
+      { "sl": 6, "category": "Participation (Student)", "values": [{ "text": "₹ 2000", "colSpan": 2 }, { "text": "$ 50", "colSpan": 2 }] }
+    ]
+  },
+  "highlights": [
+    "Early Bird registration fee are Rs 8,000 for categories 1, 2, and 3 from India",
+    "Articles from early bird registrants are eligible to receive an invitation to submit to Scopus-indexed journals.",
+    "Best Paper Award will be presented for each track to recognize outstanding contributions!"
+  ],
+  "instructions": {
+    "title": "Instructions for Registration",
+    "list": [
+      "At least one author for each accepted paper must register under category 1, 2 or 3.",
+      "An author can present a maximum of two papers. However, each paper needs to be registered separately.",
+      "At least one author must present their accepted paper in the conference for consideration of publication on IEEE Xplore. The presenter must be a registered author for the conference.",
+      "The author presenting the paper will only receive the presentation certificate.",
+      "Registration fee includes publication fee, registration kit, conference lunch.",
+      "Registration fee is inclusive of all applicable taxes.",
+      "Student registrants will be required to submit their institute ID proof to avail the discount on registration fee."
+    ]
+  },
+  "notes": {
+    "title": "Important Notes",
+    "list": [
+      "Registration category should be chosen appropriately from the aforementioned table.",
+      "Early Bird Registration closes on Jul 15, 2026",
+      "Payment gateway charges along with applicable taxes or levies, if any, will have to be borne by the registrant.",
+      "Registration fee is non-refundable and non-transferable.",
+      "Please keep a copy of the generated transaction ID by the payment gateway as well as by your bank. These may be required, if you need to track your payment/registration later.",
+      "Please note, IC-SIT 2026 organizing committee will not be responsible for any financial loss caused by improper transactions during registration process for IC-SIT 2026.",
+      "Participation certificates will be provided to registered attendees."
+    ]
+  },
+  "feeIncludes": {
+    "title": "Author/Co-Author Registration Fee Includes",
+    "list": [
+      "Welcome reception",
+      "Badge",
+      "Conference Accessories",
+      "Participation in the technical program",
+      "Tea/Coffee breaks",
+      "Breakfast/Lunch"
+    ]
+  }
+}

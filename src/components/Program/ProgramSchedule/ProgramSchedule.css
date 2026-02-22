@@ -1,0 +1,129 @@
+.psch-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+  color: var(--text-primary);
+}
+
+.psch-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  background: rgba(15, 15, 22, 0.6);
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.psch-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-purple), transparent);
+}
+
+.psch-header h1 {
+  font-size: 3.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 20px rgba(176, 38, 255, 0.6);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.psch-header p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-secondary);
+}
+
+.psch-days {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.psch-day {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.psch-day::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--neon-purple);
+}
+
+.psch-day h2 {
+  color: var(--neon-cyan);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.psch-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.psch-event {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
+}
+
+.psch-event:last-child {
+  border-bottom: none;
+}
+
+.psch-event:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.psch-time {
+  flex: 0 0 150px;
+  color: var(--neon-purple);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.psch-activity {
+  flex: 1;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .psch-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .psch-event {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .psch-time {
+    flex: 0 0 auto;
+  }
+}

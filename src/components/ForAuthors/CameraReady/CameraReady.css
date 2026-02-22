@@ -1,0 +1,156 @@
+.cr-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+  color: var(--text-primary);
+}
+
+.cr-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  background: rgba(15, 15, 22, 0.6);
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cr-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-purple), transparent);
+}
+
+.cr-header h1 {
+  font-size: 3.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 20px rgba(176, 38, 255, 0.6);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.cr-header p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-secondary);
+}
+
+.cr-btn {
+  padding: 14px 32px;
+  font-size: 1rem;
+  border: 2px solid var(--neon-purple);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: transparent;
+  color: var(--neon-purple);
+  box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cr-btn:hover {
+  color: white;
+  background: var(--neon-purple);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.cr-split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.cr-column h2 {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  text-shadow: 0 0 10px rgba(176, 38, 255, 0.5);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.cr-column h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.cr-steps {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 1rem;
+}
+
+.cr-step-item {
+  display: flex;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cr-step-item:hover {
+  transform: translateX(5px);
+}
+
+.cr-step-number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--neon-purple);
+  opacity: 0.8;
+  min-width: 30px;
+  line-height: 1.2;
+}
+
+.cr-step-content h4 {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cr-step-content p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .cr-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .cr-split-section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+/* Reuse checklist styles from PaperSubmission/CallForPaper if needed, or define here */

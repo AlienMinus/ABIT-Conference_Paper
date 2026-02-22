@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "Accommodation",
+    "description": "Accommodations are available for interested delegates on a ‘first-come, first-served’ basis. Both AC and Non AC rooms (twin-sharing) are available in the Institute guest house."
+  },
+  "guestHouse": {
+    "title": "Institute Guest House accommodation",
+    "note": "(Accommodation request need to opted during registration)",
+    "rooms": [
+      {
+        "type": "Deluxe",
+        "price": "₹ 1300 /Day",
+        "image": "https://placehold.co/400x300/1a1a1a/FFF?text=Deluxe+Room"
+      },
+      {
+        "type": "Standard-AC",
+        "price": "₹ 1100 /Day",
+        "image": "https://placehold.co/400x300/1a1a1a/FFF?text=Standard+AC"
+      },
+      {
+        "type": "Non-AC",
+        "price": "₹ 700 /Day",
+        "image": "https://placehold.co/400x300/1a1a1a/FFF?text=Non+AC"
+      }
+    ]
+  }
+}

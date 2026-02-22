@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Conference Venue",
+    "description": "The conference will be held at Silicon University, Odisha. It is conveniently located in Bhubaneswar, the capital of Odisha, India. Bhubaneswar is well connected to other major cities of the country via regular flights and trains. From the station/airport, you can take private cabs or taxis or public transport to the conference venue."
+  },
+  "content": {
+    "address": {
+      "title": "Address:",
+      "details": [
+        "Silicon University,",
+        "Silicon Hills, Patia,",
+        "Bhubaneswar - 751024",
+        "Odisha, India."
+      ],
+      "icon": "FaMapMarkerAlt"
+    },
+    "transport": [
+      {
+        "title": "By Plane",
+        "description": "The nearest airport station is Biju Patnaik International Airport (Bhubaneswar).",
+        "icon": "FaPlane"
+      },
+      {
+        "title": "By Train",
+        "description": "The nearest railway station is Bhubaneswar Railway station.",
+        "icon": "FaTrain"
+      }
+    ],
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.636720758236!2d85.80376747508726!3d20.35661588112952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e064769e73%3A0x9288172f3a98c7a4!2sSilicon%20University!5e0!3m2!1sen!2sin!4v1708586400000!5m2!1sen!2sin"
+  }
+}

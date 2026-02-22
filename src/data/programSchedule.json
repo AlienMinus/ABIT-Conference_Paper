@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": "Program Schedule",
+    "description": "Explore the conference agenda, including keynote sessions, technical tracks, and networking events."
+  },
+  "days": [
+    {
+      "date": "Day 1: September 08, 2026",
+      "events": [
+        { "time": "08:00 - 09:00", "activity": "Registration & Breakfast" },
+        { "time": "09:00 - 10:30", "activity": "Inaugural Ceremony" },
+        { "time": "10:30 - 11:00", "activity": "High Tea" },
+        { "time": "11:00 - 13:00", "activity": "Keynote Session 1" },
+        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
+        { "time": "14:00 - 16:00", "activity": "Technical Session 1" },
+        { "time": "16:00 - 16:30", "activity": "Tea Break" },
+        { "time": "16:30 - 18:00", "activity": "Technical Session 2" }
+      ]
+    },
+    {
+      "date": "Day 2: September 09, 2026",
+      "events": [
+        { "time": "09:00 - 10:30", "activity": "Keynote Session 2" },
+        { "time": "10:30 - 11:00", "activity": "High Tea" },
+        { "time": "11:00 - 13:00", "activity": "Technical Session 3" },
+        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
+        { "time": "14:00 - 16:00", "activity": "Technical Session 4" },
+        { "time": "16:00 - 16:30", "activity": "Tea Break" },
+        { "time": "16:30 - 18:00", "activity": "Cultural Program" },
+        { "time": "19:00 Onwards", "activity": "Gala Dinner" }
+      ]
+    },
+    {
+      "date": "Day 3: September 10, 2026",
+      "events": [
+        { "time": "09:00 - 10:30", "activity": "Keynote Session 3" },
+        { "time": "10:30 - 11:00", "activity": "High Tea" },
+        { "time": "11:00 - 13:00", "activity": "Technical Session 5" },
+        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
+        { "time": "14:00 - 15:30", "activity": "Valedictory Function & Award Ceremony" },
+        { "time": "15:30", "activity": "High Tea & Dispersal" }
+      ]
+    }
+  ]
+}

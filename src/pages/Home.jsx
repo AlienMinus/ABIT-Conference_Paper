@@ -3,8 +3,8 @@ import Hero from '../components/Hero/Hero'
 import Welcome from '../components/Welcome/Welcome'
 import ImportantDates from '../components/ImportantDates/ImportantDates'
 import Participants from '../components/Participants/Participants'
+import About from '../components/About/About'
 import Sponsors from '../components/Sponsorship/Sponsors'
-import Contact from '../components/Contact/Contact'
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <ImportantDates />
       <Participants />
       <Sponsors />
-      <Contact />
+      <About />
     </>
   )
 }

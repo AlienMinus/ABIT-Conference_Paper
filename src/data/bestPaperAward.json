@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "Best Paper Award",
+    "description": "Explore the outstanding papers selected from each technical track, honored for their excellence in research, innovation, and presentation. These awards highlight the top contributions that have made a significant impact within their respective domains."
+  },
+  "awards": {
+    "title": "Award Categories",
+    "list": [
+      {
+        "title": "Best Paper Award (Overall)",
+        "description": "Awarded to the most outstanding paper across all tracks."
+      },
+      {
+        "title": "Best Paper Award (Track-wise)",
+        "description": "One best paper will be selected from each of the 6 research tracks."
+      },
+      {
+        "title": "Best Student Paper Award",
+        "description": "Recognizing exceptional work where the primary author is a student."
+      }
+    ]
+  },
+  "criteria": {
+    "title": "Selection Criteria",
+    "list": [
+      "Originality and innovation of the research work.",
+      "Technical soundness and clarity of presentation.",
+      "Relevance to the conference tracks and themes.",
+      "Significance of the results and contribution to the field.",
+      "Quality of the presentation during the conference."
+    ]
+  },
+  "process": {
+    "title": "Selection Process",
+    "steps": [
+      "Initial screening by the Program Committee based on reviewer scores.",
+      "Shortlisting of top-rated papers from each track.",
+      "Evaluation by a dedicated Best Paper Award Committee during the conference presentation.",
+      "Final decision based on both the written paper and the oral presentation."
+    ]
+  },
+  "note": "The decision of the Best Paper Award Committee is final and binding. Winners will be announced during the valedictory ceremony."
+}

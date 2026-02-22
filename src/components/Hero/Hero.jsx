@@ -15,6 +15,9 @@ const Hero = () => {
     if (label.includes('Call for Papers')) {
       navigate('/for-authors/call-for-papers')
     }
+    else if (label.includes('Paper Submission')) {
+      navigate('/for-authors/paper-submission')
+    }
   }
 
   return (
@@ -29,7 +32,7 @@ const Hero = () => {
         </h1>
         <div className="hero-subtitle">
           <div className="hero-record-number">
-            IEEE Conference Record Number: <a href="#" className="record-link">{recordNumber}</a>
+            IEEE Conference Record Number: <span className="record-link">{recordNumber}</span>
           </div>
           <div className="hero-meta-details">
             <span className="location-icon"><IconMapper iconName="FaMapMarkerAlt" /> {location}</span>

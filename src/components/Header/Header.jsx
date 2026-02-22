@@ -25,7 +25,12 @@ const Header = () => {
         </button>
 
         <nav className={`site-nav ${isMenuOpen ? 'active' : ''}`} aria-label="Main navigation">
-          <ul className="nav-list" onClick={(e) => { if (e.target.tagName === 'A') setIsMenuOpen(false) }}>
+          <ul className="nav-list" onClick={(e) => { 
+            if (e.target.tagName === 'A') {
+              const parent = e.target.parentElement
+              if (!parent.classList.contains('has-dropdown')) setIsMenuOpen(false)
+            }
+          }}>
             <li><Link to="/">Home</Link></li>
             <li className="has-dropdown">
               <Link to="/committee/program">Committee</Link>
@@ -41,37 +46,37 @@ const Header = () => {
               <ul className="dropdown">
                 <li><a href="/#important-dates">Important Dates</a></li>
                 <li><Link to="/for-authors/call-for-papers">Call for Papers</Link></li>
-                <li><a href="#paper-submission">Paper Submission</a></li>
-                <li><a href="#registration">Registration</a></li>
-                <li><a href="#camera-ready">Camera Ready Submission</a></li>
-                <li><a href="#presentation-guidelines">Presentation & Video Guidelines</a></li>
-                <li><a href="#best-paper">Best Paper Award</a></li>
+                <li><Link to="/for-authors/paper-submission">Paper Submission</Link></li>
+                <li><Link to="/for-authors/registration">Registration</Link></li>
+                <li><Link to="/for-authors/camera-ready">Camera Ready Submission</Link></li>
+                <li><Link to="/for-authors/presentation-guidelines">Presentation & Video Guidelines</Link></li>
+                <li><Link to="/for-authors/best-paper-award">Best Paper Award</Link></li>
               </ul>
             </li>
 
             <li className="has-dropdown">
               <a href="#program">Program</a>
               <ul className="dropdown">
-                <li><a href="#keynote">Keynote / Plenary Talks</a></li>
-                <li><a href="#schedule">Program Schedule</a></li>
-                <li><a href="#student-symposium">IEEE Student Symposium</a></li>
-                <li><a href="#proceeding">Conference Proceeding</a></li>
+                <li><Link to="/program/keynote">Keynote Talks</Link></li>
+                <li><Link to="/program/schedule">Program Schedule</Link></li>
+                <li><Link to="/program/student-symposium">IEEE Student Symposium</Link></li>
+                <li><Link to="/program/conference-proceeding">Conference Proceeding</Link></li>
               </ul>
             </li>
 
             <li className="has-dropdown">
               <a href="#venue">Venue</a>
               <ul className="dropdown">
-                <li><a href="#conference-venue">Conference Venue</a></li>
-                <li><a href="#accommodations">Accommodations</a></li>
-                <li><a href="#sightseeing">Sightseeing</a></li>
+                <li><Link to="/venue/conference-venue">Conference Venue</Link></li>
+                <li><Link to="/venue/accommodations">Accommodations</Link></li>
+                <li><Link to="/venue/sightseeing">Sightseeing</Link></li>
               </ul>
             </li>
 
-            <li><a href="/#sponsors">Sponsorship</a></li>
-            <li><a href="/#contact">Contact</a></li>
-            <li><a href="/#gallery">Gallery</a></li>
-            <li><a href="/#past">Past Conferences</a></li>
+            <li><Link to="/sponsorship">Sponsorship</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
+            <li><Link to="/past-conferences">Past Conferences</Link></li>
           </ul>
         </nav>
       </div>

@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "IEEE Student Symposium",
+    "description": "This special segment, organized by the IEEE Student Chapter, features student-led research, talks, and interactive sessions. It’s a platform for young minds to showcase ideas, network with professionals, and engage with cutting-edge technology."
+  },
+  "about": {
+    "title": "About the Symposium",
+    "description": "The IEEE Student Symposium at IC-SIT 2026 is designed to foster a culture of research and innovation among students. It provides an opportunity for undergraduate and postgraduate students to present their work, receive feedback from experts, and network with the global research community."
+  },
+  "tracks": {
+    "title": "Symposium Tracks",
+    "list": [
+      {
+        "title": "Emerging Technologies in AI & ML",
+        "icon": "FaBrain"
+      },
+      {
+        "title": "IoT and Smart Systems",
+        "icon": "FaNetworkWired"
+      },
+      {
+        "title": "Sustainable Energy Solutions",
+        "icon": "FaBolt"
+      },
+      {
+        "title": "Cybersecurity and Blockchain",
+        "icon": "FaDatabase"
+      },
+      {
+        "title": "Robotics and Automation",
+        "icon": "FaMicrochip"
+      }
+    ]
+  },
+  "guidelines": {
+    "title": "Submission Guidelines",
+    "list": [
+      "Submissions must be original and unpublished work.",
+      "Papers should be limited to 4 pages in IEEE format.",
+      "The primary author must be a student.",
+      "Accepted papers will be presented in a dedicated poster/oral session."
+    ]
+  },
+  "awards": {
+    "title": "Awards & Recognition",
+    "list": [
+      "Best Student Paper Award",
+      "Best Poster Presentation Award",
+      "Innovative Idea Award"
+    ]
+  }
+}

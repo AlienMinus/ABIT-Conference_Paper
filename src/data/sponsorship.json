@@ -1,0 +1,101 @@
+{
+  "header": {
+    "title": "Become a Sponsor",
+    "description": "Join these leading researchers and practitioners in supporting the future of advanced computing and digital innovation. Showcase your brand to 500+ researchers and practitioners from academia and industry.",
+    "buttonText": "Download Prospectus"
+  },
+  "highlights": {
+    "title": "Highlights of conference",
+    "items": [
+      "Top International and National keynote speakers.",
+      "Exhibits from national and international researchers and industry experts.",
+      "Research paper presentation sessions.",
+      "A gathering of the best national and international minds.",
+      "Integration of experienced and young researchers from R&D sectors across industry and academia.",
+      "Technical poster paper presentations."
+    ]
+  },
+  "whySponsor": {
+    "title": "Why Sponsor?",
+    "items": [
+      "Publicity and long-term branding.",
+      "Boost visibility for your company and products on a global scale.",
+      "Connect with leading scientists and industry experts.",
+      "Engage with scientific communities both in India and worldwide.",
+      "Explore research partnerships and recruit top international talent.",
+      "Be part of a major international conference covering education, research, and innovation."
+    ]
+  },
+  "packages": [
+    {
+      "name": "Platinum",
+      "price": "1,00,000",
+      "features": [
+        { "text": "30 minutes slot during paper presentation", "available": true },
+        { "text": "One exhibition stall for the entire duration of the conference", "available": true },
+        { "text": "Support acknowledgement and logo in conference program booklet / Proceedings", "available": true },
+        { "text": "Logo on website", "available": true },
+        { "text": "Logo on promotional materials like flyers, banners etc", "available": true },
+        { "text": "Complimentary participation for 5 delegates with participation certificate and lunch", "available": true }
+      ]
+    },
+    {
+      "name": "Gold",
+      "price": "50,000",
+      "features": [
+        { "text": "15 minutes slot during paper presentation", "available": true },
+        { "text": "One exhibition stall for the entire duration of the conference", "available": true },
+        { "text": "Support acknowledgement and logo in conference program booklet / Proceedings", "available": true },
+        { "text": "Logo on website", "available": true },
+        { "text": "Logo on promotional materials like flyers, banners etc", "available": true },
+        { "text": "Complimentary participation for 3 delegates with participation certificate and lunch", "available": true }
+      ]
+    },
+    {
+      "name": "Silver",
+      "price": "35,000",
+      "features": [
+        { "text": "Slot during paper presentation", "available": false },
+        { "text": "Exhibition stall for the entire duration of the conference", "available": false },
+        { "text": "Support acknowledgement and logo in conference program booklet / Proceedings", "available": true },
+        { "text": "Logo on website", "available": true },
+        { "text": "Logo on promotional materials like flyers, banners etc", "available": true },
+        { "text": "Complimentary participation for 2 delegates with participation certificate and lunch", "available": true }
+      ]
+    },
+    {
+      "name": "Bronze",
+      "price": "25,000",
+      "features": [
+        { "text": "Slot during paper presentation", "available": false },
+        { "text": "Exhibition stall for the entire duration of the conference", "available": false },
+        { "text": "Support acknowledgement and logo in conference program booklet / Proceedings", "available": true },
+        { "text": "Logo on website", "available": true },
+        { "text": "Logo on promotional materials like flyers, banners etc", "available": true },
+        { "text": "Complimentary participation for 1 delegates with participation certificate and lunch", "available": true }
+      ]
+    }
+  ],
+  "advertisement": {
+    "title": "Advertisement in Conference Proceedings",
+    "description": [
+      "IC-SIT 2026 offers an exclusive opportunity for corporate entities, industries, and technical institutes to showcase their companies, services, and products to a wide-ranging audience. On the eve of the conference, a Conference Proceedings will be published, encompassing abstracts of all accepted research articles, noteworthy keynotes from eminent speakers, and vital technical information. This significant publication will be made available in both digital and hard copy formats, ensuring an extensive reach.",
+      "To maximize visibility and effectively reach your target audience, we invite you to advertise in the conference souvenir. By securing ad space in the Conference Proceedings, you can capitalize on this valuable platform to promote your brand, highlight your services, and exhibit your products."
+    ],
+    "rates": [
+      { "sl": 1, "category": "Front back page", "amount": "20,000", "number": "01" },
+      { "sl": 2, "category": "Back side Back page", "amount": "19,000", "number": "01" },
+      { "sl": 3, "category": "Back side Front page", "amount": "17,000", "number": "01" },
+      { "sl": 4, "category": "Inside colour page", "amount": "15,000", "number": "04" },
+      { "sl": 5, "category": "Inside Black and White page", "amount": "10,000", "number": "04" },
+      { "sl": 6, "category": "Tag page", "amount": "10,000", "number": "01" },
+      { "sl": 7, "category": "Inside half page Black and White", "amount": "5,000", "number": "04" }
+    ]
+  },
+  "contact": {
+    "text": "To advertise in the conference proceedings, you may contact -",
+    "name": "Dr. Samaleswari P. Nayak",
+    "phone": "+91 96586 63103",
+    "email": "support-ic-sit@silicon.ac.in"
+  }
+}

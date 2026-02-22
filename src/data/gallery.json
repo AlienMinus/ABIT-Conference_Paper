@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "Photo Gallery",
+    "description": "A glimpse into the vibrant moments, technical sessions, and networking events from our previous conferences. Explore the memories that define our community."
+  },
+  "images": [
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Conference+Inauguration",
+      "alt": "Conference Inauguration",
+      "caption": "Inaugural Ceremony 2024"
+    },
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Keynote+Session",
+      "alt": "Keynote Session",
+      "caption": "Keynote Address by Dr. Smith"
+    },
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Technical+Session",
+      "alt": "Technical Session",
+      "caption": "Paper Presentation Track 1"
+    },
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Networking",
+      "alt": "Networking",
+      "caption": "Networking Lunch"
+    },
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Awards",
+      "alt": "Awards",
+      "caption": "Best Paper Awards"
+    },
+    {
+      "src": "https://placehold.co/600x400/1a1a1a/FFF?text=Cultural+Event",
+      "alt": "Cultural Event",
+      "caption": "Cultural Evening Performance"
+    }
+  ]
+}

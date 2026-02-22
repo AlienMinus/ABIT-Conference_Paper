@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Submit Your Research",
+    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions in fields of information technology, offering an excellent platform to share your work with experts and professionals worldwide.",
+    "buttonText": "Download Template",
+    "templateLink": "/GBM.pdf"
+  },
+  "submission": {
+    "title": "Paper Submission",
+    "description": "We are excited to invite researchers, scientists, and innovators to submit their papers to the 2nd International Conference on Intelligent Computing and Sustainable Innovations in Technology (IC-SIT) 2026. This is an excellent opportunity to showcase your work to an international audience of experts, practitioners, and academics.",
+    "stepsTitle": "To submit your paper, please follow these simple steps:",
+    "steps": [
+      {
+        "title": "Prepare Your Manuscript",
+        "description": "Ensure your paper follows the submission guidelines outlined in the IEEE Conference Templates."
+      },
+      {
+        "title": "Create an Account or Log In",
+        "description": "If you do not have an account on CMT, please sign up. Existing users can simply log in to proceed."
+      },
+      {
+        "title": "Submit Your Paper",
+        "description": "Once logged in, follow the prompts to upload your paper and any supplementary materials, and provide the necessary details for review."
+      }
+    ]
+  },
+  "guidelines": {
+    "title": "Submission Guidelines",
+    "list": [
+      {
+        "title": "Paper Length",
+        "description": "Up to 6 pages (including figures, tables & references), prepared in the two-column IEEE format."
+      },
+      {
+        "title": "Language",
+        "description": "English only, with proper grammar and formatting."
+      },
+      {
+        "title": "Format",
+        "description": "IEEE Conference Template (LaTeX or Word)."
+      },
+      {
+        "title": "Originality",
+        "description": "Original unpublished research work with a novel contribution."
+      },
+      {
+        "title": "Similarity Index",
+        "description": "Maximum similarity index should be less than 20%."
+      }
+    ]
+  },
+  "note": "Note: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+  "footer": {
+    "title": "Submit Your Research to Make an Impact!",
+    "description": "Take the next step in your academic journey—submit your paper today and contribute to cutting-edge research and innovation.",
+    "buttonText": "Submit Paper",
+    "buttonLink": "https://cmt3.research.microsoft.com/"
+  }
+}

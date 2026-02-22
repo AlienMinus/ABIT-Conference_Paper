@@ -1,0 +1,110 @@
+{
+  "header": {
+    "title": "Sightseeing",
+    "description": "Explore the vibrant city of Bhubaneswar and witness the beauty of its temples, beaches, and waterfalls. Discover the unique culture and history of Odisha."
+  },
+  "intro": {
+    "title": "Bhubaneswar : The City of Temples",
+    "description": "\"Odisha- India's best kept secret\"! We are providing excellent opportunity to the delegates of IC-SIT 2026 to explore the beauty of the state. Bhubaneswar replaced Cuttack as the capital on 19 August 1949, 2 years after India gained its independence from Britain. The modern city was designed by the German architect Otto Königsberger in 1946. Being the capital city, the place eventually got an infrastructure boost, which led to the growth in communication, transport, sports, education and health facilities; and rose to become one of the foremost, to be found suitable for being developed as a smart city of India."
+  },
+  "bhubaneswar": {
+    "title": "Places to Visit in Bhubaneswar",
+    "places": [
+      {
+        "name": "Lingaraj Temple",
+        "address": "Lingaraj Temple Rd, Lingaraj Nagar, Old Town, Bhubaneswar, Odisha 751002",
+        "distance": "16 KM",
+        "description": "Dedicated to Lord Shiva, the Lingaraj Temple stands as one of Bhubaneswar's most ancient and significant architectural marvels. As a towering landmark of Odisha's capital, this Hindu temple attracts devotees and tourists alike, representing the quintessence of Kalinga architecture.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lingaraj_Temple_Bhubaneswar.jpg/640px-Lingaraj_Temple_Bhubaneswar.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+      },
+      {
+        "name": "Mukteswar Temple",
+        "address": "6RVR+35P, Old Town, Kedar Gouri Vihar, Old Town, Bhubaneswar, Odisha 751019",
+        "distance": "16 KM",
+        "description": "The Mukteswar Temple is being a gem of Odishan architecture dedicated to Lord Shiva. Often called the 'Gem of Odisha architecture', this temple from 950-975 CE plays a pivotal role in understanding the evolution of temple craftsmanship in the region.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mukteswar_Temple.jpg/640px-Mukteswar_Temple.jpg",
+        "link": "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+      },
+      {
+        "name": "Udayagiri & Khandagiri Caves",
+        "address": "7Q7M+2V7, Khandagiri, Bhubaneswar, Odisha 751030",
+        "distance": "14 KM",
+        "description": "Perched on adjacent hills near Bhubaneswar, the Udayagiri and Khandagiri Caves are a mix of natural and man-made rock-cut shelters of immense historical and religious significance. Dating back to the 1st century BCE, these caves feature ornate carvings, with Udayagiri housing 18 caves and Khandagiri comprising 15.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg/640px-Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Udayagiri_and_Khandagiri_Caves"
+      },
+      {
+        "name": "Nandankanan Zoological Park",
+        "address": "Nandankanan Rd, Near Police Station, Barang, Bhubaneswar, Odisha 754005",
+        "distance": "8 KM",
+        "description": "Spanning 1,080 acres, Nandankanan Zoological Park serves as both a premier zoo and botanical garden in Bhubaneswar. Established in 1960 and opened to the public in 1979, it holds the distinction of being the first Indian zoo to join WAZA. The park also features a sanctuary and diverse botanical collections.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/White_Tiger_at_Nandankanan.jpg/640px-White_Tiger_at_Nandankanan.jpg",
+        "link": "https://en.wikipedia.org/wiki/Nandankanan_Zoological_Park"
+      },
+      {
+        "name": "Tribal Museum",
+        "address": "Unit - VIII, CRP - DAV Rd, CRPF Colony, Nayapalli, Bhubaneswar, Odisha 751003",
+        "distance": "11 KM",
+        "description": "Established in 1953, the Museum of Tribal Arts and Artefacts, or the 'Museum of Man', celebrates Odisha's rich tribal heritage. With over 60 tribal communities in the state, this museum offers a deep dive into their lifestyles, showcasing traditional attire, ornaments, and cultural practices.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Odisha_State_Tribal_Museum.jpg/640px-Odisha_State_Tribal_Museum.jpg",
+        "link": "https://en.wikipedia.org/wiki/Museum_of_Tribal_Arts_and_Artifacts",
+        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+      }
+    ]
+  },
+  "odisha": {
+    "title": "Places to Visit in Odisha",
+    "places": [
+      {
+        "name": "Shree Jagannath Temple Puri",
+        "address": "Bali Sahi, Puri, Odisha 752001",
+        "distance": "78 KM",
+        "description": "Located in the coastal town of Puri, the Jagannath Temple is a sacred Hindu shrine dedicated to Lord Jagannath, a form of Vishnu. Rebuilt from the 10th century onwards, this architectural masterpiece is a key pilgrimage site and a stunning example of Kalinga temple architecture.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jagannath_Temple%2C_Puri.jpg/640px-Jagannath_Temple%2C_Puri.jpg",
+        "link": "https://en.wikipedia.org/wiki/Jagannath_Temple,_Puri"
+      },
+      {
+        "name": "Golden Beach Puri",
+        "address": "Puri, Odisha, India",
+        "distance": "78 KM",
+        "description": "Puri's Golden Beach, situated along the Bay of Bengal, is renowned for its golden sands and vibrant atmosphere. It is a hub for sand art, often featuring works by acclaimed artist Sudarshan Pattnaik. In 2020, it earned the prestigious 'Blue Flag' certification for its cleanliness and environmental standards.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Puri_beach_at_sunrise.jpg/640px-Puri_beach_at_sunrise.jpg",
+        "link": "https://en.wikipedia.org/wiki/Golden_Beach,_Puri"
+      },
+      {
+        "name": "Konark Sun Temple",
+        "address": "Konark, Odisha 752111",
+        "distance": "80 KM",
+        "description": "A UNESCO World Heritage site, the Konark Sun Temple is a 13th-century marvel attributed to King Narasimhadeva I. Designed as a colossal chariot for the Sun God Surya, complete with 24 intricately carved wheels and seven horses, this temple on the Odisha coastline is a testament to ancient Indian engineering.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/640px-Konarka_Temple.jpg",
+        "link": "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+      },
+      {
+        "name": "Chilika Lake",
+        "address": "Odisha",
+        "distance": "71 KM",
+        "description": "Spanning across Puri, Khordha, and Ganjam districts, Chilika Lake is Asia's largest brackish water lagoon. Fed by the Daya River and opening into the Bay of Bengal, this vast ecosystem covers over 1,100 square kilometers and is a haven for migratory birds and diverse aquatic life.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Chilika_Lake_at_Satapada.jpg/640px-Chilika_Lake_at_Satapada.jpg",
+        "link": "https://en.wikipedia.org/wiki/Chilika_Lake"
+      },
+      {
+        "name": "Barehipani Waterfall",
+        "address": "W9MJ+533 Barehipani Waterfall, Odisha",
+        "distance": "276 KM",
+        "description": "Located within the lush Simlipal National Park in Mayurbhanj, Barehipani Falls is one of India's highest waterfalls. Cascading from a height of 399 meters (1,309 ft) in two tiers, this spectacular waterfall is a highlight of Odisha's natural beauty.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Barehipani_Falls.jpg/640px-Barehipani_Falls.jpg",
+        "link": "https://en.wikipedia.org/wiki/Barehipani_Falls"
+      },
+      {
+        "name": "Debakunda",
+        "address": "Mayurbhanj, Odisha, India",
+        "distance": "224 KM",
+        "description": "Nestled in the Mayurbhanj district within Simlipal National Park, Debakunda (or Devkund) is a scenic natural pond. It features the historic Ambika Mandira temple and is known for its serene environment and unique biodiversity, including rare lichen species.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Devkund_Waterfall.jpg/640px-Devkund_Waterfall.jpg",
+        "link": "https://en.wikipedia.org/wiki/Devkund_Waterfall"
+      }
+    ]
+  }
+}

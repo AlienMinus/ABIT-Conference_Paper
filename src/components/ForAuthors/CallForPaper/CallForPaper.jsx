@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './CallForPaper.css'
 import cfpData from '../../../data/callForPaper.json'
 import IconMapper from '../../IconMapper/IconMapper'
 
 const CallForPaper = () => {
-  const { title, description, recordNumber, publication, submission, tracks, footer } = cfpData
+  const { title, description, recordNumber, brochureLink, publication, submission, tracks, footer } = cfpData
+  const navigate = useNavigate()
 
   return (
     <div className="cfp-container">
@@ -12,7 +14,7 @@ const CallForPaper = () => {
         <h1>{title}</h1>
         <p>{description}</p>
         <p className="cfp-record"><strong>IEEE Conference Record Number: {recordNumber}</strong></p>
-        <button className="cfp-btn">Download Brochure</button>
+        <a href={brochureLink} download="Brochure.pdf" className="cfp-btn">Download Brochure</a>
       </div>
 
       <div className="cfp-split-section">
@@ -65,8 +67,8 @@ const CallForPaper = () => {
         <h2>{footer.title}</h2>
         <p>{footer.description}</p>
         <div className="cfp-actions">
-          <button className="cfp-btn primary">Submit Paper</button>
-          <button className="cfp-btn secondary">Download Template</button>
+          <button className="cfp-btn primary" onClick={() => navigate('/for-authors/paper-submission')}>Submit Paper</button>
+          <a href={footer.templateLink} download="GBM.pdf" className="cfp-btn secondary">Download Template</a>
         </div>
       </div>
     </div>

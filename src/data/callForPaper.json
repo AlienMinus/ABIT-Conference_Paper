@@ -2,6 +2,7 @@
   "title": "Call For Paper",
   "description": "We invite original research papers that advance the state-of-the-art in advanced computing and digital innovation. Join leading researchers and practitioners from academia and industry in sharing groundbreaking discoveries.",
   "recordNumber": "69723",
+  "brochureLink": "/Brochure.pdf",
   "publication": {
     "title": "Publication & Awards",
     "description": "IC-SIT 2026 is an international forum for high-quality research in information technology and computing. Researchers, developers, and practitioners from academia and industry are invited to present original technical papers. Accepted papers will be published in the IEEE Xplore digital library, subject to IEEE's quality and scope requirements.",
@@ -75,6 +76,7 @@
   },
   "footer": {
     "title": "Ready to Submit?",
-    "description": "Join researchers from around the world in advancing the field of computing and digital innovation."
+    "description": "Join researchers from around the world in advancing the field of computing and digital innovation.",
+    "templateLink": "/GBM.pdf"
   }
 }
