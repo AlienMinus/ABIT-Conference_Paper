@@ -4,6 +4,7 @@ import './App.css'
 import Layout from './components/Layout/Layout'
 import ScrollToTop from './components/ScrollToTop';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
+import './LightMode.css'
 
 // Lazy load components
 const Home = lazy(() => import('./pages/Home'))

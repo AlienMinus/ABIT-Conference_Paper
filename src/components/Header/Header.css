@@ -97,3 +97,12 @@
   color: var(--neon-purple);
   padding-left: 1.8rem; /* Slide effect */
 }
+
+.theme-trigger {
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.theme-trigger:hover {
+  color: var(--neon-purple);
+}

@@ -1,18 +1,40 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
 import './HeaderMobile.css'
+import Search from '../Search/Search'
+import IconMapper from '../IconMapper/IconMapper'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isSearchOpen, setIsSearchOpen] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.remove('light-mode')
+    } else {
+      document.body.classList.add('light-mode')
+    }
+  }, [isDarkMode])
 
   return (
     <header className="site-header">
       <div className="container header-inner">
+        
+
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           <div className="logo-mark">IC</div>
           <div className="logo-text">IC-SIT</div>
         </Link>
+
+        <div className="mobile-search-trigger" onClick={() => setIsSearchOpen(true)}>
+          <IconMapper iconName="FaSearch" />
+        </div>
+
+        <div className="mobile-theme-toggle" onClick={() => setIsDarkMode(!isDarkMode)}>
+          <IconMapper iconName={isDarkMode ? 'FaSun' : 'FaMoon'} />
+        </div>
         
         <button 
           className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`}
@@ -77,8 +99,16 @@ const Header = () => {
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/past-conferences">Past Conferences</Link></li>
+            <li className="theme-trigger" onClick={() => setIsDarkMode(!isDarkMode)} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
+              <IconMapper iconName={isDarkMode ? 'FaSun' : 'FaMoon'} />
+            </li>
+            <li className="search-trigger" onClick={() => setIsSearchOpen(true)} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
+              <IconMapper iconName="FaSearch" />
+            </li>
           </ul>
         </nav>
+
+        <Search isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
       </div>
     </header>
   )
