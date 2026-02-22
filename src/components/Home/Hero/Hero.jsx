@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Hero.css'
 import CountdownTimer from './CountdownTimer'
-import heroData from '../../data/hero.json'
-import IconMapper from '../IconMapper/IconMapper'
+import heroData from '../../../data/hero.json'
+import IconMapper from '../../IconMapper/IconMapper'
 import StarryBackground from './StarryBackground'
 
 const Hero = () => {

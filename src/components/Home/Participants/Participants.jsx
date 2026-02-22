@@ -1,6 +1,6 @@
 import React from 'react'
 import './Participants.css'
-import participants from '../../data/participants.json'
+import participants from '../../../data/participants.json'
 import ParticipantCard from './ParticipantCard'
 
 const Participants = () => {

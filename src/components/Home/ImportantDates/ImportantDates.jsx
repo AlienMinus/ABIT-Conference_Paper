@@ -1,7 +1,7 @@
 import React from 'react'
 import './ImportantDates.css'
-import importantDates from '../../data/importantDates.json'
-import IconMapper from '../IconMapper/IconMapper'
+import importantDates from '../../../data/importantDates.json'
+import IconMapper from '../../IconMapper/IconMapper'
 
 const ImportantDates = () => {
   return (

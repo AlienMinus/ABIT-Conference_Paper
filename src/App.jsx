@@ -26,11 +26,13 @@ import Sightseeing from './components/Venue/Sightseeing/Sightseeing';
 import Gallery from './pages/Gallery';
 import PastConferences from './pages/PastConferences';
 import Contact from './pages/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <Layout>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/committee" element={<Committee />}>

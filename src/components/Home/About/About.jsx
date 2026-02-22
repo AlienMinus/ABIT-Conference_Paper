@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import aboutData from '../../data/about.json'
+import aboutData from '../../../data/about.json'
 
 const About = () => {
   const { title, paragraphs, image } = aboutData
