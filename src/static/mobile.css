@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  /* Global Container Adjustments */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Remove extra padding from nested component containers to prevent double padding */
+  .kt-container,
+  .pc-container,
+  .ss-container,
+  .cp-container,
+  .cv-container,
+  .acc-container,
+  .gallery-container,
+  .bpa-container,
+  .pg-container,
+  .cr-container,
+  .registration-container,
+  .ps-container,
+  .cfp-container,
+  .sponsorship-details-container,
+  .psch-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Reduce vertical padding for homepage sections */
+  .sponsorship-section,
+  .contact-section,
+  .welcome-section,
+  .about-section,
+  .important-dates-section,
+  .participants-section {
+    padding: 3rem 0 !important;
+  }
+
+  /* Adjust top margin for page wrappers to account for fixed header */
+  .container[style*="marginTop: 100px"] {
+    margin-top: 80px !important;
+  }
+}

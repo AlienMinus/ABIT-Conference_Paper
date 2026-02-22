@@ -10,7 +10,7 @@ const Welcome = () => {
         
         <div className="welcome-content">
           <p>
-            We are delighted to invite you to the 2<sup>nd</sup> International Conference on Intelligent Computing and Sustainable Innovation in Technology (IC-SIT), scheduled to take place from September 8<sup>th</sup> to 10<sup>th</sup>, 2026. Hosted by Silicon University in Odisha, India, this conference promises to be a pivotal event for professionals and enthusiasts in the fields of technology, engineering, and innovation.
+            We are delighted to invite you to the 2<sup>nd</sup> International Conference on Intelligent Computing and Sustainable Innovation in Technology (IC-SIT), scheduled to take place from September 8<sup>th</sup> to 10<sup>th</sup>, 2026. Hosted by Ajay Binay Institute of Technology in Odisha, India, this conference promises to be a pivotal event for professionals and enthusiasts in the fields of technology, engineering, and innovation.
           </p>
           
           <p>
@@ -18,7 +18,7 @@ const Welcome = () => {
           </p>
           
           <p>
-            IC-SIT 2026 is organized in <span className="highlight">hybrid mode</span>, bolstering the global presence of the event. Delegates will be able to decide whether to attend physically or virtually. We look forward to meeting you at Silicon University, Odisha or virtually. This will further ensure the presence of internationally acclaimed keynote speakers for the session talks.
+            IC-SIT 2026 is organized in <span className="highlight">hybrid mode</span>, bolstering the global presence of the event. Delegates will be able to decide whether to attend physically or virtually. We look forward to meeting you at Ajay Binay Institute of Technology, Odisha or virtually. This will further ensure the presence of internationally acclaimed keynote speakers for the session talks.
           </p>
           
           <p>

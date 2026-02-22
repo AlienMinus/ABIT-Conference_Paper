@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaFileAlt, FaCheckCircle, FaUser, FaEarlybirds, FaVideo, FaBullseye, FaMapMarkerAlt, FaCalendarAlt, FaBrain, FaDatabase, FaNetworkWired, FaServer, FaMicrochip, FaBolt, FaTimesCircle, FaGlobe, FaFilePdf, FaPlane, FaTrain, FaRoute, FaSearch, FaTimes, FaSun, FaMoon, FaArrowUp } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaFileAlt, FaCheckCircle, FaUser, FaEarlybirds, FaVideo, FaBullseye, FaMapMarkerAlt, FaCalendarAlt, FaBrain, FaDatabase, FaNetworkWired, FaServer, FaMicrochip, FaBolt, FaTimesCircle, FaGlobe, FaFilePdf, FaPlane, FaTrain, FaRoute, FaSearch, FaTimes, FaSun, FaMoon, FaArrowUp, FaEnvelope, FaPhone } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { IoIosRibbon } from 'react-icons/io'
 import { BsCheck2Circle } from 'react-icons/bs'
@@ -43,7 +43,9 @@ const iconMap = {
   FaTimes: FaTimes,
   FaSun: FaSun,
   FaMoon: FaMoon,
-  FaArrowUp: FaArrowUp
+  FaArrowUp: FaArrowUp,
+  FaEnvelope: FaEnvelope,
+  FaPhone: FaPhone
 }
 
 const IconMapper = ({ iconName, ...props }) => {

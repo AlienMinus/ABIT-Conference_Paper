@@ -6,10 +6,10 @@
       "steering": {
         "title": "Steering Committee",
         "members": [
-          { "name": "Jaideep Talukdar", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Chitaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Saroj Kanta Misra", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Jaideep Talukdar", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Chitaranjan Tripathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Saroj Kanta Misra", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "general": {
@@ -17,7 +17,7 @@
         "members": [
           { "name": "Saraju P. Mohanty", "affiliation": "University of North Texas, USA" },
           { "name": "Laavanya Rachakonda", "affiliation": "University of North Carolina Wilmington, USA" },
-          { "name": "Chittaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Chittaranjan Tripathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "programChairs": {
@@ -26,15 +26,15 @@
           { "name": "Alakananda Mitra", "affiliation": "University of Nebraska-Lincoln, USA" },
           { "name": "Siba K. Udgata", "affiliation": "University of Hyderabad, India" },
           { "name": "Somanath Tripathy", "affiliation": "IIT Patna, India" },
-          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Pradyumna Kumar Tripathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "organizing": {
         "title": "Organizing Chairs",
         "members": [
           { "name": "Saroj Kumar Meher", "affiliation": "ISI Bangalore, India" },
-          { "name": "Ch. Sanjeev Ku Dash", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Samaleswari Prasad Nayak", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Ch. Sanjeev Ku Dash", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Samaleswari Prasad Nayak", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "ieeeLiaison": {
@@ -42,7 +42,7 @@
         "members": [
           { "name": "Subhransu Ranjan Samantaray", "affiliation": "Chair, IEEE Bhubaneswar Section, Odisha, India" },
           { "name": "Niranjan Roy", "affiliation": "KIIT University, Odisha, India" },
-          { "name": "Subham Kumar Padhy", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Subham Kumar Padhy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "wie": {
@@ -50,24 +50,24 @@
         "members": [
           { "name": "Bharati Mishra", "affiliation": "IIIT Bhubaneswar, India" },
           { "name": "Debasmita Pradhan", "affiliation": "KIIT University, India" },
-          { "name": "Soumya Priyadarshini Panda", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Soumya Priyadarshini Panda", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "publication": {
         "title": "Publication Chairs",
         "members": [
           { "name": "Siba Narayan Swain", "affiliation": "IIT Dharwad, India" },
-          { "name": "Rabi Narayan Mishra", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Deepika Rani Sahu", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Pulak Sahoo", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Ramakrushna Swain", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Rabi Narayan Mishra", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Deepika Rani Sahu", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Pulak Sahoo", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Ramakrushna Swain", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "web": {
         "title": "Web Chairs",
         "members": [
-          { "name": "Surajit Das", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Sushree Satapathy", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Surajit Das", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Sushree Satapathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "publicity": {
@@ -75,34 +75,34 @@
         "members": [
           { "name": "Suvendu Rup", "affiliation": "NIT Raipur, India" },
           { "name": "Jitendra Kumar Rout", "affiliation": "NIT Raipur, India" },
-          { "name": "Sushri Samita Rout", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Mukti Routray", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Ranjit K. Behera", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Tapas Kumar Maji", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Sushri Samita Rout", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Mukti Routray", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Ranjit K. Behera", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Tapas Kumar Maji", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "sponsorship": {
         "title": "Sponsorship Chairs",
         "members": [
-          { "name": "Bikram Keshari Mishra", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Rabindra Dalei", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Suvendu Chandan Nayak", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Bivasa Ranjan Parida", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Bikram Keshari Mishra", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Rabindra Dalei", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Suvendu Chandan Nayak", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Bivasa Ranjan Parida", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "finance": {
         "title": "Finance Chairs",
         "members": [
-          { "name": "Ajit Kumar Behera", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Nayan Ranjan Paul", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Ajit Kumar Behera", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Nayan Ranjan Paul", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       },
       "registration": {
         "title": "Registration Chairs",
         "members": [
-          { "name": "Soumya Ranjan Dash", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Kasturi Dhal", "affiliation": "Silicon University, Odisha, India" },
-          { "name": "Sarthak Padhi", "affiliation": "Silicon University, Odisha, India" }
+          { "name": "Soumya Ranjan Dash", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Kasturi Dhal", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+          { "name": "Sarthak Padhi", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
         ]
       }
     }
@@ -134,12 +134,12 @@
       { "name": "Atanu Kundu", "affiliation": "IEEE Kolkata Section, Kolkata, India" },
       { "name": "Ashok Kumar Tripathy", "affiliation": "IEEE Bhubaneswar Subsection, India" },
       { "name": "Debi Prasad Das", "affiliation": "CSIR-IMMT, India" },
-      { "name": "Jaideep Talukdar", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Debabrata Kar", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Ram Prasad Panda", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Chittaranjan Tripathy", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Saroj Kanta Misra", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Manoranjan Behera", "affiliation": "Silicon University, Odisha, India" }
+      { "name": "Jaideep Talukdar", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Debabrata Kar", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Ram Prasad Panda", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Chittaranjan Tripathy", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Saroj Kanta Misra", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Manoranjan Behera", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
     ]
   },
   "technical": {
@@ -153,12 +153,12 @@
       { "name": "Prof. Rudra Mohan Tripathy", "affiliation": "XUB, Odisha, India" },
       { "name": "Prof. Ajit Kumar Nayak", "affiliation": "SOA University, Odisha, India" },
       { "name": "Prof. Sudhakar Sahoo", "affiliation": "IMA Bhubaneswar, Odisha, India" },
-      { "name": "Prof. Arkashree P. Mishra", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Prof. Debasish Nayak", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Prof. Pradipta Kumar Pattanayak", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Prof. Rekha Sahu", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Prof. Milan Samantaray", "affiliation": "Silicon University, Odisha, India" },
-      { "name": "Prof. Tophan Kumar Jena", "affiliation": "Silicon University, Odisha, India" }
+      { "name": "Prof. Arkashree P. Mishra", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Prof. Debasish Nayak", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Prof. Pradipta Kumar Pattanayak", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Prof. Rekha Sahu", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Prof. Milan Samantaray", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" },
+      { "name": "Prof. Tophan Kumar Jena", "affiliation": "Ajay Binay Institute of Technology, Odisha, India" }
     ]
   }
 }

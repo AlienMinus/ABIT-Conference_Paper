@@ -1,31 +1,27 @@
 {
-  "address": "Ajay Binay Institute of Technology, Markat Nagar, Cuttack Development Authority Sector - 1, Cuttack - 753014",
+  "about": {
+    "title": "IC-SIT 2026",
+    "description": "2nd International Conference on Intelligent Computing and Sustainable Innovations in Technology. Organized by Ajay Binay Institute of Technology, Odisha, India."
+  },
+  "links": [
+    { "label": "Home", "url": "/" },
+    { "label": "Committee", "url": "/committee/program" },
+    { "label": "Call for Papers", "url": "/for-authors/call-for-papers" },
+    { "label": "Registration", "url": "/for-authors/registration" },
+    { "label": "Contact", "url": "/contact" }
+  ],
   "contact": {
-    "phone": "0671 - 2362012, 2363014",
-    "email": "info@abit.edu.in"
+    "title": "Contact Us",
+    "address": "Ajay Binay Institute of Technology, Markat Nagar, Cuttack Development Authority Sector - 1, Cuttack - 753014",
+    "email": "info@abit.edu.in",
+    "phone": "0671 - 2362012, 2363014"
   },
   "social": [
-    {
-      "platform": "Facebook",
-      "url": "#"
-    },
-    {
-      "platform": "Instagram",
-      "url": "#"
-    },
-    {
-      "platform": "X",
-      "url": "#"
-    },
-    {
-      "platform": "LinkedIn",
-      "url": "#"
-    },
-    {
-      "platform": "YouTube",
-      "url": "#"
-    }
+    { "icon": "Facebook", "url": "#" },
+    { "icon": "X", "url": "#" },
+    { "icon": "LinkedIn", "url": "#" },
+    { "icon": "YouTube", "url": "#" }
   ],
-  "mapUrl": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
-  "copyrightText": "All rights reserved. Ajay Binay Institute of Technology, Odisha, India."
+  "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
+  "copyright": "© 2026 IC-SIT. All Rights Reserved."
 }

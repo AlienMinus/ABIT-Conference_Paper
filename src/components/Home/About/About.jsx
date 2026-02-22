@@ -17,7 +17,7 @@ const About = () => {
             ))}
           </div>
           <div className="about-image">
-            <img src={image} alt="Silicon University Logo" />
+            <img src={image} alt="Ajay Binay Institute of Technology Logo" />
           </div>
         </div>
       </div>
