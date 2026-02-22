@@ -84,7 +84,7 @@
   }
 
   .ps-step-item {
-    flex-direction: column !important;
+    flex-direction: row !important;
     align-items: flex-start !important;
   }
 
