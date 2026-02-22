@@ -43,4 +43,67 @@
   .container[style*="marginTop: 100px"] {
     margin-top: 80px !important;
   }
+
+  /* Call For Paper Mobile Fixes */
+  .cfp-split-section {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+
+  .cfp-list,
+  .cfp-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cfp-track-item:nth-child(even) {
+    text-align: left !important;
+    border-left: 4px solid var(--neon-purple) !important;
+    border-right: 1px solid var(--glass-border) !important;
+    border-radius: 0 12px 12px 0 !important;
+  }
+
+  .cfp-track-item:nth-child(even) .cfp-track-header {
+    flex-direction: row !important;
+  }
+
+  .cfp-actions {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .cfp-btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Paper Submission Mobile Fixes */
+  .ps-split-section {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+
+  .ps-step-item {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .ps-actions {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .ps-btn {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+
+  /* Registration Mobile Fixes */
+  .registration-table-container {
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    display: block !important;
+  }
 }

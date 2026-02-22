@@ -8,15 +8,30 @@ import IconMapper from '../IconMapper/IconMapper'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const [isDarkMode, setIsDarkMode] = useState(true)
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem('theme')
+    return savedTheme !== null ? JSON.parse(savedTheme) : true
+  })
 
   useEffect(() => {
+    localStorage.setItem('theme', JSON.stringify(isDarkMode))
     if (isDarkMode) {
       document.body.classList.remove('light-mode')
     } else {
       document.body.classList.add('light-mode')
     }
   }, [isDarkMode])
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isMenuOpen && !event.target.closest('.site-nav') && !event.target.closest('.hamburger-menu')) {
+        setIsMenuOpen(false)
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [isMenuOpen])
 
   return (
     <header className="site-header">

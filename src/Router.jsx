@@ -1,5 +1,5 @@
-import React, { Suspense, lazy } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import React, { Suspense, lazy, useEffect } from 'react'
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner'
 
 // Lazy load components
@@ -31,6 +31,37 @@ const Contact = lazy(() => import('./pages/Contact'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 const AppRouter = () => {
+  const location = useLocation()
+
+  useEffect(() => {
+    const titles = {
+      '/': 'Home',
+      '/committee/program': 'Program Committee',
+      '/committee/advisory': 'Advisory Committee',
+      '/committee/technical': 'Technical Committee',
+      '/for-authors/call-for-papers': 'Call for Papers',
+      '/for-authors/paper-submission': 'Paper Submission',
+      '/for-authors/registration': 'Registration',
+      '/for-authors/camera-ready': 'Camera Ready Submission',
+      '/for-authors/presentation-guidelines': 'Presentation & Video Guidelines',
+      '/for-authors/best-paper-award': 'Best Paper Award',
+      '/program/keynote': 'Keynote Talks',
+      '/program/schedule': 'Program Schedule',
+      '/program/student-symposium': 'IEEE Student Symposium',
+      '/program/conference-proceeding': 'Conference Proceeding',
+      '/venue/conference-venue': 'Conference Venue',
+      '/venue/accommodations': 'Accommodations',
+      '/venue/sightseeing': 'Sightseeing',
+      '/sponsorship': 'Sponsorship',
+      '/gallery': 'Gallery',
+      '/past-conferences': 'Past Conferences',
+      '/contact': 'Contact'
+    }
+
+    const title = titles[location.pathname]
+    document.title = title ? `IC-SIT 2026 || ${title}` : 'IC-SIT 2026'
+  }, [location])
+
   return (
     <Suspense fallback={<LoadingSpinner />}>
       <Routes>
