@@ -1,6 +1,8 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaFileAlt, FaCheckCircle, FaUser, FaEarlybirds, FaVideo, FaBullseye, FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaFileAlt, FaCheckCircle, FaUser, FaEarlybirds, FaVideo, FaBullseye, FaMapMarkerAlt, FaCalendarAlt, FaBrain, FaDatabase, FaNetworkWired, FaServer, FaMicrochip, FaBolt } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import { IoIosRibbon } from 'react-icons/io'
+import { BsCheck2Circle } from 'react-icons/bs'
 
 const iconMap = {
   // Social Media
@@ -20,7 +22,17 @@ const iconMap = {
 
   // Hero
   FaMapMarkerAlt: FaMapMarkerAlt,
-  FaCalendarAlt: FaCalendarAlt
+  FaCalendarAlt: FaCalendarAlt,
+
+  // Research Tracks
+  FaBrain: FaBrain,
+  FaDatabase: FaDatabase,
+  FaNetworkWired: FaNetworkWired,
+  FaServer: FaServer,
+  FaMicrochip: FaMicrochip,
+  FaBolt: FaBolt,
+  IoIosRibbon: IoIosRibbon,
+  BsCheck2Circle: BsCheck2Circle
 }
 
 const IconMapper = ({ iconName, ...props }) => {

@@ -1,0 +1,19 @@
+{
+  "title": "Contact Us",
+  "description": "Have questions about IC-SIT 2026? We are here to help. Please feel free to reach out to us for any information regarding the conference, registration, or other related queries.",
+  "cards": [
+    {
+      "title": "Address",
+      "text": "Silicon University, Silicon Hills, Patia, Bhubaneswar, 751024, Odisha, India."
+    },
+    {
+      "title": "Contact Person",
+      "name": "Dr. Samaleswari P. Nayak",
+      "phone": "+91 96586 63103"
+    },
+    {
+      "title": "Email",
+      "email": "support-ic-sit@silicon.ac.in"
+    }
+  ]
+}

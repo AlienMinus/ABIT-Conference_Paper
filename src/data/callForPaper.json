@@ -1,0 +1,80 @@
+{
+  "title": "Call For Paper",
+  "description": "We invite original research papers that advance the state-of-the-art in advanced computing and digital innovation. Join leading researchers and practitioners from academia and industry in sharing groundbreaking discoveries.",
+  "recordNumber": "69723",
+  "publication": {
+    "title": "Publication & Awards",
+    "description": "IC-SIT 2026 is an international forum for high-quality research in information technology and computing. Researchers, developers, and practitioners from academia and industry are invited to present original technical papers. Accepted papers will be published in the IEEE Xplore digital library, subject to IEEE's quality and scope requirements.",
+    "features": [
+      "IEEE Xplore Publication.",
+      "Networking Opportunities.",
+      "Outstanding Reviewer Award.",
+      "Best Paper Award from each track."
+    ]
+  },
+  "submission": {
+    "title": "Submission Guidelines",
+    "guidelines": [
+      {
+        "title": "Paper Length",
+        "description": "Up to 6 pages (including figures, tables & references), prepared in the two column IEEE format."
+      },
+      {
+        "title": "Language",
+        "description": "English only with proper grammar and formatting."
+      },
+      {
+        "title": "Format",
+        "description": "IEEE Conference Template (LaTeX or Word)."
+      },
+      {
+        "title": "Originality",
+        "description": "Original unpublished research work with novel contribution."
+      },
+      {
+        "title": "Similarity Index",
+        "description": "Maximum similarity index should be less than 20%."
+      }
+    ]
+  },
+  "tracks": {
+    "title": "Research Tracks",
+    "description": "IC-SIT 2026 encourages submissions of original unpublished technical papers in all the areas of information technology. However, the papers in the following 6 tracks will be primary focus of IC-SIT 2026:",
+    "list": [
+      {
+        "title": "Intelligent Learning and Applications (ILA)",
+        "description": "This track covers artificial intelligence, machine learning algorithms, data mining, big data analytics, deep learning, computer vision, and robotics applications.",
+        "icon": "FaBrain"
+      },
+      {
+        "title": "Data Science and Business Analytics (DBA)",
+        "description": "Focus on statistical analysis, predictive analytics, data visualization, business intelligence tools, and data-driven decision making.",
+        "icon": "FaDatabase"
+      },
+      {
+        "title": "Communication Networks and IoT (CNI)",
+        "description": "Explores wireless networks, communication protocols, sensor networks, IoT architecture, network security, blockchain, and satellite communication.",
+        "icon": "FaNetworkWired"
+      },
+      {
+        "title": "Parallel, Distributed and Cloud Computing (PDC)",
+        "description": "Covers parallel computing, distributed systems, cloud computing, edge computing, resource management, and performance optimization.",
+        "icon": "FaServer"
+      },
+      {
+        "title": "Multimedia, Signal Processing, Embedded Systems (MSE)",
+        "description": "Addresses audio/video processing, multimedia communication, deep learning for multimedia, biomedical imaging, and embedded systems design.",
+        "icon": "FaMicrochip"
+      },
+      {
+        "title": "Power, Control and Smart Grid (PCS)",
+        "description": "Focuses on power electronics, electrical machines, renewable energy, intelligent control systems, smart grids, and grid automation.",
+        "icon": "FaBolt"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Ready to Submit?",
+    "description": "Join researchers from around the world in advancing the field of computing and digital innovation."
+  }
+}

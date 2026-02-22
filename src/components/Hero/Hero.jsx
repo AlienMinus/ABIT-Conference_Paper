@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Hero.css'
 import CountdownTimer from './CountdownTimer'
 import heroData from '../../data/hero.json'
@@ -8,11 +9,11 @@ import StarryBackground from './StarryBackground'
 const Hero = () => {
   const { badge, title, recordNumber, location, date, countdownTarget, buttons } = heroData
   const [isWormhole, setIsWormhole] = useState(false)
+  const navigate = useNavigate()
 
   const handleButtonClick = (label) => {
     if (label.includes('Call for Papers')) {
-      setIsWormhole(true)
-      setTimeout(() => setIsWormhole(false), 3000) // Reset after 3 seconds
+      navigate('/for-authors/call-for-papers')
     }
   }
 

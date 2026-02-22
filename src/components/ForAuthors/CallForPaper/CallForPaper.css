@@ -1,0 +1,440 @@
+.cfp-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+  color: var(--text-primary);
+}
+
+.cfp-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  background: rgba(15, 15, 22, 0.6);
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cfp-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-purple), transparent);
+}
+
+.cfp-header h1 {
+  font-size: 3.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 20px rgba(176, 38, 255, 0.6);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.cfp-header p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-secondary);
+}
+
+.cfp-record {
+  color: var(--neon-cyan);
+  font-size: 1.3rem;
+  margin: 2rem 0;
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.4);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.cfp-btn {
+  padding: 14px 32px;
+  font-size: 1rem;
+  border: 2px solid var(--neon-purple);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: transparent;
+  color: var(--neon-purple);
+  box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.cfp-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--neon-purple);
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+
+.cfp-btn:hover {
+  color: white;
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.cfp-btn:hover::before {
+  width: 100%;
+}
+
+.cfp-btn.secondary {
+  border-color: var(--text-secondary);
+  color: var(--text-secondary);
+  box-shadow: none;
+  margin-left: 1rem;
+}
+
+.cfp-btn.secondary::before {
+  background: var(--text-secondary);
+}
+
+.cfp-btn.secondary:hover {
+  color: var(--bg-dark);
+  border-color: var(--text-secondary);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.cfp-section {
+  margin-bottom: 6rem;
+}
+
+.cfp-section h2 {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 2.5rem;
+  display: inline-block;
+  text-shadow: 0 0 10px rgba(176, 38, 255, 0.5);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.cfp-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.cfp-section p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.cfp-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.cfp-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.cfp-list li::before {
+  content: '✦';
+  color: var(--neon-purple);
+  margin-right: 10px;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px var(--neon-purple);
+}
+
+.cfp-list li:hover {
+  border-color: var(--glass-border);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateX(5px);
+}
+
+.cfp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.cfp-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.cfp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(176, 38, 255, 0.1), transparent 40%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cfp-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--neon-purple);
+  box-shadow: 0 10px 30px -10px rgba(176, 38, 255, 0.3);
+}
+
+.cfp-card:hover::before {
+  opacity: 1;
+}
+
+.cfp-card h3 {
+  color: var(--neon-cyan);
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.cfp-card p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.cfp-tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cfp-track-item {
+  background: rgba(15, 15, 22, 0.6);
+  padding: 2rem;
+  border-left: 4px solid var(--neon-purple);
+  border-radius: 0 12px 12px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.cfp-track-item:nth-child(even) {
+  border-left: none;
+  border-right: 4px solid var(--neon-purple);
+  border-radius: 12px 0 0 12px;
+  text-align: right;
+}
+
+.cfp-track-item:nth-child(even) .cfp-track-header {
+  flex-direction: row-reverse;
+}
+
+.cfp-track-item:hover {
+  background: rgba(176, 38, 255, 0.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transform: translateX(5px);
+}
+
+.cfp-track-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cfp-track-header h3 {
+  color: var(--text-primary);
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.cfp-track-header svg {
+  font-size: 1.8rem;
+  color: var(--neon-purple);
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 8px rgba(176, 38, 255, 0.6));
+}
+
+.cfp-track-item p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.cfp-footer {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(5, 5, 8, 0) 0%, rgba(176, 38, 255, 0.1) 100%);
+  padding: 5rem 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 4rem;
+}
+
+.cfp-footer h2 {
+  color: var(--text-primary);
+  text-shadow: 0 0 15px var(--neon-purple);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.cfp-footer p {
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  font-size: 1.2rem;
+}
+
+.cfp-actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .cfp-header {
+    padding: 2rem 1rem;
+  }
+
+  .cfp-header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .cfp-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .cfp-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .cfp-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .cfp-btn.secondary {
+    margin-left: 0;
+  }
+
+  .cfp-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cfp-split-section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+.cfp-split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 6rem;
+}
+
+.cfp-column h2 {
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  text-shadow: 0 0 10px rgba(176, 38, 255, 0.5);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.cfp-column h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.cfp-column > p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  color: var(--text-secondary);
+}
+
+.cfp-check-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cfp-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cfp-check-list li:hover {
+  transform: translateX(5px);
+}
+
+.cfp-check-list li svg {
+  color: var(--neon-cyan);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+  filter: drop-shadow(0 0 5px rgba(0, 243, 255, 0.4));
+}
+
+.cfp-check-list li strong {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.cfp-check-list li p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}

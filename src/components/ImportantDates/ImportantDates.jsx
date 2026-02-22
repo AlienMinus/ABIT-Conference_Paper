@@ -5,7 +5,7 @@ import IconMapper from '../IconMapper/IconMapper'
 
 const ImportantDates = () => {
   return (
-    <section className="important-dates-section">
+    <section id="important-dates" className="important-dates-section">
       <div className="container">
         <h2 className="section-title">Important Dates</h2>
         <div className="section-underline"></div>

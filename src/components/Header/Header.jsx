@@ -39,8 +39,8 @@ const Header = () => {
             <li className="has-dropdown">
               <a href="#authors">For Authors</a>
               <ul className="dropdown">
-                <li><a href="#important-dates">Important Dates</a></li>
-                <li><a href="#call-for-papers">Call for Papers</a></li>
+                <li><a href="/#important-dates">Important Dates</a></li>
+                <li><Link to="/for-authors/call-for-papers">Call for Papers</Link></li>
                 <li><a href="#paper-submission">Paper Submission</a></li>
                 <li><a href="#registration">Registration</a></li>
                 <li><a href="#camera-ready">Camera Ready Submission</a></li>
@@ -68,10 +68,10 @@ const Header = () => {
               </ul>
             </li>
 
-            <li><a href="#sponsorship">Sponsorship</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#past">Past Conferences</a></li>
+            <li><a href="/#sponsors">Sponsorship</a></li>
+            <li><a href="/#contact">Contact</a></li>
+            <li><a href="/#gallery">Gallery</a></li>
+            <li><a href="/#past">Past Conferences</a></li>
           </ul>
         </nav>
       </div>
