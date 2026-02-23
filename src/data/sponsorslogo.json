@@ -1,32 +1,7 @@
 [
   {
-    "name": "Technical Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
-    "website": "#"
-  },
-  {
-    "name": "Financial Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
-    "website": "#"
-  },
-  {
-    "name": "Technical Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
-    "website": "#"
-  },
-  {
-    "name": "Financial Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
-    "website": "#"
-  },
-  {
-    "name": "Technical Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
-    "website": "#"
-  },
-  {
-    "name": "Financial Sponsor",
-    "logo": "https://ic-sit.in/images/sponsors/ieee-bbsr.webp",
+    "name": "Springer",
+    "logo": "https://github.com/AlienMinus/public/assets/sponsor-logo/springer.png",
     "website": "#"
   }
 ]

@@ -5,12 +5,12 @@
   },
   "conferences": [
     {
-      "year": "2024",
-      "title": "1st International Conference on Intelligent Computing and Sustainable Innovations in Technology (IC-SIT 2024)",
-      "date": "September 15-17, 2024",
-      "location": "Ajay Binay Institute of Technology, Bhubaneswar, Odisha, India",
-      "description": "The inaugural edition of IC-SIT witnessed a gathering of brilliant minds from academia and industry. Key themes included AI, IoT, and Green Computing. The conference featured 4 keynote sessions and over 60 technical paper presentations.",
-      "image": "https://placehold.co/600x400/1a1a1a/FFF?text=IC-SIT+2024",
+      "year": "This is the first edition of IC-SAGAR, so there are no past conferences to display. Stay tuned for updates on future editions!",
+      "title": "1st International Conference on Intelligent Computing and Sustainable Innovations in Technology (IC-SAGAR 2026)",
+      "date": "November 06-07, 2026",
+      "location": "Ajay Binay Institute of Technology, Cuttack, Odisha, India",
+      "description": "The inaugural edition of IC-SAGAR witnessed a gathering of brilliant minds from academia and industry. Key themes included AI, IoT, and Green Computing. The conference featured 4 keynote sessions and over 60 technical paper presentations.",
+      "image": "https://placehold.co/600x400/1a1a1a/FFF?text=IC-SAGAR+2026",
       "link": "#"
     }
   ]
