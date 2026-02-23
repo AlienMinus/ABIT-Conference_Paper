@@ -22,7 +22,7 @@ const Welcome = () => {
           </p>
           
           <p>
-            All accepted and presented papers will be submitted for inclusion in the <span className="ieee-link">IEEE Xplore digital library</span> subject to meeting IEEE Xplore's standards for scope and/or quality requirements.
+            All accepted and presented papers will be submitted for inclusion in the <a href="https://www.springernature.com/" target="_blank" rel="noopener noreferrer" className="springer-link">Springer Nature</a> subject to meeting Springer Nature's standards for scope and/or quality requirements.
           </p>
         </div>
       </div>

@@ -9,10 +9,10 @@
     "coverImage": "https://placehold.co/400x550/1a1a1a/FFF?text=Proceedings+Cover",
     "items": [
       {
-        "title": "Conference Proceedings @ IEEE Xplore",
-        "description": "All papers are indexed in IEEE Xplore",
+        "title": "Conference Proceedings @ Springer Nature",
+        "description": "All papers are indexed in Springer Nature",
         "buttonText": "Explore",
-        "link": "https://ieeexplore.ieee.org/",
+        "link": "https://www.springernature.com/",
         "icon": "FaGlobe",
         "isExternal": true
       },
