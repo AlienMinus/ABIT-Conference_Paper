@@ -40,7 +40,7 @@ const Header = () => {
 
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           <div className="logo-mark">IC</div>
-          <div className="logo-text">IC-SIT</div>
+          <div className="logo-text">IC-SAGAR</div>
         </Link>
 
         <div className="mobile-search-trigger" onClick={() => setIsSearchOpen(true)}>
