@@ -18,11 +18,11 @@
       },
       {
         "title": "Conference Souvenir",
-        "description": "PDF File",
-        "buttonText": "Download PDF",
-        "link": "/Souvenir_2024.pdf",
+        "description": "Coming Soon",
+        "buttonText": "Coming Soon",
+        "link": "#",
         "icon": "FaFilePdf",
-        "isDownload": true
+        "isDownload": false
       }
     ]
   }

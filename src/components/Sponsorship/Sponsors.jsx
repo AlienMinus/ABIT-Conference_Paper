@@ -13,7 +13,7 @@ const Sponsors = () => {
             {sponsorsData.map((sponsor, index) => (
               <div key={index} className="sponsor-card">
                 <a href={sponsor.website} target="_blank" rel="noopener noreferrer" title={sponsor.name}>
-                  <img src="{sponsor.logo}" alt={sponsor.name} className="sponsor-logo" />
+                  <img src={sponsor.logo} alt={sponsor.name} className="sponsor-logo" />
                 </a>
               </div>
             ))}
