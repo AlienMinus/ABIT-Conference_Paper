@@ -31,9 +31,9 @@ const Hero = () => {
           {title}
         </h1>
         <div className="hero-subtitle">
-          <div className="hero-record-number">
+          {/* <div className="hero-record-number">
             IEEE Conference Record Number: <span className="record-link">{recordNumber}</span>
-          </div>
+          </div> */}
           <div className="hero-meta-details">
             <span className="location-icon"><IconMapper iconName="FaMapMarkerAlt" /> {location}</span>
             <span className="date-separator">|</span>

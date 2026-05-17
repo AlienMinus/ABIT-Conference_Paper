@@ -23,13 +23,21 @@
 }
 
 .logo-mark {
-  font-size: 1.5rem;
-  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--neon-purple);
   border: 2px solid var(--neon-purple);
-  padding: 5px 10px;
+  padding: 5px;
   border-radius: 4px;
   box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.logo-mark img {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .logo-text {
