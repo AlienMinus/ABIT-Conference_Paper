@@ -1,19 +1,22 @@
 {
   "title": "Contact Us",
-  "description": "Have questions about IC-SIT 2026? We are here to help. Please feel free to reach out to us for any information regarding the conference, registration, or other related queries.",
+  "description": "Have questions about SAGAR-26? We are here to help. Please feel free to reach out to us for any information regarding the conference, registration, or other related queries.",
   "cards": [
     {
       "title": "Address",
-      "text": "Ajay Binay Institute of Technology, Silicon Hills, Patia, Bhubaneswar, 751024, Odisha, India."
+      "text": "Department of Electrical and Computer Engineering (ECE) and Electrical Engineering, AJAY BINAY INSTITUTE OF TECHNOLOGY (AUTONOMOUS), Markat Nagar, Cuttack Development Authority, Sector – 1, Cuttack – 753014"
     },
     {
-      "title": "Contact Person",
-      "name": "Dr. Samaleswari P. Nayak",
-      "phone": "+91 96586 63103"
+      "title": "Phone",
+      "phone": "+91 7978905972, +91 9853536400, +91 7978600770"
     },
     {
       "title": "Email",
-      "email": "support-ic-sit@silicon.ac.in"
+      "email": "sagar.abit27@gmail.com, samarjeet.satapathy@abit.edu.in"
+    },
+    {
+      "title": "Website",
+      "website": "https://abit.edu.in"
     }
   ]
 }

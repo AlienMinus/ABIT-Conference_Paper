@@ -48,6 +48,12 @@ const Footer = () => {
               <IconMapper iconName="FaPhone" />
               <span>{contact.phone}</span>
             </div>
+            {contact.website && (
+              <div className="footer-contact-item">
+                <IconMapper iconName="FaGlobe" />
+                <span><a href={contact.website} target="_blank" rel="noopener noreferrer" className="footer-contact-link">{contact.website}</a></span>
+              </div>
+            )}
           </div>
 
           <div className="footer-col footer-map">

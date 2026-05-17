@@ -13,7 +13,7 @@ const About = () => {
             <h2 className="section-title">{title}</h2>
             <div className="section-underline"></div>
             {paragraphs.map((para, index) => (
-              <p key={index}>{para}</p>
+              <p key={index} dangerouslySetInnerHTML={{ __html: para }} />
             ))}
           </div>
           <div className="about-image">

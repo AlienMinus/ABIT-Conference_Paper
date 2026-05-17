@@ -1,7 +1,7 @@
 {
   "about": {
-    "title": "IC-SIT 2026",
-    "description": "2nd International Conference on Intelligent Computing and Sustainable Innovations in Technology. Organized by Ajay Binay Institute of Technology, Odisha, India."
+    "title": "SAGAR-26",
+    "description": "The 1st International Conference on Soft Computing Application in Smart grid and Renewable Energy (SAGAR-26) will be held on February 26-27 at ABIT Campus jointly by the Electrical Engineering and Electrical and Computer Engineering of ABIT."
   },
   "links": [
     { "label": "Home", "url": "/" },
@@ -12,16 +12,19 @@
   ],
   "contact": {
     "title": "Contact Us",
-    "address": "Ajay Binay Institute of Technology, Markat Nagar, Cuttack Development Authority Sector - 1, Cuttack - 753014",
-    "email": "info@abit.edu.in",
-    "phone": "0671 - 2362012, 2363014"
+    "address": "Department of Electrical and Computer Engineering (ECE) and Electrical Engineering, AJAY BINAY INSTITUTE OF TECHNOLOGY (AUTONOMOUS), Markat Nagar, Cuttack Development Authority, Sector – 1, Cuttack – 753014",
+    "email": "sagar.abit27@gmail.com, samarjeet.satapathy@abit.edu.in",
+    "phone": "+91 7978905972, +91 9853536400, +91 7978600770",
+    "website": "https://abit.edu.in"
   },
   "social": [
-    { "icon": "Facebook", "url": "#" },
-    { "icon": "X", "url": "#" },
-    { "icon": "LinkedIn", "url": "#" },
-    { "icon": "YouTube", "url": "#" }
+    { "icon": "Facebook", "url": "https://www.facebook.com/ABITCTC" },
+    {
+      "icon": "LinkedIn",
+      "url": "https://www.linkedin.com/school/ajay-binay-institute-of-technology-abit-cuttack/"
+    },
+    { "icon": "Instagram", "url": "https://www.instagram.com/abit_cuttack/" }
   ],
   "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
-  "copyright": "© 2026 IC-SIT. All Rights Reserved."
+  "copyright": "© 2026 SAGAR-26. All Rights Reserved."
 }

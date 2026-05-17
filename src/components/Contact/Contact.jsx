@@ -20,8 +20,13 @@ const Contact = () => {
               <h3>{card.title}</h3>
               {card.text && <p>{card.text}</p>}
               {card.name && <p className="contact-name">{card.name}</p>}
-              {card.phone && <p>{card.phone}</p>}
-              {card.email && <a href={`mailto:${card.email}`} className="contact-email">{card.email}</a>}
+              {card.phone && card.phone.split(',').map((phone, i) => (
+                <p key={`phone-${i}`} className="contact-phone">{phone.trim()}</p>
+              ))}
+              {card.email && card.email.split(',').map((email, i) => (
+                <a key={`email-${i}`} href={`mailto:${email.trim()}`} className="contact-email">{email.trim()}</a>
+              ))}
+              {card.website && <a href={card.website} target="_blank" rel="noopener noreferrer" className="contact-website">{card.website}</a>}
             </div>
           ))}
         </div>

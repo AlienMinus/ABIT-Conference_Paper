@@ -53,17 +53,38 @@
 }
 
 .contact-email {
-  display: inline-block;
+  display: block;
   color: var(--neon-purple);
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
 }
 
 .contact-email:hover {
   text-shadow: 0 0 10px var(--neon-purple);
   color: white;
+}
+
+.contact-website {
+  display: inline-block;
+  color: var(--neon-cyan);
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  word-break: break-word;
+}
+
+.contact-website:hover {
+  text-shadow: 0 0 10px var(--neon-cyan);
+  color: white;
+}
+
+.contact-phone {
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {

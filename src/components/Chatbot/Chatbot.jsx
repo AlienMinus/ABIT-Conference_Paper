@@ -21,7 +21,7 @@ import proceedingsData from '../../data/conferenceProceeding.json'
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [messages, setMessages] = useState([
-    { text: "Hi there! I'm the IC-SIT 2026 Virtual Assistant. How can I help you today?", sender: 'bot' }
+    { text: "Hi there! I'm the SAGAR-26 Virtual Assistant. How can I help you today?", sender: 'bot' }
   ])
   const [inputValue, setInputValue] = useState('')
   const [isTyping, setIsTyping] = useState(false)
@@ -130,7 +130,7 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <h3><IconMapper iconName="FaRobot" /> IC-SIT Virtual Assistant</h3>
+            <h3><IconMapper iconName="FaRobot" /> SAGAR-26 Virtual Assistant</h3>
             <button className="chatbot-close" onClick={() => setIsOpen(false)}>
               <IconMapper iconName="FaTimes" />
             </button>
