@@ -19,19 +19,6 @@ const CallForPaper = () => {
 
       <div className="cfp-split-section">
         <div className="cfp-column">
-          <h2>{publication.title}</h2>
-          <p>{publication.description}</p>
-          <ul className="cfp-check-list">
-            {publication.features.map((feature, index) => (
-              <li key={index}>
-                <IconMapper iconName="IoIosRibbon" />
-                <span>{feature}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="cfp-column">
           <h2>{submission.title}</h2>
           <ul className="cfp-check-list">
             {submission.guidelines.map((guideline, index) => (
@@ -45,6 +32,22 @@ const CallForPaper = () => {
             ))}
           </ul>
         </div>
+
+        
+        <div className="cfp-column">
+          <h2>{publication.title}</h2>
+          <p>{publication.description}</p>
+          <ul className="cfp-check-list">
+            {publication.features.map((feature, index) => (
+              <li key={index}>
+                <IconMapper iconName="IoIosRibbon" />
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        
       </div>
 
       <div className="cfp-section">
