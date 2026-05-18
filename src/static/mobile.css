@@ -196,4 +196,75 @@
   line-height: 1.5 !important;
   word-break: break-word !important;
 }
+
+  /* Hero Section Mobile Fixes */
+  .hero-section {
+    height: auto !important;
+    min-height: 100vh !important;
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+  }
+
+  .conference-badge br {
+    display: none !important;
+  }
+
+  .conference-badge {
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+    margin-top: 2rem !important;
+  }
+
+  .conference-badge span {
+    font-size: 0.8rem !important;
+    padding: 6px 14px !important;
+  }
+
+  .hero-title {
+    font-size: 2.2rem !important;
+    margin: 1.5rem 0 !important;
+    line-height: 1.25 !important;
+  }
+
+  .hero-subtitle {
+    margin-bottom: 2rem !important;
+    padding: 0 10px !important;
+  }
+
+  .hero-meta-details {
+    flex-direction: column !important;
+    gap: 0.8rem !important;
+    font-size: 1rem !important;
+  }
+
+  .date-separator {
+    display: none !important;
+  }
+
+  .countdown {
+    gap: 1.5rem !important;
+    margin-bottom: 2.5rem !important;
+    flex-wrap: wrap !important;
+  }
+
+  .countdown-number {
+    font-size: 2.5rem !important;
+  }
+
+  .countdown-label {
+    font-size: 0.75rem !important;
+    letter-spacing: 1px !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+
+  .hero-buttons button {
+    width: 100% !important;
+  }
 }
