@@ -1,82 +1,153 @@
 {
   "title": "Call For Paper",
-  "description": "We invite original research papers that advance the state-of-the-art in advanced computing and digital innovation. Join leading researchers and practitioners from academia and industry in sharing groundbreaking discoveries.",
+  "description": "Conference seeks papers in all aspects of Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies. Researchers, academicians, industry experts, and practitioners are invited to submit original research contributions related to intelligent energy systems and sustainable computing solutions.",
   "recordNumber": "69723",
   "brochureLink": "/Brochure.pdf",
+
   "publication": {
     "title": "Publication & Awards",
-    "description": "IC-SIT 2026 is an international forum for high-quality research in information technology and computing. Researchers, developers, and practitioners from academia and industry are invited to present original technical papers. Accepted papers will be published in the IEEE Xplore digital library, subject to IEEE's quality and scope requirements.",
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. Accepted and presented papers will be forwarded to Springer Proceedings subject to publisher quality requirements.",
     "features": [
-      "IEEE Xplore Publication.",
+      "Springer Proceedings Publication.",
+      "Rigorous Peer Review Process.",
       "Networking Opportunities.",
-      "Outstanding Reviewer Award.",
-      "Best Paper Award from each track."
+      "Research Collaboration Platform.",
+      "Best Paper Recognition."
     ]
   },
+
   "submission": {
     "title": "Submission Guidelines",
     "guidelines": [
       {
-        "title": "Paper Length",
-        "description": "Up to 6 pages (including figures, tables & references), prepared in the two column IEEE format."
+        "title": "1. Manuscript Submission",
+        "description": "Authors are required to submit their manuscripts using Microsoft CMT by following the provided submission link."
       },
       {
-        "title": "Language",
-        "description": "English only with proper grammar and formatting."
+        "title": "2. Paper Requirements",
+        "description": "Each manuscript submitted should constitute outstanding and solid advancement in the conference scope and allied disciplines. The main content of the submission should be at least 3500 words or 10 pages as per the publisher format. The references should be limited to 50 and abstract should be limited to 250 words maximum."
       },
       {
-        "title": "Format",
-        "description": "IEEE Conference Template (LaTeX or Word)."
+        "title": "A. Title Page",
+        "description": "Title, name, affiliation of each author and corresponding author email should be included in the title page."
       },
       {
-        "title": "Originality",
-        "description": "Original unpublished research work with novel contribution."
+        "title": "B. Abstract",
+        "description": "A brief, concise abstract is required at the beginning of each manuscript. The abstract should contain the background, rationale, and main conclusions of the work. It should be 250 words or less, unreferenced, and should avoid mathematical expressions, footnotes, citations, and first-person sentence structures."
       },
       {
-        "title": "Similarity Index",
-        "description": "Maximum similarity index should be less than 20%."
+        "title": "C. Keywords",
+        "description": "4–6 keywords should be provided."
+      },
+      {
+        "title": "D. Text Formatting",
+        "description": "The text (12-point) should be typeset in one column and divided into sections with numbered headings using the following hierarchy: Primary heading, Secondary heading, Tertiary heading, and Quaternary heading."
+      },
+      {
+        "title": "E. Acknowledgements",
+        "description": "Keep this section brief by acknowledging only direct assistance in research and writing. Financial support should be acknowledged here instead of as footnotes to the title."
+      },
+      {
+        "title": "F. References",
+        "description": "References should be arranged alphabetically without numbering. Citations should follow author-year format such as Harsh (1990) or (Harsh, 1990). For three or more authors, use 'et al.'. Distinguishing letters (a, b, c, etc.) should be used for multiple papers by the same author in the same year."
+      },
+      {
+        "title": "G. Formulas",
+        "description": "Brief equations or terms should be written inline wherever possible. Complex equations with subscripts, superscripts, or radical signs should use the MathType equation editor."
+      },
+      {
+        "title": "H. Figures",
+        "description": "Vector-based figures (eps., ai., or psd.) should be provided upon acceptance of the paper."
+      },
+      {
+        "title": "3. Submission Format",
+        "description": "The submission of manuscripts should be done in PDF format only."
+      },
+      {
+        "title": "4. Review Process",
+        "description": "All submitted papers will undergo a rigorous review process. Acceptance decisions will be based on quality, originality, technical content, and relevance to the conference theme."
+      },
+      {
+        "title": "5. Plagiarism Policy",
+        "description": "Every paper submitted to SAGAR-26 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy may be desk-rejected without further review."
+      },
+      {
+        "title": "6. Publication Requirement",
+        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING."
+      },
+      {
+        "title": "7. Author Policy",
+        "description": "SAGAR-26 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
       }
     ]
   },
+
   "tracks": {
     "title": "Research Tracks",
-    "description": "IC-SIT 2026 encourages submissions of original unpublished technical papers in all the areas of information technology. However, the papers in the following 6 tracks will be primary focus of IC-SIT 2026:",
+    "description": "The conference invites submissions in all areas related to Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies, including but not limited to the following tracks:",
+
     "list": [
       {
-        "title": "Intelligent Learning and Applications (ILA)",
-        "description": "This track covers artificial intelligence, machine learning algorithms, data mining, big data analytics, deep learning, computer vision, and robotics applications.",
+        "title": "Smart Grid Planning and Operation",
+        "description": "Soft computing techniques for smart grid planning, operation, monitoring, and optimization.",
+        "icon": "FaBolt"
+      },
+      {
+        "title": "AI & ML for Energy Forecasting",
+        "description": "Artificial intelligence and machine learning methods for load forecasting and renewable energy prediction.",
         "icon": "FaBrain"
       },
       {
-        "title": "Data Science and Business Analytics (DBA)",
-        "description": "Focus on statistical analysis, predictive analytics, data visualization, business intelligence tools, and data-driven decision making.",
-        "icon": "FaDatabase"
+        "title": "Power System Optimization",
+        "description": "Optimization techniques for power system operation, control, scheduling, and efficiency improvement.",
+        "icon": "FaChartLine"
       },
       {
-        "title": "Communication Networks and IoT (CNI)",
-        "description": "Explores wireless networks, communication protocols, sensor networks, IoT architecture, network security, blockchain, and satellite communication.",
+        "title": "Demand Response and Energy Management",
+        "description": "Intelligent demand-side management and demand response strategies for modern power systems.",
+        "icon": "FaLightbulb"
+      },
+      {
+        "title": "Electric Vehicles and Charging Infrastructure",
+        "description": "Optimization and integration of electric vehicles and charging systems into smart grids.",
+        "icon": "FaCar"
+      },
+      {
+        "title": "Energy Storage and Microgrids",
+        "description": "Advanced energy storage technologies, microgrid control, and sustainable energy management.",
+        "icon": "FaBatteryHalf"
+      },
+      {
+        "title": "Cybersecurity and Smart Grid Protection",
+        "description": "Protection, stability, reliability, and cybersecurity solutions for smart grid infrastructure.",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "title": "Hybrid Optimization Algorithms",
+        "description": "Applications of PSO, GA, DE, ACO, SFOA, and other hybrid optimization techniques.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Deep Learning and Reinforcement Learning",
+        "description": "Applications of deep learning and reinforcement learning in smart grid systems and energy analytics.",
+        "icon": "FaRobot"
+      },
+      {
+        "title": "Carbon Neutrality and Sustainable Energy Management",
+        "description": "Research focusing on carbon neutrality strategies, sustainable energy utilization, green technologies, and intelligent energy management systems.",
+        "icon": "FaLeaf"
+      },
+      {
+        "title": "IoT and Communication Technologies",
+        "description": "IoT-enabled smart grids, communication protocols, sensor networks, and intelligent monitoring systems.",
         "icon": "FaNetworkWired"
-      },
-      {
-        "title": "Parallel, Distributed and Cloud Computing (PDC)",
-        "description": "Covers parallel computing, distributed systems, cloud computing, edge computing, resource management, and performance optimization.",
-        "icon": "FaServer"
-      },
-      {
-        "title": "Multimedia, Signal Processing, Embedded Systems (MSE)",
-        "description": "Addresses audio/video processing, multimedia communication, deep learning for multimedia, biomedical imaging, and embedded systems design.",
-        "icon": "FaMicrochip"
-      },
-      {
-        "title": "Power, Control and Smart Grid (PCS)",
-        "description": "Focuses on power electronics, electrical machines, renewable energy, intelligent control systems, smart grids, and grid automation.",
-        "icon": "FaBolt"
       }
     ]
   },
+
   "footer": {
     "title": "Ready to Submit?",
-    "description": "Join researchers from around the world in advancing the field of computing and digital innovation.",
+    "description": "Join researchers and innovators working towards sustainable energy systems, smart grids, and intelligent renewable energy technologies.",
     "templateLink": "/GBM.pdf"
   }
 }

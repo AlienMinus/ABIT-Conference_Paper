@@ -1,5 +1,49 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube, FaFileAlt, FaCheckCircle, FaUser, FaEarlybirds, FaVideo, FaBullseye, FaMapMarkerAlt, FaCalendarAlt, FaBrain, FaDatabase, FaNetworkWired, FaServer, FaMicrochip, FaBolt, FaTimesCircle, FaGlobe, FaFilePdf, FaPlane, FaTrain, FaRoute, FaSearch, FaTimes, FaSun, FaMoon, FaArrowUp, FaEnvelope, FaPhone, FaRobot, FaPaperPlane, FaCommentDots } from 'react-icons/fa'
+
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+  FaFileAlt,
+  FaCheckCircle,
+  FaUser,
+  FaEarlybirds,
+  FaVideo,
+  FaBullseye,
+  FaMapMarkerAlt,
+  FaCalendarAlt,
+  FaBrain,
+  FaDatabase,
+  FaNetworkWired,
+  FaServer,
+  FaMicrochip,
+  FaBolt,
+  FaTimesCircle,
+  FaGlobe,
+  FaFilePdf,
+  FaPlane,
+  FaTrain,
+  FaRoute,
+  FaSearch,
+  FaTimes,
+  FaSun,
+  FaMoon,
+  FaArrowUp,
+  FaEnvelope,
+  FaPhone,
+  FaRobot,
+  FaPaperPlane,
+  FaCommentDots,
+  FaChartLine,
+  FaLightbulb,
+  FaCar,
+  FaBatteryHalf,
+  FaShieldAlt,
+  FaProjectDiagram,
+  FaLeaf
+} from 'react-icons/fa'
+
 import { FaXTwitter } from 'react-icons/fa6'
 import { IoIosRibbon } from 'react-icons/io'
 import { BsCheck2Circle } from 'react-icons/bs'
@@ -11,7 +55,7 @@ const iconMap = {
   X: FaXTwitter,
   LinkedIn: FaLinkedin,
   YouTube: FaYoutube,
-  
+
   // Important Dates
   FaFileAlt: FaFileAlt,
   FaCheckCircle: FaCheckCircle,
@@ -31,6 +75,16 @@ const iconMap = {
   FaServer: FaServer,
   FaMicrochip: FaMicrochip,
   FaBolt: FaBolt,
+  FaChartLine: FaChartLine,
+  FaLightbulb: FaLightbulb,
+  FaCar: FaCar,
+  FaBatteryHalf: FaBatteryHalf,
+  FaShieldAlt: FaShieldAlt,
+  FaProjectDiagram: FaProjectDiagram,
+  FaRobot: FaRobot,
+  FaLeaf: FaLeaf,
+
+  // Misc
   IoIosRibbon: IoIosRibbon,
   BsCheck2Circle: BsCheck2Circle,
   FaTimesCircle: FaTimesCircle,
@@ -46,15 +100,19 @@ const iconMap = {
   FaArrowUp: FaArrowUp,
   FaEnvelope: FaEnvelope,
   FaPhone: FaPhone,
-  FaRobot: FaRobot,
   FaPaperPlane: FaPaperPlane,
   FaCommentDots: FaCommentDots
 }
 
 const IconMapper = ({ iconName, ...props }) => {
   const Icon = iconMap[iconName]
-  if (!Icon) return null
+
+  if (!Icon) {
+    console.warn(`Icon "${iconName}" not found`)
+    return null
+  }
+
   return <Icon {...props} />
 }
 
-export default IconMapper
+export default IconMapper;
