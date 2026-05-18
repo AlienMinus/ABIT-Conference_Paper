@@ -1,7 +1,7 @@
 {
   "about": {
-    "title": "SAGAR-26",
-    "description": "The 1st International Conference on Soft Computing Application in Smart grid and Renewable Energy (SAGAR-26) will be held on February 26-27 at ABIT Campus jointly by the Electrical Engineering and Electrical and Computer Engineering of ABIT."
+    "title": "SAGAR-27",
+    "description": "The 1st International Conference on Soft Computing Application in Smart grid and Renewable Energy (SAGAR-27) will be held on February 26-27 at ABIT Campus jointly by the Electrical Engineering and Electrical and Computer Engineering of ABIT."
   },
   "links": [
     { "label": "Home", "url": "/" },
@@ -26,5 +26,5 @@
     { "icon": "Instagram", "url": "https://www.instagram.com/abit_cuttack/" }
   ],
   "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
-  "copyright": "© 2026 SAGAR-26. All Rights Reserved."
+  "copyright": "© 2026 SAGAR-27. All Rights Reserved."
 }

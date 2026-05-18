@@ -25,10 +25,11 @@ const Hero = () => {
       <StarryBackground isWormhole={isWormhole} />
       <div className="hero-content">
         <div className="conference-badge">
+          <br /> <br /> <br />
           <span>{badge}</span>
         </div>
         <h1 className="hero-title">
-          {title} <br/> (SAGAR-26)
+          {title} <br/> (SAGAR-27)
         </h1>
         <div className="hero-subtitle">
           {/* <div className="hero-record-number">

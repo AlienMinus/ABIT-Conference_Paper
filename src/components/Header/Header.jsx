@@ -40,9 +40,9 @@ const Header = () => {
 
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           <div className="logo-mark">
-            <img src="/appicon.png" alt="SAGAR-26 Logo" />
+            <img src="/appicon.png" alt="SAGAR-27 Logo" />
           </div>
-          <div className="logo-text">SAGAR-26</div>
+          <div className="logo-text">SAGAR-27</div>
         </Link>
 
         <div className="mobile-search-trigger" onClick={() => setIsSearchOpen(true)}>

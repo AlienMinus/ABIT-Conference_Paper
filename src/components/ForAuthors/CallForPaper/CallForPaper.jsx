@@ -22,11 +22,23 @@ const CallForPaper = () => {
           <h2>{submission.title}</h2>
           <ul className="cfp-check-list">
             {submission.guidelines.map((guideline, index) => (
-              <li key={index}>
+              <li key={index} className={guideline.subGuidelines ? 'has-sub-guidelines' : ''}>
                 <IconMapper iconName="BsCheck2Circle" />
                 <div>
                   <strong>{guideline.title}</strong>
                   <p>{guideline.description}</p>
+                  {guideline.subGuidelines && (
+                    <ul className="cfp-sub-check-list">
+                      {guideline.subGuidelines.map((sub, subIndex) => (
+                        <li key={subIndex}>
+                          <div>
+                            <strong>{sub.title}</strong>
+                            <p>{sub.description}</p>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </li>
             ))}

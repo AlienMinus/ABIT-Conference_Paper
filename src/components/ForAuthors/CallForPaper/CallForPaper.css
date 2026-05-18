@@ -410,18 +410,18 @@
   gap: 1rem;
 }
 
-.cfp-check-list li {
+.cfp-check-list > li {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   transition: all 0.3s ease;
 }
 
-.cfp-check-list li:hover {
+.cfp-check-list > li:hover {
   transform: translateX(5px);
 }
 
-.cfp-check-list li svg {
+.cfp-check-list > li > svg {
   color: var(--neon-cyan);
   font-size: 1.5rem;
   flex-shrink: 0;
@@ -440,4 +440,31 @@
   margin: 0;
   font-size: 1rem;
   color: var(--text-secondary);
+}
+
+.cfp-sub-check-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-left: 2px dashed rgba(176, 38, 255, 0.3);
+  padding-left: 1.5rem;
+}
+
+.cfp-sub-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  transition: none;
+}
+
+.cfp-sub-check-list li:hover {
+  transform: none;
+}
+
+.cfp-sub-check-list li strong {
+  color: var(--neon-cyan);
+  font-size: 1.05rem;
 }
