@@ -107,15 +107,15 @@ const Header = () => {
               <a href="#venue">Venue</a>
               <ul className="dropdown">
                 <li><Link to="/venue/conference-venue">Conference Venue</Link></li>
-                <li><Link to="/venue/accommodations">Accommodations</Link></li>
+                {/* <li><Link to="/venue/accommodations">Accommodations</Link></li> */}
                 <li><Link to="/venue/sightseeing">Sightseeing</Link></li>
               </ul>
             </li>
 
-            <li><Link to="/sponsorship">Sponsorship</Link></li>
+            {/* <li><Link to="/sponsorship">Sponsorship</Link></li> */}
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/past-conferences">Past Conferences</Link></li>
+            {/* <li><Link to="/past-conferences">Past Conferences</Link></li> */}
             <li className="theme-trigger" onClick={() => setIsDarkMode(!isDarkMode)} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
               <IconMapper iconName={isDarkMode ? 'FaSun' : 'FaMoon'} />
             </li>

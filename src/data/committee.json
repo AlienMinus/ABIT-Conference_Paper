@@ -20,9 +20,9 @@
       "secretaries": {
         "title": "Conference Secretaries",
         "members": [
-          { "name": "Er. Chandan Mandal", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Prashantini Samal", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Soumya Sidharth Ray", "affiliation": "ABIT Cuttack" }
+          { "name": "Er. Prasantini Samal", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Soumya Sidhartha Ray", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Chandan Mandal", "affiliation": "ABIT Cuttack" }
         ]
       },
       "publication": {
@@ -36,15 +36,15 @@
       "organizingMembers": {
         "title": "Organising Committee Members",
         "members": [
-          { "name": "Er. Ilyas Ahmed", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Madhu chanda Bhanjadeo", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Subhadra Behera", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Jyoti Ranjan Sahoo", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Lopamudra Prusty", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Jyoti Ranjan Sahoo", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Shakti Prasad Mohanty", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Rajiv Nayak", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Tushar Ranjan Mahalik", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Cuttack" }
+          { "name": "Er. Ilyas Ahmed", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Madhuchhanda Bhanjadeo", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Subhadra Behera", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Rajiv Nayak", "affiliation": "ABIT Cuttack" },
         ]
       }
     }
@@ -83,10 +83,10 @@
       "tpcChairs": {
         "title": "Technical Program Committee Chairs",
         "members": [
-          { "name": "Dr. Sabyasachi Pattanaik", "affiliation": "ABIT Cuttack" },
-          { "name": "Dr. Dulu Pattanaik", "affiliation": "ABIT Cuttack" },
-          { "name": "Dr. Prashant Kumar Pani", "affiliation": "ABIT Cuttack" },
-          { "name": "Dr. B. N Guru", "affiliation": "ABIT Cuttack" },
+          { "name": "Dr. Sabyasachi Pattanaik", "affiliation": "Dean (R&D, CS) ABIT Cuttack" },
+          { "name": "Dr. Dulu Pattanaik", "affiliation": "Group Academic Head, ABIT Cuttack" },
+          { "name": "Dr. Prashant Kumar Pani", "affiliation": "Dean (Academics) ABIT Cuttack" },
+          { "name": "Dr. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
           { "name": "Dr. Suvendu Sahoo", "affiliation": "VIT, Chennai" },
           { "name": "Dr Amaresh Gantayat", "affiliation": "SOA University" },
           { "name": "Dr. Bhabasis Mohapatra", "affiliation": "SOA University" },
