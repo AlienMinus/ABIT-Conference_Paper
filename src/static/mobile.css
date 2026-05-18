@@ -106,4 +106,94 @@
     -webkit-overflow-scrolling: touch !important;
     display: block !important;
   }
+
+  /* Program Schedule Mobile Fixes */
+.psch-container {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.psch-header {
+  padding: 2.5rem 1.2rem !important;
+  border-radius: 18px !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.psch-badge {
+  font-size: 0.75rem !important;
+  padding: 0.45rem 0.9rem !important;
+}
+
+.psch-header h1 {
+  font-size: 2.1rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+}
+
+.psch-header p {
+  font-size: 0.95rem !important;
+  line-height: 1.7 !important;
+}
+
+.psch-days {
+  gap: 2rem !important;
+}
+
+.psch-day {
+  border-radius: 18px !important;
+}
+
+.psch-day-header {
+  padding: 1.2rem 1rem !important;
+}
+
+.psch-day-header h2 {
+  font-size: 1.35rem !important;
+  line-height: 1.4 !important;
+}
+
+.psch-timeline {
+  padding: 0.5rem 0 !important;
+}
+
+.psch-event {
+  grid-template-columns: 1fr !important;
+  gap: 0.8rem !important;
+  padding: 1rem !important;
+}
+
+.psch-time-wrapper {
+  padding-left: 1.8rem !important;
+}
+
+.psch-dot {
+  width: 12px !important;
+  height: 12px !important;
+  top: 5px !important;
+}
+
+.psch-line {
+  left: 5px !important;
+}
+
+.psch-time {
+  font-size: 0.92rem !important;
+  line-height: 1.5 !important;
+  display: block !important;
+}
+
+.psch-content {
+  padding-left: 1.8rem !important;
+}
+
+.psch-activity {
+  font-size: 0.98rem !important;
+  line-height: 1.6 !important;
+}
+
+.psch-venue {
+  font-size: 0.85rem !important;
+  line-height: 1.5 !important;
+  word-break: break-word !important;
+}
 }

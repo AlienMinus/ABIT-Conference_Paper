@@ -1,44 +1,89 @@
 {
   "header": {
     "title": "Program Schedule",
-    "description": "Explore the conference agenda, including keynote sessions, technical tracks, and networking events."
+    "description": "Explore the conference agenda including keynote sessions, technical tracks, oral presentations, networking opportunities, and valedictory events."
   },
+
   "days": [
     {
-      "date": "Day 1: September 08, 2026",
+      "date": "Day 1",
       "events": [
-        { "time": "08:00 - 09:00", "activity": "Registration & Breakfast" },
-        { "time": "09:00 - 10:30", "activity": "Inaugural Ceremony" },
-        { "time": "10:30 - 11:00", "activity": "High Tea" },
-        { "time": "11:00 - 13:00", "activity": "Keynote Session 1" },
-        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
-        { "time": "14:00 - 16:00", "activity": "Technical Session 1" },
-        { "time": "16:00 - 16:30", "activity": "Tea Break" },
-        { "time": "16:30 - 18:00", "activity": "Technical Session 2" }
+        {
+          "time": "08:00 AM Onwards",
+          "activity": "Registration and Breakfast",
+          "venue": "Registration Area"
+        },
+        {
+          "time": "09:00 AM - 10:00 AM",
+          "activity": "Inauguration Ceremony",
+          "venue": "Conference Hall"
+        },
+        {
+          "time": "10:00 AM - 01:00 PM",
+          "activity": "Keynote Speakers 1, 2 & 3",
+          "venue": "Conference Hall"
+        },
+        {
+          "time": "01:00 PM - 02:00 PM",
+          "activity": "Lunch Break",
+          "venue": "Dining Area"
+        },
+        {
+          "time": "02:00 PM - 04:30 PM",
+          "activity": "Technical Session - 1 | Oral Sessions 1-40",
+          "venue": "Room 1, Room 2, Room 3"
+        },
+        {
+          "time": "04:30 PM - 05:00 PM",
+          "activity": "Tea Break",
+          "venue": "Refreshment Area"
+        },
+        {
+          "time": "05:00 PM - 06:00 PM",
+          "activity": "Technical Session - 2 | Oral Sessions 41-60",
+          "venue": "Room 1, Room 2"
+        }
       ]
     },
+
     {
-      "date": "Day 2: September 09, 2026",
+      "date": "Day 2",
       "events": [
-        { "time": "09:00 - 10:30", "activity": "Keynote Session 2" },
-        { "time": "10:30 - 11:00", "activity": "High Tea" },
-        { "time": "11:00 - 13:00", "activity": "Technical Session 3" },
-        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
-        { "time": "14:00 - 16:00", "activity": "Technical Session 4" },
-        { "time": "16:00 - 16:30", "activity": "Tea Break" },
-        { "time": "16:30 - 18:00", "activity": "Cultural Program" },
-        { "time": "19:00 Onwards", "activity": "Gala Dinner" }
-      ]
-    },
-    {
-      "date": "Day 3: September 10, 2026",
-      "events": [
-        { "time": "09:00 - 10:30", "activity": "Keynote Session 3" },
-        { "time": "10:30 - 11:00", "activity": "High Tea" },
-        { "time": "11:00 - 13:00", "activity": "Technical Session 5" },
-        { "time": "13:00 - 14:00", "activity": "Lunch Break" },
-        { "time": "14:00 - 15:30", "activity": "Valedictory Function & Award Ceremony" },
-        { "time": "15:30", "activity": "High Tea & Dispersal" }
+        {
+          "time": "08:00 AM Onwards",
+          "activity": "Registration and Breakfast",
+          "venue": "Registration Area"
+        },
+        {
+          "time": "09:00 AM - 11:00 AM",
+          "activity": "Keynote Speakers 4 & 5",
+          "venue": "Conference Hall"
+        },
+        {
+          "time": "11:00 AM - 01:00 PM",
+          "activity": "Technical Session - 3 | Oral Sessions 60-90",
+          "venue": "Room 1, Room 2, Room 3 (Online Mode)"
+        },
+        {
+          "time": "01:00 PM - 02:00 PM",
+          "activity": "Lunch Break",
+          "venue": "Dining Area"
+        },
+        {
+          "time": "02:00 PM - 04:00 PM",
+          "activity": "Technical Session - 4 | Oral Sessions 91-130",
+          "venue": "Room 1, Room 2, Room 3 (Online Mode)"
+        },
+        {
+          "time": "04:00 PM - 04:30 PM",
+          "activity": "Tea Break",
+          "venue": "Refreshment Area"
+        },
+        {
+          "time": "04:30 PM - 05:30 PM",
+          "activity": "Valedictory and Certificate Distribution",
+          "venue": "Conference Hall"
+        }
       ]
     }
   ]

@@ -6,28 +6,47 @@ const ProgramSchedule = () => {
   const { header, days } = pschData
 
   return (
-    <div className="psch-container">
+    <section className="psch-container">
       <div className="psch-header">
+        <span className="psch-badge">Conference Agenda</span>
+
         <h1>{header.title}</h1>
+
         <p>{header.description}</p>
       </div>
 
       <div className="psch-days">
         {days.map((day, index) => (
           <div key={index} className="psch-day">
-            <h2>{day.date}</h2>
+            <div className="psch-day-header">
+              <h2>{day.date}</h2>
+            </div>
+
             <div className="psch-timeline">
               {day.events.map((event, idx) => (
                 <div key={idx} className="psch-event">
-                  <div className="psch-time">{event.time}</div>
-                  <div className="psch-activity">{event.activity}</div>
+                  <div className="psch-time-wrapper">
+                    <div className="psch-dot"></div>
+                    <div className="psch-line"></div>
+                    <span className="psch-time">{event.time}</span>
+                  </div>
+
+                  <div className="psch-content">
+                    <h3 className="psch-activity">{event.activity}</h3>
+
+                    {event.venue && (
+                      <p className="psch-venue">
+                        📍 {event.venue}
+                      </p>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }
 

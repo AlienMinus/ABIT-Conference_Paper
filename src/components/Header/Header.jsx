@@ -98,8 +98,8 @@ const Header = () => {
               <ul className="dropdown">
                 <li><Link to="/program/keynote">Keynote Talks</Link></li>
                 <li><Link to="/program/schedule">Program Schedule</Link></li>
-                <li><Link to="/program/student-symposium">IEEE Student Symposium</Link></li>
-                <li><Link to="/program/conference-proceeding">Conference Proceeding</Link></li>
+                {/* <li><Link to="/program/student-symposium">IEEE Student Symposium</Link></li> */}
+                {/* <li><Link to="/program/conference-proceeding">Conference Proceeding</Link></li> */}
               </ul>
             </li>
 
@@ -114,7 +114,7 @@ const Header = () => {
 
             {/* <li><Link to="/sponsorship">Sponsorship</Link></li> */}
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
+            {/* <li><Link to="/gallery">Gallery</Link></li> */}
             {/* <li><Link to="/past-conferences">Past Conferences</Link></li> */}
             <li className="theme-trigger" onClick={() => setIsDarkMode(!isDarkMode)} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
               <IconMapper iconName={isDarkMode ? 'FaSun' : 'FaMoon'} />
