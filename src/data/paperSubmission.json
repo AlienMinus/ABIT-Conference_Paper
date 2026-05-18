@@ -1,26 +1,26 @@
 {
   "header": {
     "title": "Submit Your Research",
-    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions in fields of information technology, offering an excellent platform to share your work with experts and professionals worldwide.",
+    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide.",
     "buttonText": "Download Template",
     "templateLink": "/GBM.pdf"
   },
   "submission": {
     "title": "Paper Submission",
-    "description": "We are excited to invite researchers, scientists, and innovators to submit their papers to the 2nd International Conference on Intelligent Computing and Sustainable Innovations in Technology (IC-SIT) 2026. This is an excellent opportunity to showcase your work to an international audience of experts, practitioners, and academics.",
+    "description": "We are excited to invite researchers, academicians, industry experts, and practitioners to submit their papers to SAGAR-27. This is an excellent opportunity to showcase your original research contributions related to Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies to an international audience.",
     "stepsTitle": "To submit your paper, please follow these simple steps:",
     "steps": [
       {
         "title": "Prepare Your Manuscript",
-        "description": "Ensure your paper follows the submission guidelines outlined in the IEEE Conference Templates."
+        "description": "Ensure your paper follows the submission guidelines outlined in the publisher format. Manuscripts should be at least 3500 words or 10 pages."
       },
       {
         "title": "Create an Account or Log In",
-        "description": "If you do not have an account on CMT, please sign up. Existing users can simply log in to proceed."
+        "description": "If you do not have an account on Microsoft CMT, please sign up. Existing users can simply log in to proceed."
       },
       {
         "title": "Submit Your Paper",
-        "description": "Once logged in, follow the prompts to upload your paper and any supplementary materials, and provide the necessary details for review."
+        "description": "Once logged in, follow the prompts to upload your paper in PDF format and provide the necessary details for review."
       }
     ]
   },
@@ -28,31 +28,35 @@
     "title": "Submission Guidelines",
     "list": [
       {
-        "title": "Paper Length",
-        "description": "Up to 6 pages (including figures, tables & references), prepared in the two-column IEEE format."
+        "title": "Manuscript Submission",
+        "description": "Authors are required to submit their manuscripts using Microsoft CMT in PDF format only."
       },
       {
-        "title": "Language",
-        "description": "English only, with proper grammar and formatting."
+        "title": "Paper Requirements",
+        "description": "The main content of the submission should be at least 3500 words or 10 pages as per the publisher format. References should be limited to 50 and the abstract to 250 words maximum."
       },
       {
-        "title": "Format",
-        "description": "IEEE Conference Template (LaTeX or Word)."
+        "title": "Formatting Details",
+        "description": "The text (12-point) should be typeset in one column. Provide 4-6 keywords. Vector-based figures should be provided upon acceptance."
       },
       {
-        "title": "Originality",
-        "description": "Original unpublished research work with a novel contribution."
+        "title": "Plagiarism Policy",
+        "description": "Every paper submitted to SAGAR-27 will undergo plagiarism detection. Papers not meeting the policy may be desk-rejected without further review."
       },
       {
-        "title": "Similarity Index",
-        "description": "Maximum similarity index should be less than 20%."
+        "title": "Review Process",
+        "description": "All submitted papers will undergo a rigorous review process based on quality, originality, technical content, and relevance."
+      },
+      {
+        "title": "Publication & Author Policy",
+        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING. Altering author details or sequence after submission is strictly prohibited."
       }
     ]
   },
   "note": "Note: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
   "footer": {
-    "title": "Submit Your Research to Make an Impact!",
-    "description": "Take the next step in your academic journey—submit your paper today and contribute to cutting-edge research and innovation.",
+    "title": "Ready to Submit?",
+    "description": "Join researchers and innovators working towards sustainable energy systems, smart grids, and intelligent renewable energy technologies.",
     "buttonText": "Submit Paper",
     "buttonLink": "https://cmt3.research.microsoft.com/"
   }

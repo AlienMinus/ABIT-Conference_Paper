@@ -13,7 +13,7 @@ const CallForPaper = () => {
       <div className="cfp-header">
         <h1>{title}</h1>
         <p>{description}</p>
-        <p className="cfp-record"><strong>IEEE Conference Record Number: {recordNumber}</strong></p>
+        {/* <p className="cfp-record"><strong>IEEE Conference Record Number: {recordNumber}</strong></p> */}
         <a href={brochureLink} download="Brochure.pdf" className="cfp-btn">Download Brochure</a>
       </div>
 

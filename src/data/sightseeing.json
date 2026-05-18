@@ -1,56 +1,78 @@
 {
   "header": {
     "title": "Sightseeing",
-    "description": "Explore the vibrant city of Bhubaneswar and witness the beauty of its temples, beaches, and waterfalls. Discover the unique culture and history of Odisha."
+    "description": "Explore the vibrant city of Cuttack and witness the beauty of its temples, forts, and museums. Discover the unique culture and history of Odisha."
   },
   "intro": {
-    "title": "Bhubaneswar : The City of Temples",
-    "description": "\"Odisha- India's best kept secret\"! We are providing excellent opportunity to the delegates of IC-SIT 2026 to explore the beauty of the state. Bhubaneswar replaced Cuttack as the capital on 19 August 1949, 2 years after India gained its independence from Britain. The modern city was designed by the German architect Otto Königsberger in 1946. Being the capital city, the place eventually got an infrastructure boost, which led to the growth in communication, transport, sports, education and health facilities; and rose to become one of the foremost, to be found suitable for being developed as a smart city of India."
+    "title": "Cuttack : The Silver City",
+    "description": "\"Odisha- India's best kept secret\"! We are providing excellent opportunity to the delegates of SAGAR-27 to explore the beauty of the state. Cuttack was the former capital and is the second largest city in the Indian state of Odisha. It is also known as the Millennium City as well as the Silver City due to its history of 1000 years and famous silver filigree works."
   },
-  "bhubaneswar": {
-    "title": "Places to Visit in Bhubaneswar",
+  "cuttack": {
+    "title": "Places to Visit in Cuttack",
     "places": [
       {
-        "name": "Lingaraj Temple",
-        "address": "Lingaraj Temple Rd, Lingaraj Nagar, Old Town, Bhubaneswar, Odisha 751002",
-        "distance": "16 KM",
-        "description": "Dedicated to Lord Shiva, the Lingaraj Temple stands as one of Bhubaneswar's most ancient and significant architectural marvels. As a towering landmark of Odisha's capital, this Hindu temple attracts devotees and tourists alike, representing the quintessence of Kalinga architecture.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lingaraj_Temple_Bhubaneswar.jpg/640px-Lingaraj_Temple_Bhubaneswar.jpg",
-        "link": "https://en.wikipedia.org/wiki/Lingaraja_Temple",
-        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+        "name": "Barabati Fort",
+        "address": "Barabati Fort, Cuttack, Odisha 753008",
+        "distance": "3 KM",
+        "description": "Barabati Fort is a 14th-century fort built by the Ganga dynasty. The ruins of the fort remain with its moat, gate, and the earthen mound of the nine-storied palace, which evokes the memories of past days.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Barabati_Fort.jpg/640px-Barabati_Fort.jpg",
+        "link": "https://en.wikipedia.org/wiki/Barabati_Fort"
       },
       {
-        "name": "Mukteswar Temple",
-        "address": "6RVR+35P, Old Town, Kedar Gouri Vihar, Old Town, Bhubaneswar, Odisha 751019",
-        "distance": "16 KM",
-        "description": "The Mukteswar Temple is being a gem of Odishan architecture dedicated to Lord Shiva. Often called the 'Gem of Odisha architecture', this temple from 950-975 CE plays a pivotal role in understanding the evolution of temple craftsmanship in the region.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mukteswar_Temple.jpg/640px-Mukteswar_Temple.jpg",
-        "link": "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+        "name": "Odisha State Maritime Museum",
+        "address": "Jobra, Cuttack, Odisha 753003",
+        "distance": "5 KM",
+        "description": "The Odisha State Maritime Museum showcases the rich maritime history of Odisha. Located on the banks of the Mahanadi River, it features exhibits on navigation, shipbuilding, and maritime trade.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Odisha_State_Maritime_Museum.jpg/640px-Odisha_State_Maritime_Museum.jpg",
+        "link": "https://en.wikipedia.org/wiki/Odisha_State_Maritime_Museum"
       },
       {
-        "name": "Udayagiri & Khandagiri Caves",
-        "address": "7Q7M+2V7, Khandagiri, Bhubaneswar, Odisha 751030",
-        "distance": "14 KM",
-        "description": "Perched on adjacent hills near Bhubaneswar, the Udayagiri and Khandagiri Caves are a mix of natural and man-made rock-cut shelters of immense historical and religious significance. Dating back to the 1st century BCE, these caves feature ornate carvings, with Udayagiri housing 18 caves and Khandagiri comprising 15.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg/640px-Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg",
-        "link": "https://en.wikipedia.org/wiki/Udayagiri_and_Khandagiri_Caves"
+        "name": "Netaji Birth Place Museum",
+        "address": "Odia Bazar, Cuttack, Odisha 753002",
+        "distance": "4 KM",
+        "description": "Janakinath Bhawan is the ancestral house of Subhas Chandra Bose, now converted into a museum. It preserves articles, letters, and rare photographs associated with his early life in Cuttack.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Netaji_Birth_Place_Museum_Cuttack.jpg/640px-Netaji_Birth_Place_Museum_Cuttack.jpg",
+        "link": "https://en.wikipedia.org/wiki/Netaji_Birth_Place_Museum"
       },
       {
-        "name": "Nandankanan Zoological Park",
-        "address": "Nandankanan Rd, Near Police Station, Barang, Bhubaneswar, Odisha 754005",
-        "distance": "8 KM",
-        "description": "Spanning 1,080 acres, Nandankanan Zoological Park serves as both a premier zoo and botanical garden in Bhubaneswar. Established in 1960 and opened to the public in 1979, it holds the distinction of being the first Indian zoo to join WAZA. The park also features a sanctuary and diverse botanical collections.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/White_Tiger_at_Nandankanan.jpg/640px-White_Tiger_at_Nandankanan.jpg",
-        "link": "https://en.wikipedia.org/wiki/Nandankanan_Zoological_Park"
+        "name": "Cuttack Chandi Temple",
+        "address": "Chandi Chhaka, Cuttack, Odisha 753008",
+        "distance": "4 KM",
+        "description": "The Cuttack Chandi Temple is an ancient temple dedicated to the Goddess Chandi, the presiding deity of Cuttack. It is a major pilgrimage site, particularly during the Durga Puja festival.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cuttack_Chandi_Temple.jpg/640px-Cuttack_Chandi_Temple.jpg",
+        "link": "https://en.wikipedia.org/wiki/Cuttack_Chandi_Temple"
       },
       {
-        "name": "Tribal Museum",
-        "address": "Unit - VIII, CRP - DAV Rd, CRPF Colony, Nayapalli, Bhubaneswar, Odisha 751003",
-        "distance": "11 KM",
-        "description": "Established in 1953, the Museum of Tribal Arts and Artefacts, or the 'Museum of Man', celebrates Odisha's rich tribal heritage. With over 60 tribal communities in the state, this museum offers a deep dive into their lifestyles, showcasing traditional attire, ornaments, and cultural practices.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Odisha_State_Tribal_Museum.jpg/640px-Odisha_State_Tribal_Museum.jpg",
-        "link": "https://en.wikipedia.org/wiki/Museum_of_Tribal_Arts_and_Artifacts",
-        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+        "name": "Dhabaleswar Island",
+        "address": "Mahanadi River, Cuttack, Odisha",
+        "distance": "37 KM",
+        "description": "Dhabaleswar Island is famous for its temple dedicated to Lord Shiva and its serene natural surroundings. Reached by a hanging bridge or boat, it's a popular spot for both pilgrimage and nature lovers.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Dhabaleswar_Temple_Hanging_Bridge.jpg/640px-Dhabaleswar_Temple_Hanging_Bridge.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dhabaleswar"
+      },
+      {
+        "name": "Gadachandi Temple",
+        "address": "Gadachandi, Cuttack, Odisha",
+        "distance": "3 KM",
+        "description": "Gadachandi Temple is one of the revered temples in Cuttack, situated near the historical Barabati Fort. It holds significant religious importance and attracts many devotees.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Cuttack_Chandi_Temple.jpg/640px-Cuttack_Chandi_Temple.jpg",
+        "link": "https://en.wikipedia.org/wiki/Cuttack"
+      },
+      {
+        "name": "Barabati Stadium",
+        "address": "Biju Patnaik Colony, Cuttack, Odisha 753008",
+        "distance": "3 KM",
+        "description": "Barabati Stadium is an iconic sports stadium in Cuttack, known for hosting international cricket matches, football games, and large cultural events. It is a major landmark of the Silver City.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Barabati_Stadium_during_India_Vs_Sri_Lanka_match.jpg/640px-Barabati_Stadium_during_India_Vs_Sri_Lanka_match.jpg",
+        "link": "https://en.wikipedia.org/wiki/Barabati_Stadium"
+      },
+      {
+        "name": "Silvercity Boat Club",
+        "address": "Mahanadi River, Cuttack, Odisha",
+        "distance": "5 KM",
+        "description": "Silvercity Boat Club offers a picturesque recreational experience on the Mahanadi River. With various water sports and boating facilities, it is a perfect spot to enjoy the scenic riverfront of Cuttack.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Odisha_State_Maritime_Museum.jpg/640px-Odisha_State_Maritime_Museum.jpg",
+        "link": "https://odishatourism.gov.in"
       }
     ]
   },
@@ -104,6 +126,72 @@
         "description": "Nestled in the Mayurbhanj district within Simlipal National Park, Debakunda (or Devkund) is a scenic natural pond. It features the historic Ambika Mandira temple and is known for its serene environment and unique biodiversity, including rare lichen species.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Devkund_Waterfall.jpg/640px-Devkund_Waterfall.jpg",
         "link": "https://en.wikipedia.org/wiki/Devkund_Waterfall"
+      },
+      {
+        "name": "Lingaraj Temple",
+        "address": "Lingaraj Temple Rd, Lingaraj Nagar, Old Town, Bhubaneswar, Odisha 751002",
+        "distance": "16 KM",
+        "description": "Dedicated to Lord Shiva, the Lingaraj Temple stands as one of Bhubaneswar's most ancient and significant architectural marvels. As a towering landmark of Odisha's capital, this Hindu temple attracts devotees and tourists alike, representing the quintessence of Kalinga architecture.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lingaraj_Temple_Bhubaneswar.jpg/640px-Lingaraj_Temple_Bhubaneswar.jpg",
+        "link": "https://en.wikipedia.org/wiki/Lingaraja_Temple",
+        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+      },
+      {
+        "name": "Mukteswar Temple",
+        "address": "6RVR+35P, Old Town, Kedar Gouri Vihar, Old Town, Bhubaneswar, Odisha 751019",
+        "distance": "16 KM",
+        "description": "The Mukteswar Temple is being a gem of Odishan architecture dedicated to Lord Shiva. Often called the 'Gem of Odisha architecture', this temple from 950-975 CE plays a pivotal role in understanding the evolution of temple craftsmanship in the region.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mukteswar_Temple.jpg/640px-Mukteswar_Temple.jpg",
+        "link": "https://en.wikipedia.org/wiki/Mukteshvara_Temple,_Bhubaneswar"
+      },
+      {
+        "name": "Udayagiri & Khandagiri Caves",
+        "address": "7Q7M+2V7, Khandagiri, Bhubaneswar, Odisha 751030",
+        "distance": "14 KM",
+        "description": "Perched on adjacent hills near Bhubaneswar, the Udayagiri and Khandagiri Caves are a mix of natural and man-made rock-cut shelters of immense historical and religious significance. Dating back to the 1st century BCE, these caves feature ornate carvings, with Udayagiri housing 18 caves and Khandagiri comprising 15.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg/640px-Ganesha_Gumpha_-_Udayagiri_Caves_2.jpg",
+        "link": "https://en.wikipedia.org/wiki/Udayagiri_and_Khandagiri_Caves"
+      },
+      {
+        "name": "Nandankanan Zoological Park",
+        "address": "Nandankanan Rd, Near Police Station, Barang, Bhubaneswar, Odisha 754005",
+        "distance": "8 KM",
+        "description": "Spanning 1,080 acres, Nandankanan Zoological Park serves as both a premier zoo and botanical garden in Bhubaneswar. Established in 1960 and opened to the public in 1979, it holds the distinction of being the first Indian zoo to join WAZA. The park also features a sanctuary and diverse botanical collections.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/White_Tiger_at_Nandankanan.jpg/640px-White_Tiger_at_Nandankanan.jpg",
+        "link": "https://en.wikipedia.org/wiki/Nandankanan_Zoological_Park"
+      },
+      {
+        "name": "Tribal Museum",
+        "address": "Unit - VIII, CRP - DAV Rd, CRPF Colony, Nayapalli, Bhubaneswar, Odisha 751003",
+        "distance": "11 KM",
+        "description": "Established in 1953, the Museum of Tribal Arts and Artefacts, or the 'Museum of Man', celebrates Odisha's rich tribal heritage. With over 60 tribal communities in the state, this museum offers a deep dive into their lifestyles, showcasing traditional attire, ornaments, and cultural practices.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Odisha_State_Tribal_Museum.jpg/640px-Odisha_State_Tribal_Museum.jpg",
+        "link": "https://en.wikipedia.org/wiki/Museum_of_Tribal_Arts_and_Artifacts",
+        "license": "Content adapted from Wikipedia under CC BY-SA 3.0"
+      },
+      {
+        "name": "Odisha State Museum",
+        "address": "Lewis Rd, BJB Nagar, Bhubaneswar, Odisha 751014",
+        "distance": "14 KM",
+        "description": "The Odisha State Museum is a significant museum in Bhubaneswar featuring an extensive collection of archaeological artifacts, traditional art, and historical manuscripts. It provides profound insights into Odisha's diverse heritage.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/State_Museum_Bhubaneswar.JPG/640px-State_Museum_Bhubaneswar.JPG",
+        "link": "https://en.wikipedia.org/wiki/Odisha_State_Museum"
+      },
+      {
+        "name": "Dhauli Shanti Stupa",
+        "address": "Dhauli Rd, Dhauli, Bhubaneswar, Odisha 752104",
+        "distance": "22 KM",
+        "description": "Dhauli Shanti Stupa is a Buddhist peace pagoda situated on Dhauli Hill, built by the Japan Buddha Sangha. It marks the historical site where Emperor Ashoka is believed to have adopted Buddhism following the Kalinga War.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Dhauli_shanti_stupa.jpg/640px-Dhauli_shanti_stupa.jpg",
+        "link": "https://en.wikipedia.org/wiki/Dhauli"
+      },
+      {
+        "name": "Rajarani Temple",
+        "address": "Tankapani Rd, near BOI, Rajarani Colony, Rajarani Temple, Bhubaneswar, Odisha 751014",
+        "distance": "15 KM",
+        "description": "Rajarani Temple is an 11th-century Hindu temple renowned for its intricate carvings and distinctive architecture. Constructed from dull red and yellow sandstone, it is often celebrated as a masterpiece of ancient Indian temple art.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Rajarani_Temple_Bhubaneswar_Odisha.jpg/640px-Rajarani_Temple_Bhubaneswar_Odisha.jpg",
+        "link": "https://en.wikipedia.org/wiki/Rajarani_Temple"
       }
     ]
   }

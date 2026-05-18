@@ -34,6 +34,6 @@
   }
   
   .welcome-content p {
-    text-align: left;
+    text-align: justify !important;
   }
 }

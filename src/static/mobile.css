@@ -221,7 +221,7 @@
   }
 
   .hero-title {
-    font-size: 2.2rem !important;
+    font-size: 2rem !important;
     margin: 1.5rem 0 !important;
     line-height: 1.25 !important;
   }
@@ -234,7 +234,7 @@
   .hero-meta-details {
     flex-direction: column !important;
     gap: 0.8rem !important;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
   }
 
   .date-separator {
@@ -266,5 +266,26 @@
 
   .hero-buttons button {
     width: 100% !important;
+  }
+
+  /* Welcome Section Mobile Fixes */
+  .welcome-section .section-title {
+    font-size: 1.8rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .welcome-section .section-underline {
+    margin-bottom: 2rem !important;
+  }
+
+  .welcome-content {
+    padding: 0 10px !important;
+  }
+
+  .welcome-content p {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+    margin-bottom: 1.2rem !important;
   }
 }
