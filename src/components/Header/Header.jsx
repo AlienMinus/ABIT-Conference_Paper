@@ -40,7 +40,7 @@ const Header = () => {
 
         <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
           <div className="logo-mark">
-            <img src="/appicon.png" alt="SAGAR-27 Logo" />
+            <img src="/appicon.jpeg" alt="SAGAR-27 Logo" />
           </div>
           <div className="logo-text">SAGAR-27</div>
         </Link>
