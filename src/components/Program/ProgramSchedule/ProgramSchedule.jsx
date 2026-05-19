@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProgramSchedule.css'
 import pschData from '../../../data/programSchedule.json'
+import IconMapper from '../../IconMapper/IconMapper'
 
 const ProgramSchedule = () => {
   const { header, days } = pschData
@@ -36,7 +37,7 @@ const ProgramSchedule = () => {
 
                     {event.venue && (
                       <p className="psch-venue">
-                        📍 {event.venue}
+                        <IconMapper iconName="FaMapMarkerAlt" className="venue-icon" /> {event.venue}
                       </p>
                     )}
                   </div>
