@@ -2,6 +2,7 @@ import React from 'react'
 import './CameraReady.css'
 import crData from '../../../data/cameraReady.json'
 import IconMapper from '../../IconMapper/IconMapper'
+import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const CameraReady = () => {
   const { header, steps, checklist } = crData
@@ -14,7 +15,9 @@ const CameraReady = () => {
         <a href={header.buttonLink} target="_blank" rel="noopener noreferrer" className="cr-btn">{header.buttonText}</a>
       </div>
 
-      <div className="cr-split-section">
+        <UnderConstruction/>
+
+      {/* <div className="cr-split-section">
         <div className="cr-column">
           <h2>{steps.title}</h2>
           <ul className="cr-steps">
@@ -43,7 +46,7 @@ const CameraReady = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -47,6 +47,7 @@ import {
 import { FaXTwitter } from 'react-icons/fa6'
 import { IoIosRibbon } from 'react-icons/io'
 import { BsCheck2Circle } from 'react-icons/bs'
+import { LuConstruction } from 'react-icons/lu'
 
 const iconMap = {
   // Social Media
@@ -101,7 +102,8 @@ const iconMap = {
   FaEnvelope: FaEnvelope,
   FaPhone: FaPhone,
   FaPaperPlane: FaPaperPlane,
-  FaCommentDots: FaCommentDots
+  FaCommentDots: FaCommentDots,
+  LuConstruction: LuConstruction
 }
 
 const IconMapper = ({ iconName, ...props }) => {

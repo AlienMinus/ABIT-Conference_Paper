@@ -2,6 +2,7 @@ import React from 'react'
 import './BestPaperAward.css'
 import bpaData from '../../../data/bestPaperAward.json'
 import IconMapper from '../../IconMapper/IconMapper'
+import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const BestPaperAward = () => {
   const { header, criteria, process, awards, note } = bpaData
@@ -12,8 +13,10 @@ const BestPaperAward = () => {
         <h1>{header.title}</h1>
         <p>{header.description}</p>
       </div>
+      
+      <UnderConstruction/>
 
-      <div className="bpa-section">
+      {/* <div className="bpa-section">
         <h2>{awards.title}</h2>
         <div className="bpa-grid">
           {awards.list.map((award, index) => (
@@ -52,7 +55,7 @@ const BestPaperAward = () => {
 
       <div className="bpa-note">
         <p>{note}</p>
-      </div>
+      </div> */}
     </div>
   )
 }

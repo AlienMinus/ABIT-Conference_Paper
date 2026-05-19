@@ -2,6 +2,7 @@ import React from 'react'
 import './PresentationGuidelines.css'
 import pgData from '../../../data/presentationGuidelines.json'
 import IconMapper from '../../IconMapper/IconMapper'
+import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const PresentationGuidelines = () => {
   const { header, oral, video } = pgData
@@ -13,7 +14,9 @@ const PresentationGuidelines = () => {
         <p>{header.description}</p>
       </div>
 
-      <div className="pg-split-section">
+      <UnderConstruction/>
+
+      {/* <div className="pg-split-section">
         <div className="pg-column">
           <h2>{oral.title}</h2>
           <ul className="pg-list">
@@ -48,7 +51,7 @@ const PresentationGuidelines = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
