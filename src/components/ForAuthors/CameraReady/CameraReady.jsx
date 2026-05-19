@@ -17,7 +17,7 @@ const CameraReady = () => {
 
         <UnderConstruction/>
 
-      {/* <div className="cr-split-section">
+      <div className="cr-split-section">
         <div className="cr-column">
           <h2>{steps.title}</h2>
           <ul className="cr-steps">
@@ -46,7 +46,7 @@ const CameraReady = () => {
             ))}
           </ul>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }
