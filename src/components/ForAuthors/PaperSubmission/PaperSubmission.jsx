@@ -11,7 +11,7 @@ const PaperSubmission = () => {
       <div className="ps-header">
         <h1>{header.title}</h1>
         <p>{header.description}</p>
-        <a href={header.templateLink} download="GBM.pdf" className="ps-btn">{header.buttonText}</a>
+        <a href={header.templateLink} download="SAGAR-27-Paper-Submission-Template.pdf" className="ps-btn">{header.buttonText}</a>
       </div>
 
       <div className="ps-split-section">

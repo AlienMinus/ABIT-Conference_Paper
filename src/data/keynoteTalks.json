@@ -5,11 +5,39 @@
   },
   "speakers": [
     {
-      "name": "To be Announced",
-      "affiliation": "",
+      "name": "Dr. Ming Yang",
+      "affiliation": "Department of Information Technology, College of Computing and Software Engineering, Kennesaw State University - Marietta Campus",
       "title": "",
-      "abstract": "Details of the keynote speakers will be updated soon.",
-      "image": "https://placehold.co/300x300/1a1a1a/FFF?text=Speaker"
+      "abstract": "",
+      "image": "https://th.bing.com/th/id/OIP.DCPgwhX3lzV0Or16W0o6vwHaIS?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "name": "Dr. Debashis Chatterjee",
+      "affiliation": "Department of Electrical Engineering, Jadavpur University",
+      "title": "",
+      "abstract": "",
+      "image": "/assets/images/DC.png"
+    },
+    {
+      "name": "Dr. Sachi Nandan Mohanty",
+      "affiliation": "Professor, Computer Science and Engineering, VIT Andhra Pradesh University",
+      "title": "",
+      "abstract": "",
+      "image": "https://vitap-backend.s3.ap-south-1.amazonaws.com/Dr_Sachi_Nandan_Mohanty_SCOPE_1551_ec578c759f.avif"
+    },
+    {
+      "name": "Dr. Ravita Lamba",
+      "affiliation": "Hydro and Renewable Energy, Indian Institute of Technology Roorkee",
+      "title": "",
+      "abstract": "",
+      "image": "https://channeli.in/media/kernel/display_pictures/26c423af-e77a-4a63-bee6-4b5b333a2f8f.jpg"
+    },
+    {
+      "name": "Dr. Suvendu Bikash Santra",
+      "affiliation": "Shiv Nadar University, Delhi NCR",
+      "title": "",
+      "abstract": "",
+      "image": "https://snu.edu.in/site/assets/files/14494/subhendu_bikash_santra_2.1600x0.webp"
     }
   ]
 }
