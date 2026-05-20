@@ -58,17 +58,42 @@ body.light-mode .search-results::-webkit-scrollbar-track {
 }
 
 body.light-mode .hero-section {
-  --neon-purple: #b026ff;
-  --neon-blue: #4d4dff;
-  --neon-cyan: #00f3ff;
-  --neon-pink: #ff00ff;
-  --bg-dark: #050508;
-  --bg-card: #0f0f16;
-  --text-primary: #ffffff;
-  --text-secondary: #b3b3b3;
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --neon-purple: #6200ea;
+  --neon-blue: #0056b3;
+  --neon-cyan: #008ba3;
+  --neon-pink: #d81b60;
+  --bg-dark: #f0f2f5;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+  --glass-border: rgba(0, 0, 0, 0.1);
   background-color: var(--bg-dark);
   color: var(--text-primary);
+}
+
+body.light-mode .hero-title {
+  background: linear-gradient(to right, #1a1a1a, var(--neon-purple), #1a1a1a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+body.light-mode .conference-badge span {
+  background: rgba(98, 0, 234, 0.1);
+  border: 1px solid var(--neon-purple);
+  color: var(--neon-purple);
+  box-shadow: none;
+}
+
+body.light-mode .hero-record-number,
+body.light-mode .countdown-number {
+  text-shadow: none;
+}
+
+body.light-mode .starry-background-canvas {
+  filter: invert(1) hue-rotate(180deg);
+  opacity: 0.4;
 }
 
 body.light-mode .welcome-section {

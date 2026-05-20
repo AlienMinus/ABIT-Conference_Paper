@@ -296,6 +296,7 @@ const StarryBackground = () => {
   return (
     <canvas
       ref={canvasRef}
+      className="starry-background-canvas"
       style={{
         position: 'absolute',
         top: 0,
