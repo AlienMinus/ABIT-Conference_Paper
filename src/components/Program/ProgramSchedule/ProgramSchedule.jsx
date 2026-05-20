@@ -2,6 +2,7 @@ import React from 'react'
 import './ProgramSchedule.css'
 import pschData from '../../../data/programSchedule.json'
 import IconMapper from '../../IconMapper/IconMapper'
+import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const ProgramSchedule = () => {
   const { header, days } = pschData
@@ -16,7 +17,9 @@ const ProgramSchedule = () => {
         <p>{header.description}</p>
       </div>
 
-      <div className="psch-days">
+      <UnderConstruction />
+
+      {/* <div className="psch-days">
         {days.map((day, index) => (
           <div key={index} className="psch-day">
             <div className="psch-day-header">
@@ -46,7 +49,7 @@ const ProgramSchedule = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   )
 }

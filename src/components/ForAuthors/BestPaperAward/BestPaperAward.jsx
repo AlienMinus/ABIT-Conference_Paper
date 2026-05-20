@@ -16,7 +16,7 @@ const BestPaperAward = () => {
       
       <UnderConstruction/>
 
-      <div className="bpa-section">
+      {/* <div className="bpa-section">
         <h2>{awards.title}</h2>
         <div className="bpa-grid">
           {awards.list.map((award, index) => (
@@ -55,7 +55,7 @@ const BestPaperAward = () => {
 
       <div className="bpa-note">
         <p>{note}</p>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -16,7 +16,7 @@ const Registration = () => {
 
       <UnderConstruction/>
 
-      <div className="registration-table-container">
+      {/* <div className="registration-table-container">
         <table className="reg-table">
           <thead>
             <tr>
@@ -87,7 +87,7 @@ const Registration = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   )
 }

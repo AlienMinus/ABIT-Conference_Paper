@@ -296,6 +296,7 @@
   color: var(--text-secondary);
   margin-bottom: 0;
   line-height: 1.6;
+  white-space: pre-line;
 }
 
 .cfp-footer {

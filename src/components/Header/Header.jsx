@@ -10,7 +10,19 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('theme')
-    return savedTheme !== null ? JSON.parse(savedTheme) : true
+    
+    // If the user previously set a theme manually, respect it
+    if (savedTheme !== null) {
+      return JSON.parse(savedTheme)
+    }
+
+    // Auto theme based on IST (Indian Standard Time)
+    const istString = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" })
+    const istDate = new Date(istString)
+    const currentHourIST = istDate.getHours()
+    
+    // Dark mode between 6 PM (18) and 6 AM (6), otherwise Light mode
+    return currentHourIST < 6 || currentHourIST >= 18
   })
 
   useEffect(() => {

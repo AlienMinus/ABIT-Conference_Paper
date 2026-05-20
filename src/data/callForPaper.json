@@ -135,9 +135,14 @@
         "icon": "FaRobot"
       },
       {
-        "title": "Carbon Neutrality and Sustainable Energy Management",
-        "description": "Research focusing on carbon neutrality strategies, sustainable energy utilization, green technologies, and intelligent energy management systems.",
-        "icon": "FaLeaf"
+        "title": "Emerging Technologies and Future Trends",
+        "description": "• Quantum computing applications in energy systems\n• Green hydrogen technologies\n• AI-driven carbon neutrality solutions\n• Internet of Energy (IoE)\n• Smart energy markets and trading\n• Digital transformation in power systems\n• Future challenges in renewable energy and smart grids",
+        "icon": "FaMicrochip"
+      },
+      {
+        "title": "Power Electronics and Intelligent Control Systems",
+        "description": "• Intelligent control of power converters\n• Advanced inverter technologies\n• Control strategies for renewable energy systems\n• FACTS devices and smart grid applications\n• Adaptive and robust control techniques\n• Embedded systems for smart energy applications\n• Automation in power systems",
+        "icon": "FaServer"
       },
       {
         "title": "Internet of Things (IoT) and communication technologies in smart grids",

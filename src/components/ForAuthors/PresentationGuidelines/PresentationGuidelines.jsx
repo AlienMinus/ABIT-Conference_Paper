@@ -16,7 +16,7 @@ const PresentationGuidelines = () => {
 
       <UnderConstruction/>
 
-      <div className="pg-split-section">
+      {/* <div className="pg-split-section">
         <div className="pg-column">
           <h2>{oral.title}</h2>
           <ul className="pg-list">
@@ -51,7 +51,7 @@ const PresentationGuidelines = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
