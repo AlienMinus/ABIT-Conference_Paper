@@ -1,5 +1,11 @@
 [
   {
+    "icon": "FaCalendarAlt",
+    "title": "Submission Opens",
+    "date": "July 6, 2026",
+    "featured": true
+  },
+  {
     "icon": "FaFileAlt",
     "title": "Paper Submission Deadline",
     "date": "Nov 20, 2026",
