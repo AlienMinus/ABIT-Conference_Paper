@@ -258,3 +258,38 @@ body.light-mode .under-construction-btn.secondary:hover {
   color: #ffffff;
   box-shadow: 0 5px 15px rgba(98, 0, 234, 0.3);
 }
+
+/*For Not Found Page*/
+body.light-mode .not-found-container {
+  background: var(--bg-dark);
+}
+
+body.light-mode .not-found-content {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .not-found-title {
+  text-shadow: none;
+  color: var(--neon-purple);
+}
+
+body.light-mode .not-found-subtitle {
+  color: var(--text-primary);
+}
+
+body.light-mode .not-found-text {
+  color: var(--text-secondary);
+}
+
+body.light-mode .not-found-btn {
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+body.light-mode .not-found-btn:hover {
+  background: var(--neon-cyan);
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 86, 179, 0.3);
+}

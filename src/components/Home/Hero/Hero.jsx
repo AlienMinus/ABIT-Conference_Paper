@@ -18,7 +18,7 @@ const Hero = () => {
     }
     else{
       {/*Handle Brochure Download*/}
-      window.open('/Brochure.pdf', '_blank')
+      window.open('/assets/res/Brochure.pdf', '_blank')
     }
   }
 

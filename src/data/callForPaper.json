@@ -2,7 +2,7 @@
   "title": "Call For Paper",
   "description": "Conference seeks papers in all aspects of Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies. Researchers, academicians, industry experts, and practitioners are invited to submit original research contributions related to intelligent energy systems and sustainable computing solutions.",
   "recordNumber": "69723",
-  "brochureLink": "/Brochure.pdf",
+  "brochureLink": "/assets/res/Brochure.pdf",
 
   "tracks": {
     "title": "Research Tracks",
@@ -75,6 +75,6 @@
   "footer": {
     "title": "Ready to Submit?",
     "description": "Join researchers and innovators working towards sustainable energy systems, smart grids, and intelligent renewable energy technologies.",
-    "templateLink": "/GBM.pdf"
+    "templateLink": "/assets/res/splnproc1703.zip"
   }
 }
