@@ -17,51 +17,6 @@ const CallForPaper = () => {
         <a href={brochureLink} download="Brochure.pdf" className="cfp-btn">Download Brochure</a>
       </div>
 
-      <div className="cfp-split-section">
-        <div className="cfp-column">
-          <h2>{submission.title}</h2>
-          <ul className="cfp-check-list">
-            {submission.guidelines.map((guideline, index) => (
-              <li key={index} className={guideline.subGuidelines ? 'has-sub-guidelines' : ''}>
-                <IconMapper iconName="BsCheck2Circle" />
-                <div>
-                  <strong>{guideline.title}</strong>
-                  <p>{guideline.description}</p>
-                  {guideline.subGuidelines && (
-                    <ul className="cfp-sub-check-list">
-                      {guideline.subGuidelines.map((sub, subIndex) => (
-                        <li key={subIndex}>
-                          <div>
-                            <strong>{sub.title}</strong>
-                            <p>{sub.description}</p>
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        
-        <div className="cfp-column">
-          <h2>{publication.title}</h2>
-          <p>{publication.description}</p>
-          <ul className="cfp-check-list">
-            {publication.features.map((feature, index) => (
-              <li key={index}>
-                <IconMapper iconName="IoIosRibbon" />
-                <span>{feature}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        
-      </div>
-
       <div className="cfp-section">
         <h2>{tracks.title}</h2>
         <p>{tracks.description}</p>
@@ -78,14 +33,14 @@ const CallForPaper = () => {
         </div>
       </div>
 
-      <div className="cfp-footer">
+      {/* <div className="cfp-footer">
         <h2>{footer.title}</h2>
         <p>{footer.description}</p>
         <div className="cfp-actions">
           <button className="cfp-btn primary" onClick={() => navigate('/for-authors/paper-submission')}>Submit Paper</button>
           <a href={footer.templateLink} download="GBM.pdf" className="cfp-btn secondary">Download Template</a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

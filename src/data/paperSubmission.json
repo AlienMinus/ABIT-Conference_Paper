@@ -2,8 +2,10 @@
   "header": {
     "title": "Submit Your Research",
     "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide.",
-    "buttonText": "Download Template",
-    "templateLink": "/assets/res/paperTemplate.pdf"
+    "latexButtonText": "Download Template (LaTeX)",
+    "latexTemplateLink": "/assets/res/LaTex.zip",
+    "docxButtonText": "Download Template (DOCM)",
+    "docxTemplateLink": "/assets/res/splnproc1703.zip"
   },
   "submission": {
     "title": "Paper Submission",
@@ -24,40 +26,89 @@
       }
     ]
   },
-  "guidelines": {
+  "publication": {
+    "title": "Publication & Awards",
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. Accepted and presented papers will be forwarded to Springer Proceedings (subject to final approval).",
+    "features": [
+      "Springer Proceedings Publication.",
+      "Rigorous Peer Review Process.",
+      "Networking Opportunities.",
+      "Research Collaboration Platform.",
+      "Best Paper Recognition."
+    ]
+  },
+  "submissionGuidelines": {
     "title": "Submission Guidelines",
-    "list": [
+    "guidelines": [
       {
-        "title": "Manuscript Submission",
-        "description": "Authors are required to submit their manuscripts using Microsoft CMT in PDF format only."
+        "title": "1. Manuscript Submission",
+        "description": "Authors are required to submit their manuscripts using Microsoft CMT by following the provided submission link."
       },
       {
-        "title": "Paper Requirements",
-        "description": "The main content of the submission should be at least 3500 words or 10 pages as per the publisher format. References should be limited to 50 and the abstract to 250 words maximum."
+        "title": "2. Paper Requirements",
+        "description": "Each manuscript submitted should constitute outstanding and solid advancement in the conference scope and allied disciplines. The main content of the submission should be at least 3500 words or 10 pages as per the publisher format. The references should be limited to 50 and abstract should be limited to 250 words maximum.",
+        "subGuidelines": [
+          {
+            "title": "A. Title Page",
+            "description": "Title, name, affiliation of each author and corresponding author email should be included in the title page."
+          },
+          {
+            "title": "B. Abstract",
+            "description": "A brief, concise abstract is required at the beginning of each manuscript. The abstract should contain the background, rationale, and main conclusions of the work. It should be 250 words or less, unreferenced, and should avoid mathematical expressions, footnotes, citations, and first-person sentence structures."
+          },
+          {
+            "title": "C. Keywords",
+            "description": "4-6 keywords should be provided."
+          },
+          {
+            "title": "D. Text Formatting",
+            "description": "The text (12-point) should be typeset in one column and divided into sections with numbered headings using the following hierarchy: Primary heading, Secondary heading, Tertiary heading, and Quaternary heading."
+          },
+          {
+            "title": "E. Acknowledgements",
+            "description": "Keep this section brief by acknowledging only direct assistance in research and writing. Financial support should be acknowledged here instead of as footnotes to the title."
+          },
+          {
+            "title": "F. References",
+            "description": "References should be arranged alphabetically without numbering. Citations should follow author-year format such as Harsh (1990) or (Harsh, 1990). For three or more authors, use 'et al.'. Distinguishing letters (a, b, c, etc.) should be used for multiple papers by the same author in the same year."
+          },
+          {
+            "title": "G. Formulas",
+            "description": "Brief equations or terms should be written inline wherever possible. Complex equations with subscripts, superscripts, or radical signs should use the MathType equation editor."
+          },
+          {
+            "title": "H. Figures",
+            "description": "Vector-based figures (eps., ai., or psd.) should be provided upon acceptance of the paper."
+          }
+        ]
       },
       {
-        "title": "Formatting Details",
-        "description": "The text (12-point) should be typeset in one column. Provide 4-6 keywords. Vector-based figures should be provided upon acceptance."
+        "title": "3. Submission Format",
+        "description": "The submission of manuscripts should be done in PDF format only."
       },
       {
-        "title": "Plagiarism Policy",
-        "description": "Every paper submitted to SAGAR-27 will undergo plagiarism detection. Papers not meeting the plag policy (less than 15%) may be desk-rejected without further review."
+        "title": "4. Review Process",
+        "description": "All submitted papers will undergo a rigorous review process. Acceptance decisions will be based on quality, originality, technical content, and relevance to the conference theme."
       },
       {
-        "title": "Review Process",
-        "description": "All submitted papers will undergo a rigorous review process based on quality, originality, technical content, and relevance."
+        "title": "5. Plagiarism Policy",
+        "description": "Every paper submitted to SAGAR-27 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
       },
       {
-        "title": "Publication & Author Policy",
-        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING. Altering author details or sequence after submission is strictly prohibited."
+        "title": "6. Publication Requirement",
+        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING."
+      },
+      {
+        "title": "7. Author Policy",
+        "description": "SAGAR-27 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
       }
     ]
   },
   "note": "Note: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
   "footer": {
-    "title": "Ready to Submit?",
-    "description": "Join researchers and innovators working towards sustainable energy systems, smart grids, and intelligent renewable energy technologies.",
-    "buttonText": "Submit Paper",
+    "title": "Manuscript Submission",
+    "description": "The Manuscript has to be uploaded online at the SAGAR 2027 Microsoft Research Paper submission portal.",
+    "buttonText": "Submit Paper via CMT",
     "buttonLink": "https://cmt3.research.microsoft.com/"
   }
 }

@@ -2,17 +2,22 @@
   "badge": "1st International Conference on",
   "title": "Soft Computing Application in Smart Grid and Renewable Energy",
   "recordNumber": "69723",
-  "location": "Ajay Binay Institute of Technology, Cuttack",
+  "location": "Ajay Binay Institute of Technology (ABIT),\n Cuttack, Odisha - Hybrid",
   "date": "February 26-27, 2027",
   "countdownTarget": "2027-02-26T00:00:00",
   "buttons": [
     {
-      "label": "Call for Papers →",
+      "label": "Download Brochure",
       "variant": "primary"
     },
     {
-      "label": "Paper Submission →",
-      "variant": "secondary"
+      "label": "Call for Papers",
+      "variant": "primary"
+    },
+    {
+      "label": "Paper Submission",
+      "variant": "primary"
     }
+    
   ]
 }

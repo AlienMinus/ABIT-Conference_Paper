@@ -47,6 +47,13 @@
   color: var(--text-secondary);
 }
 
+.ps-header-actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .ps-btn {
   padding: 14px 32px;
   font-size: 1rem;
@@ -224,6 +231,33 @@
   font-size: 0.95rem;
   color: var(--text-secondary);
   line-height: 1.5;
+}
+
+.ps-sub-check-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-left: 2px dashed rgba(176, 38, 255, 0.3);
+  padding-left: 1.5rem;
+}
+
+.ps-sub-check-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  transition: none;
+}
+
+.ps-sub-check-list li:hover {
+  transform: none;
+}
+
+.ps-sub-check-list li strong {
+  color: var(--neon-cyan);
+  font-size: 1.05rem;
 }
 
 .ps-note {
