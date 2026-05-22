@@ -34,7 +34,7 @@ const Hero = () => {
             IEEE Conference Record Number: <span className="record-link">{recordNumber}</span>
           </div> */}
           <div className="hero-meta-details">
-            <span className="location-icon"> {location}</span>
+            <span className="location-icon"><IconMapper iconName="FaMapMarkerAlt" /> {location}</span>
             <span className="date-separator">|</span>
             <span className="calendar-icon"><IconMapper iconName="FaCalendarAlt" /> {date}</span>
           </div>

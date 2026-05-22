@@ -133,6 +133,19 @@
   .date-separator {
     display: none; /* Hide separator on mobile when stacked */
   }
+
+  .location-icon,
+  .calendar-icon {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .location-icon svg,
+  .calendar-icon svg {
+    flex-shrink: 0;
+    font-size: 1.5em; /* Make the icon larger on mobile */
+    margin-top: 0.1em; /* Adjust alignment with the text line */
+  }
 }
 
 .countdown {
