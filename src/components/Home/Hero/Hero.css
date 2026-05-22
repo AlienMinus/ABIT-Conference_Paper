@@ -143,7 +143,7 @@
   .location-icon svg,
   .calendar-icon svg {
     flex-shrink: 0;
-    font-size: 1.5em; /* Make the icon larger on mobile */
+    font-size: 2.25em; /* Make the icon larger on mobile */
     margin-top: 0.1em; /* Adjust alignment with the text line */
   }
 }
