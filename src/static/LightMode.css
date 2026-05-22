@@ -64,36 +64,31 @@ body.light-mode .hero-section {
   --neon-pink: #d81b60;
   --bg-dark: #f0f2f5;
   --bg-card: #ffffff;
-  --text-primary: #1a1a1a;
-  --text-secondary: #555555;
+  --text-primary: #ffffff;
+  --text-secondary: #f0f0f0;
   --glass-border: rgba(0, 0, 0, 0.1);
   background-color: var(--bg-dark);
   color: var(--text-primary);
 }
 
 body.light-mode .hero-title {
-  background: linear-gradient(to right, #1a1a1a, var(--neon-purple), #1a1a1a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: none;
+  background: none;
+  -webkit-text-fill-color: #ffffff;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.5), 0 0 50px rgba(98, 0, 234, 0.5);
 }
 
 body.light-mode .conference-badge span {
-  background: rgba(98, 0, 234, 0.1);
-  border: 1px solid var(--neon-purple);
-  color: var(--neon-purple);
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 body.light-mode .hero-record-number,
 body.light-mode .countdown-number {
-  text-shadow: none;
-}
-
-body.light-mode .starry-background-canvas {
-  filter: invert(1) hue-rotate(180deg);
-  opacity: 0.4;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 body.light-mode .welcome-section {

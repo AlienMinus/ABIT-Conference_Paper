@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Hero.css'
 import CountdownTimer from './CountdownTimer'
 import heroData from '../../../data/hero.json'
 import IconMapper from '../../IconMapper/IconMapper'
-import StarryBackground from './StarryBackground'
+import HeroCarousel from './HeroCarousel'
 
 const Hero = () => {
   const { badge, title, recordNumber, location, date, countdownTarget, buttons } = heroData
-  const [isWormhole, setIsWormhole] = useState(false)
   const navigate = useNavigate()
 
   const handleButtonClick = (label) => {
@@ -22,7 +20,7 @@ const Hero = () => {
 
   return (
     <section className="hero-section">
-      <StarryBackground isWormhole={isWormhole} />
+      <HeroCarousel />
       <div className="hero-content">
         <div className="conference-badge">
           <br /> <br /> <br />
