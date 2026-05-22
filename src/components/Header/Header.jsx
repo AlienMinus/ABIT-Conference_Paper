@@ -95,7 +95,7 @@ const Header = () => {
             <li className="has-dropdown">
               <a href="#authors">For Authors</a>
               <ul className="dropdown">
-                <li><a href="/#important-dates">Important Dates</a></li>
+                {/* <li><a href="/#important-dates">Important Dates</a></li> */}
                 <li><Link to="/for-authors/call-for-papers">Call for Papers</Link></li>
                 <li><Link to="/for-authors/paper-submission">Paper Submission</Link></li>
                 <li><Link to="/for-authors/registration">Registration</Link></li>

@@ -30,7 +30,7 @@
     "title": "Publication & Awards",
     "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. Accepted and presented papers will be forwarded to Springer Proceedings (subject to final approval).",
     "features": [
-      "Springer Proceedings Publication.",
+      "Springer Proceedings Publication. (subject to final approval)",
       "Rigorous Peer Review Process.",
       "Networking Opportunities.",
       "Research Collaboration Platform.",
@@ -96,7 +96,7 @@
       },
       {
         "title": "6. Publication Requirement",
-        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING."
+        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING (subject to final approval)."
       },
       {
         "title": "7. Author Policy",
@@ -104,7 +104,10 @@
       }
     ]
   },
-  "note": "CMT ACKNOWLEDGEMENT: The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+  "note": {
+    "title": "CMT ACKNOWLEDGEMENT",
+    "description": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
+  },
   "footer": {
     "title": "Manuscript Submission",
     "description": "The Manuscript has to be uploaded online at the SAGAR 2027 Microsoft Research Paper submission portal.",

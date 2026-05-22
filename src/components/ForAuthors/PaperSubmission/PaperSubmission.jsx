@@ -78,7 +78,8 @@ const PaperSubmission = () => {
       </div>
 
       <div className="ps-note">
-        <p>{note}</p>
+        <h2>{note.title}</h2>
+        <p>{note.description}</p>
       </div>
 
       <div className="ps-footer">

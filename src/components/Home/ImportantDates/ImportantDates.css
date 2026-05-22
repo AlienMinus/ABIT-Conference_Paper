@@ -65,3 +65,20 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Light Mode Overrides */
+body.light-mode .date-card {
+  background: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .date-card:hover {
+  background: #ffffff;
+  border-color: var(--neon-purple);
+  box-shadow: 0 10px 30px rgba(98, 0, 234, 0.15);
+}
+
+body.light-mode .date-card.featured {
+  background: rgba(0, 86, 179, 0.03);
+  border-color: var(--neon-cyan);
+}
