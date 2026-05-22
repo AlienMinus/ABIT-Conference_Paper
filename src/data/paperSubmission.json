@@ -28,7 +28,7 @@
   },
   "publication": {
     "title": "Publication & Awards",
-    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. Accepted and presented papers will be forwarded to Springer Proceedings (subject to final approval).",
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.)",
     "features": [
       "Springer Proceedings Publication. (subject to final approval)",
       "Rigorous Peer Review Process.",
@@ -95,8 +95,8 @@
         "description": "Every paper submitted to SAGAR-27 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
       },
       {
-        "title": "6. Publication Requirement",
-        "description": "Only registered and presented papers will be forwarded to SPRINGER PROCEEDING (subject to final approval)."
+        "title": "6. Proceedings Publication",
+        "description": "Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.)."
       },
       {
         "title": "7. Author Policy",
@@ -105,7 +105,7 @@
     ]
   },
   "note": {
-    "title": "CMT ACKNOWLEDGEMENT",
+    "title": "CMT ACKNOWLEDGEMENT:",
     "description": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
   },
   "footer": {

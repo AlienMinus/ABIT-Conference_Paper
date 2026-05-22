@@ -16,6 +16,10 @@ const Hero = () => {
     else if (label.includes('Paper Submission')) {
       navigate('/for-authors/paper-submission')
     }
+    else{
+      {/*Handle Brochure Download*/}
+      window.open('/Brochure.pdf', '_blank')
+    }
   }
 
   return (
@@ -34,9 +38,15 @@ const Hero = () => {
             IEEE Conference Record Number: <span className="record-link">{recordNumber}</span>
           </div> */}
           <div className="hero-meta-details">
-            <span className="location-icon"><IconMapper iconName="FaMapMarkerAlt" /> {location}</span>
+            <span className="location-icon">
+              <IconMapper iconName="FaMapMarkerAlt" />
+              <span className="meta-text" style={{ whiteSpace: 'pre-line' }}>{location}</span>
+            </span>
             <span className="date-separator">|</span>
-            <span className="calendar-icon"><IconMapper iconName="FaCalendarAlt" /> {date}</span>
+            <span className="calendar-icon">
+              <IconMapper iconName="FaCalendarAlt" />
+              <span className="meta-text">{date}</span>
+            </span>
           </div>
         </div>
         
