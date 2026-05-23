@@ -37,15 +37,14 @@ const Hero = () => {
           {/* <div className="hero-record-number">
             IEEE Conference Record Number: <span className="record-link">{recordNumber}</span>
           </div> */}
-          <div className="hero-meta-details">
+          <div className="hero-meta-details" style={{ flexDirection: 'column', alignItems: 'center', fontSize: '1.5rem', gap: '0.8rem' }}>
             <span className="location-icon">
               <IconMapper iconName="FaMapMarkerAlt" />
-              <span className="meta-text" style={{ whiteSpace: 'pre-line' }}>{location}</span>
+              <span className="meta-text">{location}</span>
             </span>
-            <span className="date-separator">|</span>
             <span className="calendar-icon">
               <IconMapper iconName="FaCalendarAlt" />
-              <span className="meta-text">{date}</span>
+              <span className="meta-text" dangerouslySetInnerHTML={{ __html: date }}></span>
             </span>
           </div>
         </div>

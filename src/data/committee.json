@@ -6,10 +6,28 @@
       "general": {
         "title": "General Chairs",
         "members": [
-          { "name": "Dr. Rupali Mohanty (Convenor)", "affiliation": "ABIT Cuttack" },
-          { "name": "Dr. Samarjeet Satapathy (Co-convenor)", "affiliation": "ABIT Cuttack" }
+          { "name": "Prof. Kalyan Chatterjee", "affiliation": "Professor, ISM Dhanbad" },
+          { "name": "Prof. Niranjan Nayak", "affiliation": "SOA-DU, Odisha" },
+          { "name": "Prof. Subroto Banerjee", "affiliation": "NIT Durgapur" },
+          { "name": "Prof. Sabyasachi Pattanaik", "affiliation": "Dean (R&D, CS), ABIT Cuttack" },
+          { "name": "Prof. Dulu Pattanaik", "affiliation": "Group Academic Head, ABIT Cuttack" }
         ]
       },
+
+      "convenor": {
+        "title": "Convenor",
+        "members": [
+          { "name": "Dr. Rupali Mohanty", "affiliation": "ABIT Cuttack" }
+        ]
+      },
+
+      "coConvenor": {
+        "title": "Co-convenor",
+        "members": [
+          { "name": "Dr. Samarjeet Satapathy", "affiliation": "ABIT Cuttack" }
+        ]
+      },
+
       "organizing": {
         "title": "Organising Chairs",
         "members": [
@@ -17,38 +35,47 @@
           { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" }
         ]
       },
+
       "secretaries": {
         "title": "Conference Secretaries",
         "members": [
           { "name": "Er. Prasantini Samal", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Soumya Sidhartha Ray", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Soumya S Ray", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Chandan Mandal", "affiliation": "ABIT Cuttack" }
         ]
       },
+
       "publication": {
         "title": "Publication Chairs",
         "members": [
-          { "name": "Dr. Sachi Nandan Mohanty", "affiliation": "VIT Andhra Pradesh University" },
-          { "name": "Dr. Manoj Praharaj", "affiliation": "ABIT Cuttack" },
+          { "name": "Prof. Sachi Nandan Mohanty", "affiliation": "VIT Andhra Pradesh University" },
+          { "name": "Prof. Manas Ranjan Kabat", "affiliation": "Institute of Management and Information Technology, Cuttack" },
+          { "name": "Prof. Satyabrata Das", "affiliation": "Veer Surendra Sai University of Technology, Burla" },
+          { "name": "Prof. Narayan Nahak", "affiliation": "SOA-DU, Odisha" },
+          { "name": "Prof. Subhranshu Sekhar Tripathy", "affiliation": "KIIT-DU, Odisha" },
+          { "name": "Prof. Satyajit Mohanty", "affiliation": "VIT University, Vellore" },
+          { "name": "Prof. Manoj Praharaj", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Rajalaxmi Panda", "affiliation": "ABIT Cuttack" }
         ]
       },
+
       "organizingMembers": {
         "title": "Organising Committee Members",
         "members": [
           { "name": "Er. Lopamudra Prusty", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Jyoti Ranjan Sahoo", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Shakti Prasad Mohanty", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Tushar Ranjan Mahalik", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Ilyas Ahmed", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Madhuchhanda Bhanjadeo", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Subhadra Behera", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Rajib Nayak", "affiliation": "ABIT Cuttack" }
+          { "name": "Er. Madhuchanda Bhanjadeo", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Rajib Nayak", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Tushar Ranjan Mahalik", "affiliation": "ABIT Cuttack" },
+          { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Cuttack" }
         ]
       }
     }
   },
+
   "advisory": {
     "title": "Advisory Committee",
     "description": "The Advisory Committee consists of renowned experts who provide strategic guidance and ensure the overall direction of the conference. Their insights help shape the conference into a leading event in the field.",
@@ -60,22 +87,25 @@
           { "name": "Er. Satyadarshi Mishra", "affiliation": "Head-Governing Body, ABIT" }
         ]
       },
+
       "patron": {
         "title": "Patron",
         "members": [
-          { "name": "Dr. Leena Samantaray", "affiliation": "Principal, ABIT" }
+          { "name": "Prof. Leena Samantaray", "affiliation": "Principal, ABIT" }
         ]
       },
+
       "honorary": {
         "title": "Honorary Chairs",
         "members": [
-          { "name": "Dr. Ming Yang", "affiliation": "Kennesaw State University" },
-          { "name": "Dr. Ravita Lamba", "affiliation": "IIT Roorkee" },
-          { "name": "Dr. Debashis Chatterjee", "affiliation": "Jadavpur University" }
+          { "name": "Prof. Ming Yang", "affiliation": "Kennesaw State University" },
+          { "name": "Prof. Ravita Lamba", "affiliation": "IIT Roorkee" },
+          { "name": "Prof. Debashis Chatterjee", "affiliation": "Jadavpur University" }
         ]
       }
     }
   },
+
   "technical": {
     "title": "Technical Committee",
     "description": "The Technical Committee provides functional and logical support to the overall technical structure of the conference, offering strategic guidance to ensure thematic coherence and relevance.",
@@ -83,15 +113,64 @@
       "tpcChairs": {
         "title": "Technical Program Committee Chairs",
         "members": [
-          { "name": "Dr. Sabyasachi Pattanaik", "affiliation": "Dean (R&D, CS) ABIT Cuttack" },
-          { "name": "Dr. Dulu Pattanaik", "affiliation": "Group Academic Head, ABIT Cuttack" },
-          { "name": "Dr. Prashant Kumar Pani", "affiliation": "Dean (Academics) ABIT Cuttack" },
-          { "name": "Dr. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
-          { "name": "Dr. Suvendu Sahoo", "affiliation": "VIT, Chennai" },
-          { "name": "Dr Amaresh Gantayat", "affiliation": "SOA University" },
-          { "name": "Dr. Bhabasis Mohapatra", "affiliation": "SOA University" },
-          { "name": "Dr. Abhijeet Choudhury", "affiliation": "SOA University" },
-          { "name": "Dr. Anshuman Bhuyan", "affiliation": "GIET, Bhubaneswar" }
+          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
+          { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
+          { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
+          { "name": "Prof. Sanjay Misra", "affiliation": "Covenant University, Ota, Nigeria" },
+          { "name": "Prof. Milos Stojmenovic", "affiliation": "Singidunum University, Serbia" },
+          { "name": "Prof. Georgios Tsaramirsis", "affiliation": "Higher Colleges of Technology, Abu Dhabi" },
+          { "name": "Prof. Sven Groppe", "affiliation": "University of Lübeck, Germany" },
+          { "name": "Prof. Mohammad Yamin", "affiliation": "Abdulaziz University, Jeddah, Saudi Arabia" },
+          { "name": "Prof. Mukesh Misra", "affiliation": "Massey University, New Zealand" },
+          { "name": "Prof. Neha Mohanty", "affiliation": "Department of Computer Science & Engineering, New Jersey Institute of Technology, USA" },
+          { "name": "Prof. Jinghua Groppe", "affiliation": "University of Lübeck, Germany" },
+          { "name": "Prof. Abdulrhman Alshareef", "affiliation": "King Abdulaziz University" },
+          { "name": "Prof. Gourav Gupta", "affiliation": "Massey University, Palmerston North, New Zealand" },
+          { "name": "Prof. Maria Avilés", "affiliation": "Gijon Hospital, Asturias, Spain" },
+          { "name": "Prof. Izzat Al-Darraji", "affiliation": "University of Baghdad, Baghdad" },
+          { "name": "Prof. Lie Li", "affiliation": "Kennesaw State University, Atlanta, USA" },
+          { "name": "Prof. Abdulsattar Abdullah Hamad", "affiliation": "University of Samarra, Iraq" },
+          { "name": "Prof. Vicente Garcia Diaz", "affiliation": "University Oviedo, Spain" },
+          { "name": "Prof. Oscar Castillo", "affiliation": "Tijuana Institute Technology, Mexico" },
+          { "name": "Prof. J P Das", "affiliation": "University of Alberta, Canada" },
+          { "name": "Prof. Rajkumar Singh Rathore", "affiliation": "Cardiff Met University, London, UK" },
+          { "name": "Prof. Osamah Ibrahim Khalaf", "affiliation": "Al-Nahrain University, Baghdad, Iraq" },
+          { "name": "Prof. Udit Mamodiya", "affiliation": "Poornima University, India" },
+          { "name": "Prof. Ghaida Muttashar Abdulsahib", "affiliation": "University of Technology, Baghdad, Iraq" },
+          { "name": "Prof. Sameer Algburi", "affiliation": "Al-Kitab University, Iraq" },
+          { "name": "Prof. Habib Hamam", "affiliation": "Faculty of Engineering, University of Moncton, Canada" },
+          { "name": "Prof. Chinmay Chakraborty", "affiliation": "BITS, Ranchi" },
+          { "name": "Prof. Priya Ranjan", "affiliation": "UPES, Bidholi Campus, Dehradun" },
+          { "name": "Prof. Muthu Kumar", "affiliation": "UPES, Bidholi Campus, Dehradun" },
+          { "name": "Prof. Mamata Mittal", "affiliation": "DSE University, India" },
+          { "name": "Prof. Yasha Hasija", "affiliation": "Delhi Technological University" },
+          { "name": "Prof. Anjali Priyadarshini", "affiliation": "SRM University, Delhi" },
+          { "name": "Prof. Partha Pakre", "affiliation": "NIT Silchar" },
+          { "name": "Prof. Babita Majhi", "affiliation": "G.G.V, Central University, Bilaspur" },
+          { "name": "Prof. Tripti Swarnkar", "affiliation": "NIT, Raipur, India" },
+          { "name": "Prof. Bichitrananda Patra", "affiliation": "SOA University, India" },
+          { "name": "Prof. Vishal Goyal", "affiliation": "GLA University" },
+          { "name": "Prof. H.S. Behera", "affiliation": "VSSUT, Burla, India" },
+          { "name": "Prof. Hridayanath Thatoi", "affiliation": "MSCB University, India" },
+          { "name": "Prof. Brojo Kishore Mishra", "affiliation": "NIST Berhampur" },
+          { "name": "Prof. Balaji Rajendran", "affiliation": "VNRVJIT, Hyderabad" },
+          { "name": "Prof. Swarupananda Bissoi", "affiliation": "MSCB University, India" },
+          { "name": "Prof. Arunima Neog", "affiliation": "NIT Nagaland" },
+          { "name": "Prof. Huidrom Sampon Meaglem Singh", "affiliation": "NIT Manipur" },
+          { "name": "Prof. Santosh Kumar Singh", "affiliation": "Dean, School of Sciences, Nagaland University, India" },
+          { "name": "Prof. Bendang Ao", "affiliation": "Director of Research & Development Cell, Nagaland University, India" },
+          { "name": "Prof. Anagha Bhattacharya", "affiliation": "NIT Mizoram" },
+          { "name": "Prof. Siv Kumar Mishra", "affiliation": "Director, Center for UG & PG Studies" },
+          { "name": "Prof. Ajit Barisal", "affiliation": "Odisha University of Technology and Research, Bhubaneswar" },
+          { "name": "Prof. Satyasundara Mahapatra", "affiliation": "Pranveer Singh Institute of Technology, Kanpur" },
+          { "name": "Prof. Anjali Mohapatra", "affiliation": "IIIT Bhubaneswar" },
+          { "name": "Prof. Pravat Ranjan Pati", "affiliation": "Mechanical Engineering, Graphic Era-DU Dehradun, Uttarakhand, India" },
+          { "name": "Prof. Prakash Kumar Sarangi", "affiliation": "Department of CSE (AI & ML), Vardhaman College of Engineering, Hyderabad" },
+          { "name": "Prof. Suvendu Sahoo", "affiliation": "VIT, Chennai" },
+          { "name": "Prof. Amaresh Gantayat", "affiliation": "SOA-DU, Odisha" },
+          { "name": "Prof. Bhabasis Mohapatra", "affiliation": "SOA-DU, Odisha" },
+          { "name": "Prof. Abhijeet Choudhury", "affiliation": "SOA-DU, Odisha" },
+          { "name": "Prof. Anshuman Bhuyan", "affiliation": "GIET, Bhubaneswar" }
         ]
       }
     }
