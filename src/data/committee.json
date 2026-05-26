@@ -32,9 +32,9 @@
         "members": [
           { "name": "Dr. Ashok Kumar Mahapatra", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" },
-          { "name": "Dr. Sujata Dash", "affiliation": "Nagaland University" },
-          { "name": "Dr. Srikant Mohapatra", "affiliation": "KIIT-DU" },
-          { "name": "Dr. Niranjan Nayak", "affiliation": "SOA-DU" }
+          { "name": "Prof. Sujata Dash", "affiliation": "Nagaland University" },
+          { "name": "Prof. Srikant Mohapatra", "affiliation": "KIIT-DU" },
+          { "name": "Prof. Niranjan Nayak", "affiliation": "SOA-DU" }
         ]
       },
 
