@@ -9,7 +9,7 @@
   },
   "submission": {
     "title": "Paper Submission",
-    "description": "We are excited to invite researchers, academicians, industry experts, and practitioners to submit their papers to SAGAR-27. This is an excellent opportunity to showcase your original research contributions related to Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies to an international audience.",
+    "description": "We are excited to invite researchers, academicians, industry experts, and practitioners to submit their papers to SAGAR2027. This is an excellent opportunity to showcase your original research contributions related to Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies to an international audience.",
     "stepsTitle": "To submit your paper, please follow these simple steps:",
     "steps": [
       {
@@ -64,20 +64,16 @@
             "title": "D. Text Formatting",
             "description": "The text (12-point) should be typeset in one column and divided into sections with numbered headings using the following hierarchy: Primary heading, Secondary heading, Tertiary heading, and Quaternary heading."
           },
-          {
-            "title": "E. Acknowledgements",
-            "description": "Keep this section brief by acknowledging only direct assistance in research and writing. Financial support should be acknowledged here instead of as footnotes to the title."
-          },
-          {
-            "title": "F. References",
+                    {
+            "title": "E. References",
             "description": "References should be arranged alphabetically without numbering. Citations should follow author-year format such as Harsh (1990) or (Harsh, 1990). For three or more authors, use 'et al.'. Distinguishing letters (a, b, c, etc.) should be used for multiple papers by the same author in the same year."
           },
           {
-            "title": "G. Formulas",
+            "title": "F. Formulas",
             "description": "Brief equations or terms should be written inline wherever possible. Complex equations with subscripts, superscripts, or radical signs should use the MathType equation editor."
           },
           {
-            "title": "H. Figures",
+            "title": "G. Figures",
             "description": "Vector-based figures (eps., ai., or psd.) should be provided upon acceptance of the paper."
           }
         ]
@@ -92,7 +88,7 @@
       },
       {
         "title": "5. Plagiarism Policy",
-        "description": "Every paper submitted to SAGAR-27 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
+        "description": "Every paper submitted to SAGAR2027 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
       },
       {
         "title": "6. Proceedings Publication",
@@ -100,7 +96,7 @@
       },
       {
         "title": "7. Author Policy",
-        "description": "SAGAR-27 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
+        "description": "SAGAR2027 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
       }
     ]
   },

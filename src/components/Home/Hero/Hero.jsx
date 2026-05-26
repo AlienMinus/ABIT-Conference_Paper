@@ -31,7 +31,7 @@ const Hero = () => {
           <span>{badge}</span>
         </div>
         <h1 className="hero-title">
-          {title} <br/> (SAGAR-27)
+          {title} <br/> (SAGAR2027)
         </h1>
         <div className="hero-subtitle">
           {/* <div className="hero-record-number">

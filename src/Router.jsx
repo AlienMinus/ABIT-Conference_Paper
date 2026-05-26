@@ -59,7 +59,7 @@ const AppRouter = () => {
     }
 
     const title = titles[location.pathname]
-    document.title = title ? `SAGAR-27 || ${title}` : 'SAGAR-27'
+    document.title = title ? `SAGAR2027 || ${title}` : 'SAGAR2027'
   }, [location])
 
   return (

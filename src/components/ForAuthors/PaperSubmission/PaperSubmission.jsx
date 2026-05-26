@@ -12,8 +12,8 @@ const PaperSubmission = () => {
         <h1>{header.title}</h1>
         <p>{header.description}</p>
         <div className="ps-header-actions">
-          <a href={header.latexTemplateLink} download="SAGAR-27-LaTeX-Template.zip" className="ps-btn">{header.latexButtonText}</a>
-          <a href={header.docxTemplateLink} download="SAGAR-27-Paper-Submission-Template.zip" className="ps-btn">{header.docxButtonText}</a>
+          <a href={header.latexTemplateLink} download="SAGAR2027-LaTeX-Template.zip" className="ps-btn">{header.latexButtonText}</a>
+          <a href={header.docxTemplateLink} download="SAGAR2027-Paper-Submission-Template.zip" className="ps-btn">{header.docxButtonText}</a>
         </div>
       </div>
 
