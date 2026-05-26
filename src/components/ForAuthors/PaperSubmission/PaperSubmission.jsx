@@ -44,7 +44,7 @@ const PaperSubmission = () => {
                 <IconMapper iconName="BsCheck2Circle" />
                 <div>
                   <strong>{guideline.title}</strong>
-                  <p>{guideline.description}</p>
+                  <p dangerouslySetInnerHTML={{ __html: guideline.description }}></p>
                   {guideline.subGuidelines && (
                     <ul className="ps-sub-check-list">
                       {guideline.subGuidelines.map((sub, subIndex) => (
@@ -65,12 +65,12 @@ const PaperSubmission = () => {
 
         <div className="ps-column">
           <h2>{publication.title}</h2>
-          <p>{publication.description}</p>
+          <p dangerouslySetInnerHTML={{ __html: publication.description }}></p>
           <ul className="ps-check-list">
             {publication.features.map((feature, index) => (
               <li key={index}>
                 <IconMapper iconName="IoIosRibbon" />
-                <span>{feature}</span>
+                <span dangerouslySetInnerHTML={{ __html: feature }}></span>
               </li>
             ))}
           </ul>
