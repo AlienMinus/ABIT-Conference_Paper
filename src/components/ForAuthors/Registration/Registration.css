@@ -192,3 +192,48 @@ ol.registration-list li::before {
     font-size: 1.8rem;
   }
 }
+.registration-participation-fee {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.registration-participation-fee h3 {
+  font-size: 1.5rem;
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid var(--neon-cyan);
+  border-radius: 8px;
+  background: rgba(0, 255, 255, 0.05);
+}
+
+.registration-action {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.reg-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, var(--neon-purple), var(--neon-blue));
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(176, 38, 255, 0.4);
+}
+
+.reg-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(176, 38, 255, 0.6);
+  color: #fff;
+}
+
+.coming-soon-text {
+  margin-top: 1rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
