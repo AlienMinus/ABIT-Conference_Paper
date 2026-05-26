@@ -7,7 +7,6 @@
         "title": "General Chairs",
         "members": [
           { "name": "Prof. Kalyan Chatterjee", "affiliation": "Professor, ISM Dhanbad" },
-          { "name": "Prof. Niranjan Nayak", "affiliation": "SOA-DU, Odisha" },
           { "name": "Prof. Subroto Banerjee", "affiliation": "NIT Durgapur" },
           { "name": "Prof. Sabyasachi Pattanaik", "affiliation": "Dean (R&D, CS), ABIT Cuttack" },
           { "name": "Prof. Dulu Pattanaik", "affiliation": "Group Academic Head, ABIT Cuttack" }
@@ -32,7 +31,10 @@
         "title": "Organising Chairs",
         "members": [
           { "name": "Dr. Ashok Kumar Mahapatra", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" }
+          { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" },
+          { "name": "Dr. Sujata Dash", "affiliation": "Nagaland University" },
+          { "name": "Dr. Srikant Mohapatra", "affiliation": "KIIT University DU" },
+          { "name": "Dr. Niranjan Nayak", "affiliation": "ITER" }
         ]
       },
 
@@ -113,8 +115,8 @@
       "tpcChairs": {
         "title": "Technical Program Committee Chairs",
         "members": [
-          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
           { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
+          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
           { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
           { "name": "Prof. Sanjay Misra", "affiliation": "Covenant University, Ota, Nigeria" },
           { "name": "Prof. Milos Stojmenovic", "affiliation": "Singidunum University, Serbia" },
