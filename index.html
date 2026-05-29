@@ -7,9 +7,37 @@
     <meta name="theme-color" content="#050508" />
     <link rel="manifest" href="/manifest.json" />
     <title>SAGAR2027</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .cmt-ack {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        color: #3d3a55;
+        border-top: 1px solid rgba(98, 0, 234, 0.18);
+        /* padding: 0.85rem 1rem; */
+        font-family: Inter, Arial, sans-serif;
+        font-size: 0.6rem;
+        line-height: 1.6;
+        z-index: 9999;
+        text-align: center;
+      }
+      .cmt-ack strong {
+        color: #5f2ed2;
+      }
+      
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <div class="page-spacer"></div>
+    <div class="cmt-ack">
+      The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
