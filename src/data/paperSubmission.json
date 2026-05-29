@@ -107,7 +107,7 @@
   "footer": {
     "title": "Manuscript Submission",
     "description": "The Manuscript has to be uploaded online at the SAGAR 2027 Microsoft Research Paper submission portal. <br/><strong>CMT submission link will be available shortly.</strong>",
-    "buttonText": "Submit Paper via CMT",
-    "buttonLink": "https://cmt3.research.microsoft.com/"
+    "buttonText": "Paper Submission via CMT",
+    "buttonLink": "#"
   }
 }

@@ -1,9 +1,9 @@
 {
   "header": {
     "title": "Camera Ready Submission",
-    "description": "Carefully follow these instructions to prepare and submit your final, camera-ready paper in accordance with Springer formatting and submission requirements (Subject to Final Approval). Ensure all revisions, copyright, and compliance checks are completed before the final upload.",
+    "description": "Carefully follow these instructions to prepare and submit your final, camera-ready paper in accordance with Springer formatting and submission requirements (Subject to Final Approval). Ensure all revisions, copyright, and compliance checks are completed before the final upload. <br/><strong>CMT submission link will be available shortly.</strong>",
     "buttonText": "Submit Camera Ready",
-    "buttonLink": "https://cmt3.research.microsoft.com/"
+    "buttonLink": "#"
   },
   "steps": {
     "title": "Submission Steps",

@@ -57,9 +57,9 @@ const Registration = () => {
       </div>
 
       <div className="registration-action">
-        <a href={registrationLink.url} className="reg-btn" target="_blank" rel="noopener noreferrer">
+        <button className="reg-btn" disabled style={{ cursor: 'not-allowed', opacity: 0.5, border: 'none' }}>
           {registrationLink.text}
-        </a>
+        </button>
         <p className="coming-soon-text">{registrationLink.comingSoonText}</p>
       </div>
     </div>
