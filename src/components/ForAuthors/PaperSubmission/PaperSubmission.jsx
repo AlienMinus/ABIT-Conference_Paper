@@ -86,7 +86,7 @@ const PaperSubmission = () => {
         <h2>{footer.title}</h2>
         <p dangerouslySetInnerHTML={{ __html: footer.description }}></p>
         <div className="ps-actions">
-          <button className="ps-btn" disabled style={{ cursor: 'not-allowed', opacity: 0.5 }}>{footer.buttonText}</button>
+          <a href={footer.buttonLink} target="_blank" rel="noopener noreferrer" className="ps-btn">{footer.buttonText}</a>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ const CameraReady = () => {
       <div className="cr-header">
         <h1>{header.title}</h1>
         <p dangerouslySetInnerHTML={{ __html: header.description }} />
-        <button className="cr-btn" disabled style={{ cursor: 'not-allowed', opacity: 0.5 }}>{header.buttonText}</button>
+        <a href={header.buttonLink} target="_blank" rel="noopener noreferrer" className="cr-btn">{header.buttonText}</a>
       </div>
 
         <UnderConstruction/>
