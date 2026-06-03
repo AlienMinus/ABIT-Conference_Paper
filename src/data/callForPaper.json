@@ -5,72 +5,37 @@
   "brochureLink": "/assets/res/Brochure.pdf",
 
   "tracks": {
-    "title": "Research Tracks",
-    "description": "The conference invites submissions in all areas related to Soft Computing Techniques in Renewable Energy Systems and Smart Grid Technologies, including but not limited to the following tracks:",
+  "title": "Research Tracks",
+  "description": "The conference invites submissions in all areas related to Soft Computing Applications in Smart Grid and Renewable Energy, including but not limited to the following tracks:",
 
-    "list": [
-      {
-        "title": "Smart Grid Planning and Operation",
-        "description": "Soft computing techniques in smart grid planning and operation.",
-        "icon": "FaBolt"
-      },
-      {
-        "title": "AI & ML for Energy Forecasting",
-        "description": "AI- and ML-based load forecasting and renewable energy forecasting.",
-        "icon": "FaBrain"
-      },
-      {
-        "title": "Power System Optimization",
-        "description": "Optimization techniques for power system operation and control.",
-        "icon": "FaChartLine"
-      },
-      {
-        "title": "Demand Response and Energy Management",
-        "description": "Demand response and demand-side management using intelligent methods.",
-        "icon": "FaLightbulb"
-      },
-      {
-        "title": "Electric Vehicles and Charging Infrastructure",
-        "description": "Electric vehicle integration and charging infrastructure optimization.",
-        "icon": "FaCar"
-      },
-      {
-        "title": "Energy Storage and Microgrids",
-        "description": "Energy storage systems and microgrid management.",
-        "icon": "FaBatteryHalf"
-      },
-      {
-        "title": "Cybersecurity and Smart Grid Protection",
-        "description": "Smart grid protection, stability, and cybersecurity.",
-        "icon": "FaShieldAlt"
-      },
-      {
-        "title": "Optimization  Techniques in Renewable Integrated Systems",
-        "description": "• Evolutionary algorithms for energy optimization\n• Swarm intelligence in power systems\n• Hybrid intelligent systems for renewable integration\n• Genetic algorithms in energy scheduling.",
-        "icon": "FaProjectDiagram"
-      },
-      {
-        "title": "Deep Learning and Reinforcement Learning",
-        "description": "Smart grid applications of deep learning and reinforcement learning.",
-        "icon": "FaRobot"
-      },
-      {
-        "title": "Emerging Technologies and Future Trends",
-        "description": "• Quantum computing applications in energy systems\n• Green hydrogen technologies\n• AI-driven carbon neutrality solutions\n• Internet of Energy (IoE)\n• Smart energy markets and trading\n• Digital transformation in power systems\n• Future challenges in renewable energy and smart grids",
-        "icon": "FaMicrochip"
-      },
-      {
-        "title": "Power Electronics and Intelligent Control Systems",
-        "description": "• Intelligent control of power converters\n• Advanced inverter technologies\n• Control strategies for renewable energy systems\n• FACTS devices and smart grid applications\n• Adaptive and robust control techniques\n• Embedded systems for smart energy applications\n• Automation in power systems",
-        "icon": "FaServer"
-      },
-      {
-        "title": "Internet of Things (IoT) and communication technologies in smart grids",
-        "description": "IoT-enabled smart grids, communication protocols, sensor networks, and intelligent monitoring systems.",
-        "icon": "FaNetworkWired"
-      }
-    ]
-  },
+  "list": [
+    {
+      "title": "Track 1: Power Systems and Smart Grids",
+      "description": "• Power generation, transmission, and distribution\n• Power system operation and control\n• Smart grid technologies and applications\n• Renewable energy integration and grid integration challenges\n• Grid resilience and reliability enhancement\n• Energy storage systems and management\n• Demand-side management and demand response strategies\n• Smart Grid Planning and Operation",
+      "icon": "FaBolt"
+    },
+    {
+      "title": "Track 2: AI & ML Application and Cyber Security",
+      "description": "• AI-Based Intrusion Detection Systems (IDS)\n• Phishing and Spam Detection Using Machine Learning\n• Malware Classification with Deep Learning\n• Network Anomaly Detection Using AI\n• Adversarial Attacks and Defenses in Machine Learning",
+      "icon": "FaBrain"
+    },
+    {
+      "title": "Track 3: Application of Optimization Techniques",
+      "description": "• Power System Optimization\n• Vehicle Routing and Logistics Optimization\n• Hyperparameter Optimization in Machine Learning\n• Smart Grid Energy Management Optimization\n• Production and Inventory Scheduling Optimization\n• Resource Allocation in Cloud Computing Using Optimization Algorithms",
+      "icon": "FaChartLine"
+    },
+    {
+      "title": "Track 4: Power Electronics and Intelligent Control Systems",
+      "description": "• Intelligent Control of Power Converters\n• Advanced Inverter Technologies\n• Control Strategies for Renewable Energy Systems\n• FACTS Devices and Smart Grid Applications\n• Adaptive and Robust Control Techniques\n• Embedded Systems for Smart Energy Applications\n• Automation in Power Systems\n• Electric Vehicle and Charging Station",
+      "icon": "FaMicrochip"
+    },
+    {
+      "title": "Track 5: Emerging Technologies and Future Trends",
+      "description": "• Internet of Things (IoT) and Communication Techniques\n• Quantum Computing Applications in Energy Systems\n• Green Hydrogen Technologies\n• AI-Driven Carbon Neutrality Solutions\n• Internet of Energy (IoE)\n• Smart Energy Markets and Trading\n• Digital Transformation in Power Systems\n• Future Challenges in Renewable Energy and Smart Grids",
+      "icon": "FaProjectDiagram"
+    }
+  ]
+},
 
   "footer": {
     "title": "Ready to Submit?",
