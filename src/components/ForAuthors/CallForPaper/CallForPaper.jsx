@@ -27,7 +27,11 @@ const CallForPaper = () => {
                 <IconMapper iconName={track.icon} />
                 <h3>{track.title}</h3>
               </div>
-              <p>{track.description}</p>
+              <ul className="cfp-track-topics">
+                {track.topics.map((topic, i) => (
+                  <li key={i}>{topic}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

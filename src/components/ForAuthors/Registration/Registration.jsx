@@ -4,7 +4,7 @@ import registrationData from '../../../data/registration.json'
 import IconMapper from '../../IconMapper/IconMapper'
 
 const Registration = () => {
-  const { title, description, feeTitle, table, participationFee, notes, registrationLink } = registrationData
+  const { title, description, feeTitle, table, notes, registrationLink } = registrationData
 
   return (
     <div className="registration-container">
@@ -38,10 +38,6 @@ const Registration = () => {
             </tbody>
           </table>
         </div>
-      </div>
-
-      <div className="registration-participation-fee">
-        <h3>{participationFee}</h3>
       </div>
 
       <div className="registration-section">

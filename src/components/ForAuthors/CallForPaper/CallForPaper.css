@@ -299,6 +299,42 @@
   white-space: pre-line;
 }
 
+.cfp-track-topics {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cfp-track-topics li {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.cfp-track-topics li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--neon-purple);
+  font-size: 1rem;
+}
+
+.cfp-track-item:nth-child(even) .cfp-track-topics li {
+  padding-left: 0;
+  padding-right: 1.5rem;
+  text-align: right;
+}
+
+.cfp-track-item:nth-child(even) .cfp-track-topics li::before {
+  left: auto;
+  right: 0;
+}
+
 .cfp-footer {
   text-align: center;
   background: linear-gradient(180deg, rgba(5, 5, 8, 0) 0%, rgba(176, 38, 255, 0.1) 100%);

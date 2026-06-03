@@ -9,11 +9,10 @@
       { "text": "Foreign Author" }
     ],
     "rows": [
-      { "category": "Online Mode", "values": ["4000 INR", "125 USD"] },
-      { "category": "Offline Mode", "values": ["6000 INR", "150 USD"] }
+      { "category": "Full Registration", "values": ["6000 INR", "150 USD"] },
+      { "category": "Participation Fee", "values": ["2000 INR", "50 USD"] }
     ]
   },
-  "participationFee": "Participation Fee : 2000 INR",
   "notes": {
     "title": "Note:",
     "list": [

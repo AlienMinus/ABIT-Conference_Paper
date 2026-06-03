@@ -66,6 +66,17 @@
     flex-direction: row !important;
   }
 
+  .cfp-track-item:nth-child(even) .cfp-track-topics li {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+    text-align: left !important;
+  }
+
+  .cfp-track-item:nth-child(even) .cfp-track-topics li::before {
+    left: 0 !important;
+    right: auto !important;
+  }
+
   .cfp-actions {
     flex-direction: column !important;
     gap: 1rem !important;
