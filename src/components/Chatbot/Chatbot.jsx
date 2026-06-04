@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 import ReactMarkdown from 'react-markdown'
 import { Link } from 'react-router-dom'
-import { FaCopy, FaEdit, FaCheck } from 'react-icons/fa'
+import { FaCopy, FaEdit, FaCheck, FaMicrophone, FaMicrophoneSlash } from 'react-icons/fa'
 import './Chatbot.css'
 import IconMapper from '../IconMapper/IconMapper'
 
@@ -46,6 +46,48 @@ const Chatbot = () => {
   const [isTyping, setIsTyping] = useState(false)
   const [copiedIndex, setCopiedIndex] = useState(null)
   const messagesEndRef = useRef(null)
+  const [isListening, setIsListening] = useState(false)
+  const recognitionRef = useRef(null)
+
+  useEffect(() => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      recognitionRef.current = new SpeechRecognition();
+      recognitionRef.current.continuous = true;
+      recognitionRef.current.interimResults = true;
+
+      recognitionRef.current.onresult = (event) => {
+        const transcript = Array.from(event.results)
+          .map(result => result[0].transcript)
+          .join('');
+        setInputValue(transcript);
+      };
+
+      recognitionRef.current.onerror = (event) => {
+        console.error('Speech recognition error:', event.error);
+        setIsListening(false);
+      };
+
+      recognitionRef.current.onend = () => {
+        setIsListening(false);
+      };
+    }
+  }, []);
+
+  const toggleListening = (e) => {
+    e.preventDefault();
+    if (!recognitionRef.current) {
+      alert('Voice input is not supported in this browser.');
+      return;
+    }
+    if (isListening) {
+      recognitionRef.current.stop();
+    } else {
+      setInputValue('');
+      recognitionRef.current.start();
+      setIsListening(true);
+    }
+  };
 
   const stripMarkdown = (text) => {
     if (!text) return '';
@@ -263,6 +305,14 @@ const Chatbot = () => {
             <div ref={messagesEndRef} />
           </div>
           <form className="chatbot-input-area" onSubmit={handleSendMessage}>
+            <button
+              type="button"
+              className={`chatbot-mic-btn ${isListening ? 'listening' : ''}`}
+              onClick={toggleListening}
+              title={isListening ? "Stop listening" : "Start voice input"}
+            >
+              {isListening ? <FaMicrophoneSlash /> : <FaMicrophone />}
+            </button>
             <input 
               type="text" 
               className="chatbot-input" 
