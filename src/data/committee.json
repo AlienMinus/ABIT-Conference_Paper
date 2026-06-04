@@ -33,8 +33,7 @@
           { "name": "Dr. Ashok Kumar Mahapatra", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" },
           { "name": "Prof. Sujata Dash", "affiliation": "Nagaland University" },
-          { "name": "Prof. Srikant Mohapatra", "affiliation": "KIIT-DU" },
-          { "name": "Prof. Niranjan Nayak", "affiliation": "SOA-DU" }
+          { "name": "Prof. Srikant Mohapatra", "affiliation": "KIIT-DU" }
         ]
       },
 
@@ -72,7 +71,9 @@
           { "name": "Er. Madhuchanda Bhanjadeo", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Rajib Nayak", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Tushar Ranjan Mahalik", "affiliation": "ABIT Cuttack" },
-          { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Cuttack" }
+          { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Cuttack" },
+          { "name": "Mr. Sumit Kumar Mallick", "affiliation": "ABIT Cuttack"},
+          { "name": "Mr. Ayeshkanta Mohapatra", "affiliation":"ABIT Cuttack"}
         ]
       }
     }
@@ -115,14 +116,14 @@
       "tpcChairs": {
         "title": "Technical Program Committee Chairs",
         "members": [
-          { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
-          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
-          { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
           { "name": "Prof. Sanjay Misra", "affiliation": "Covenant University, Ota, Nigeria" },
           { "name": "Prof. Milos Stojmenovic", "affiliation": "Singidunum University, Serbia" },
           { "name": "Prof. Georgios Tsaramirsis", "affiliation": "Higher Colleges of Technology, Abu Dhabi" },
           { "name": "Prof. Sven Groppe", "affiliation": "University of Lübeck, Germany" },
           { "name": "Prof. Mohammad Yamin", "affiliation": "Abdulaziz University, Jeddah, Saudi Arabia" },
+          { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
+          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
+          { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
           { "name": "Prof. Mukesh Misra", "affiliation": "Massey University, New Zealand" },
           { "name": "Prof. Neha Mohanty", "affiliation": "Department of Computer Science & Engineering, New Jersey Institute of Technology, USA" },
           { "name": "Prof. Jinghua Groppe", "affiliation": "University of Lübeck, Germany" },
