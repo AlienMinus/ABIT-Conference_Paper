@@ -337,4 +337,17 @@
     text-align: left !important;
     margin-bottom: 1.2rem !important;
   }
+
+  /* Chatbot Mobile Fixes */
+  .chatbot-send {
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-shrink: 0 !important;
+    aspect-ratio: 1 / 1 !important;
+  }
 }
