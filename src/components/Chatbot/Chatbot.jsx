@@ -242,6 +242,17 @@ const Chatbot = () => {
     else if (lowerInput.includes('student') || lowerInput.includes('symposium')) {
       return `${studentData.header.description}`
     }
+    // Brochure
+    else if (lowerInput.includes('brochure')) {
+      return {
+        text: "**Here is the conference brochure:**",
+        component: (
+          <div className="chatbot-pdf-wrapper" style={{ marginTop: '10px' }}>
+            <iframe src="/assets/res/Brochure.pdf" title="Conference Brochure" style={{ width: '100%', height: '300px', border: 'none', borderRadius: '8px' }}></iframe>
+          </div>
+        )
+      }
+    }
     // Sightseeing
     else if (lowerInput.includes('sightseeing') || lowerInput.includes('tour') || lowerInput.includes('visit') || lowerInput.includes('tourism')) {
       return `${sightseeingData.header.description}`
