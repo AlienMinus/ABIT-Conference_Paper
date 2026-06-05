@@ -33,6 +33,7 @@
           { "name": "Dr. Ashok Kumar Mahapatra", "affiliation": "ABIT Cuttack" },
           { "name": "Er. Satya Ranjan Das", "affiliation": "ABIT Cuttack" },
           { "name": "Prof. Sujata Dash", "affiliation": "Nagaland University" },
+          { "name": "Prof. Partha Pratim Sarangi", "affiliation": "KIIT-DU" },
           { "name": "Prof. Srikant Mohapatra", "affiliation": "KIIT-DU" }
         ]
       },
@@ -122,7 +123,7 @@
           { "name": "Prof. Sven Groppe", "affiliation": "University of Lübeck, Germany" },
           { "name": "Prof. Mohammad Yamin", "affiliation": "Abdulaziz University, Jeddah, Saudi Arabia" },
           { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
-          { "name": "Prof. Prashant Kumar Pani", "affiliation": "Dean (Academics), ABIT Cuttack" },
+          { "name": "Prof. Prashant Kumar Pany", "affiliation": "Dean (Academics), ABIT Cuttack" },
           { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
           { "name": "Prof. Mukesh Misra", "affiliation": "Massey University, New Zealand" },
           { "name": "Prof. Neha Mohanty", "affiliation": "Department of Computer Science & Engineering, New Jersey Institute of Technology, USA" },
@@ -169,6 +170,7 @@
           { "name": "Prof. Anjali Mohapatra", "affiliation": "IIIT Bhubaneswar" },
           { "name": "Prof. Pravat Ranjan Pati", "affiliation": "Mechanical Engineering, Graphic Era-DU Dehradun, Uttarakhand, India" },
           { "name": "Prof. Prakash Kumar Sarangi", "affiliation": "Department of CSE (AI & ML), Vardhaman College of Engineering, Hyderabad" },
+          { "name": "Prof. Premananda Sahu", "affiliation": "School of Computer Engineering, LPU" },
           { "name": "Prof. Subhendu Sahoo", "affiliation": "VIT, Chennai" },
           { "name": "Prof. Amaresh Gantayat", "affiliation": "SOA-DU, Odisha" },
           { "name": "Prof. Bhabasis Mohapatra", "affiliation": "SOA-DU, Odisha" },
