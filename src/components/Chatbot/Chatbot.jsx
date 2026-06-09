@@ -220,7 +220,7 @@ const Chatbot = () => {
     }
     // About
     else if (lowerInput.includes('about') || lowerInput.includes('abit') || lowerInput.includes('conference')) {
-      return aboutData.paragraphs[0]
+      return aboutData.paragraphs[0].replace(/<[^>]*>?/gm, '');
     }
     // Accommodation
     else if (lowerInput.includes('accommodation') || lowerInput.includes('hotel') || lowerInput.includes('stay') || lowerInput.includes('room')) {
