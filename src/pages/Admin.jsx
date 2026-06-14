@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Analytics } from '@vercel/analytics/react';
 import './Admin.css';
 
 const Admin = () => {
@@ -52,7 +51,6 @@ const Admin = () => {
   if (!isLoggedIn) {
     return (
       <div className="admin-container">
-        <Analytics />
         <div className="admin-login-box">
           <h2>Admin Login</h2>
           <form onSubmit={handleLogin}>
@@ -83,7 +81,6 @@ const Admin = () => {
 
   return (
     <div className="admin-dashboard">
-      <Analytics />
       <div className="admin-header">
         <h2>Admin Dashboard</h2>
         <button onClick={handleLogout} className="logout-btn">Logout</button>
