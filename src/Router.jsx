@@ -28,7 +28,6 @@ const Sightseeing = lazy(() => import('./components/Venue/Sightseeing/Sightseein
 const Gallery = lazy(() => import('./pages/Gallery'))
 const PastConferences = lazy(() => import('./pages/PastConferences'))
 const Contact = lazy(() => import('./pages/Contact'))
-const Admin = lazy(() => import('./pages/Admin'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 const AppRouter = () => {
@@ -96,7 +95,6 @@ const AppRouter = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/past-conferences" element={<PastConferences />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
