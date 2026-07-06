@@ -1,11 +1,7 @@
 {
   "header": {
     "title": "Submit Your Research",
-    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide.",
-    "latexButtonText": "Download Template (LaTeX)",
-    "latexTemplateLink": "/assets/res/LaTex.zip",
-    "docxButtonText": "Download Template (DOCM)",
-    "docxTemplateLink": "/assets/res/splnproc1703.zip"
+    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide."
   },
   "submission": {
     "title": "Paper Submission",
@@ -28,14 +24,7 @@
   },
   "publication": {
     "title": "Publication & Awards",
-    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong>Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.)</strong>",
-    "features": [
-      "<strong>Springer Proceedings Publication. (subject to final approval)</strong>",
-      "Rigorous Peer Review Process.",
-      "Networking Opportunities.",
-      "Research Collaboration Platform.",
-      "Best Paper Recognition."
-    ]
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong> All the accepted papers will be published in proceedings with Scopus indexed.</strong>"
   },
   "submissionGuidelines": {
     "title": "Submission Guidelines",
