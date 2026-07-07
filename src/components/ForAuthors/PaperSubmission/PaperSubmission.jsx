@@ -66,14 +66,16 @@ const PaperSubmission = () => {
         <div className="ps-column">
           <h2>{publication.title}</h2>
           <p dangerouslySetInnerHTML={{ __html: publication.description }}></p>
-          <ul className="ps-check-list">
-            {publication.features.map((feature, index) => (
-              <li key={index}>
-                <IconMapper iconName="IoIosRibbon" />
-                <span dangerouslySetInnerHTML={{ __html: feature }}></span>
-              </li>
-            ))}
-          </ul>
+          {Array.isArray(publication.features) && publication.features.length > 0 ? (
+            <ul className="ps-check-list">
+              {publication.features.map((feature, index) => (
+                <li key={index}>
+                  <IconMapper iconName="IoIosRibbon" />
+                  <span dangerouslySetInnerHTML={{ __html: feature }}></span>
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </div>
       </div>
 
