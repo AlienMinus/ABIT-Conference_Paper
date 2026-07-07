@@ -15,28 +15,15 @@ const Registration = () => {
 
       <div className="registration-section">
         <h2>{feeTitle}</h2>
-        <div className="registration-table-container">
-          <table className="reg-table">
-            <thead>
-              <tr>
-                {table.headers.map((header, index) => (
-                  <th key={index}>
-                    {header.text}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {table.rows.map((row, index) => (
-                <tr key={index}>
-                  <td><strong>{row.category}</strong></td>
-                  {row.values.map((val, idx) => (
-                    <td key={idx}>{val}</td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="registration-announcement-card">
+          <div className="registration-announcement-content">
+            <div className="registration-announcement-icon">
+              <IconMapper iconName="LuConstruction" />
+            </div>
+            <h1>To Be Announced...</h1>
+            <h2>Will be Updated Soon</h2>
+            <p>Information under this page are yet to be announced. Please feel free to check back later.</p>
+          </div>
         </div>
       </div>
 
