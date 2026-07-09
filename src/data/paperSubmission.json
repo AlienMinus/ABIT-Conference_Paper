@@ -50,11 +50,7 @@
         "description": "Every paper submitted to SAGAR2027 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
       },
       {
-        "title": "6. Proceedings Publication",
-        "description": "<strong><i>Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.).</i></strong>"
-      },
-      {
-        "title": "7. Author Policy",
+        "title": "6. Author Policy",
         "description": "SAGAR2027 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
       }
     ]
