@@ -1,11 +1,7 @@
 {
   "header": {
     "title": "Submit Your Research",
-    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide.",
-    "latexButtonText": "Download Template (LaTeX)",
-    "latexTemplateLink": "/assets/res/LaTex.zip",
-    "docxButtonText": "Download Template (DOCM)",
-    "docxTemplateLink": "/assets/res/splnproc1703.zip"
+    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide."
   },
   "submission": {
     "title": "Paper Submission",
@@ -28,14 +24,7 @@
   },
   "publication": {
     "title": "Publication & Awards",
-    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong>Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.)</strong>",
-    "features": [
-      "<strong>Springer Proceedings Publication. (subject to final approval)</strong>",
-      "Rigorous Peer Review Process.",
-      "Networking Opportunities.",
-      "Research Collaboration Platform.",
-      "Best Paper Recognition."
-    ]
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong> All the accepted papers will be published in proceedings with Scopus indexed.</strong>"
   },
   "submissionGuidelines": {
     "title": "Submission Guidelines",
@@ -46,37 +35,7 @@
       },
       {
         "title": "2. Paper Requirements",
-        "description": "Each manuscript submitted should constitute outstanding and solid advancement in the conference scope and allied disciplines. The main content of the submission should be at least 3500 words or 10 pages as per the publisher format. The references should be limited to 50 and abstract should be limited to 250 words maximum.",
-        "subGuidelines": [
-          {
-            "title": "A. Title Page",
-            "description": "Title, name, affiliation of each author and corresponding author email should be included in the title page."
-          },
-          {
-            "title": "B. Abstract",
-            "description": "A brief, concise abstract is required at the beginning of each manuscript. The abstract should contain the background, rationale, and main conclusions of the work. It should be 250 words or less, unreferenced, and should avoid mathematical expressions, footnotes, citations, and first-person sentence structures."
-          },
-          {
-            "title": "C. Keywords",
-            "description": "4-6 keywords should be provided."
-          },
-          {
-            "title": "D. Text Formatting",
-            "description": "The text (12-point) should be typeset in one column and divided into sections with numbered headings using the following hierarchy: Primary heading, Secondary heading, Tertiary heading, and Quaternary heading."
-          },
-                    {
-            "title": "E. References",
-            "description": "References should be arranged alphabetically without numbering. Citations should follow author-year format such as Harsh (1990) or (Harsh, 1990). For three or more authors, use 'et al.'. Distinguishing letters (a, b, c, etc.) should be used for multiple papers by the same author in the same year."
-          },
-          {
-            "title": "F. Formulas",
-            "description": "Brief equations or terms should be written inline wherever possible. Complex equations with subscripts, superscripts, or radical signs should use the MathType equation editor."
-          },
-          {
-            "title": "G. Figures",
-            "description": "Vector-based figures (eps., ai., or psd.) should be provided upon acceptance of the paper."
-          }
-        ]
+        "description": "Each manuscript submitted should constitute outstanding and solid advancement in the conference scope and allied disciplines. The main content of the submission should be at least  6 pages."
       },
       {
         "title": "3. Submission Format",
@@ -91,11 +50,7 @@
         "description": "Every paper submitted to SAGAR2027 will undergo plagiarism detection using anti-plagiarism software prior to review. Papers not meeting the plagiarism policy (less than 15% & no AI content) may be desk-rejected without further review."
       },
       {
-        "title": "6. Proceedings Publication",
-        "description": "<strong><i>Submitted a proposal to publish the SAGAR 2027 proceedings with Springer Nature Group. (Subject to final approval.).</i></strong>"
-      },
-      {
-        "title": "7. Author Policy",
+        "title": "6. Author Policy",
         "description": "SAGAR2027 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
       }
     ]

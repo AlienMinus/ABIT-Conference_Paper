@@ -10,7 +10,7 @@
           { "name": "Prof. Subroto Banerjee", "affiliation": "NIT Durgapur" },
           { "name": "Prof. Manoj Debnath", "affiliation": "SOA - DU, Odisha" },
           { "name": "Prof. Sabyasachi Pattanaik", "affiliation": "Dean (R&D, CS), ABIT Cuttack" },
-          { "name": "Prof. Dulu Pattanaik", "affiliation": "Group Academic Head, ABIT Cuttack" }
+          { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" }
         ]
       },
 
@@ -51,7 +51,6 @@
       "publication": {
         "title": "Publication Chairs",
         "members": [
-          { "name": "Prof. Sachi Nandan Mohanty", "affiliation": "VIT Andhra Pradesh University" },
           { "name": "Prof. Manas Ranjan Kabat", "affiliation": "Institute of Management and Information Technology, Cuttack" },
           { "name": "Prof. Satyabrata Das", "affiliation": "Veer Surendra Sai University of Technology, Burla" },
           { "name": "Prof. Narayan Nahak", "affiliation": "SOA-DU, Odisha" },
@@ -123,7 +122,6 @@
           { "name": "Prof. Georgios Tsaramirsis", "affiliation": "Higher Colleges of Technology, Abu Dhabi" },
           { "name": "Prof. Sven Groppe", "affiliation": "University of Lübeck, Germany" },
           { "name": "Prof. Mohammad Yamin", "affiliation": "Abdulaziz University, Jeddah, Saudi Arabia" },
-          { "name": "Prof. Bichitrananda Guru", "affiliation": "Registrar, ABIT Cuttack" },
           { "name": "Prof. Prashant Kumar Pany", "affiliation": "Dean (Academics), ABIT Cuttack" },
           { "name": "Prof. Bhupesh Kumar Dewangan", "affiliation": "OP Jindal University, Raigarh, India" },
           { "name": "Prof. Mukesh Misra", "affiliation": "Massey University, New Zealand" },

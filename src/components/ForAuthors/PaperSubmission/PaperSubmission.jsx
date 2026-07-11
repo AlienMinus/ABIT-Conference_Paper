@@ -11,10 +11,6 @@ const PaperSubmission = () => {
       <div className="ps-header">
         <h1>{header.title}</h1>
         <p>{header.description}</p>
-        <div className="ps-header-actions">
-          <a href={header.latexTemplateLink} download="SAGAR2027-LaTeX-Template.zip" className="ps-btn">{header.latexButtonText}</a>
-          <a href={header.docxTemplateLink} download="SAGAR2027-Paper-Submission-Template.zip" className="ps-btn">{header.docxButtonText}</a>
-        </div>
       </div>
 
       <div className="ps-section">
@@ -66,14 +62,16 @@ const PaperSubmission = () => {
         <div className="ps-column">
           <h2>{publication.title}</h2>
           <p dangerouslySetInnerHTML={{ __html: publication.description }}></p>
-          <ul className="ps-check-list">
-            {publication.features.map((feature, index) => (
-              <li key={index}>
-                <IconMapper iconName="IoIosRibbon" />
-                <span dangerouslySetInnerHTML={{ __html: feature }}></span>
-              </li>
-            ))}
-          </ul>
+          {Array.isArray(publication.features) && publication.features.length > 0 ? (
+            <ul className="ps-check-list">
+              {publication.features.map((feature, index) => (
+                <li key={index}>
+                  <IconMapper iconName="IoIosRibbon" />
+                  <span dangerouslySetInnerHTML={{ __html: feature }}></span>
+                </li>
+              ))}
+            </ul>
+          ) : null}
         </div>
       </div>
 

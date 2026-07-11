@@ -28,30 +28,49 @@ const Search = ({ isOpen, onClose }) => {
   const [results, setResults] = useState([])
   const navigate = useNavigate()
 
+  const getTitle = (item) => item?.title || item?.header?.title || ''
+  const getDescription = (item) =>
+    item?.description || item?.header?.description || item?.paragraphs?.[0] || ''
+  const getTracks = (item) => item?.tracks?.list || []
+
   // Build search index
-  const searchIndex = useMemo(() => [
-    { title: 'Home', description: 'Conference Home Page', link: '/' },
-    { title: aboutData.title, description: aboutData.paragraphs[0], link: '/#about' },
-    { title: cfpData.title, description: cfpData.description, link: '/for-authors/call-for-papers' },
-    { title: psData.header.title, description: psData.header.description, link: '/for-authors/paper-submission' },
-    { title: regData.title, description: regData.description, link: '/for-authors/registration' },
-    { title: crData.header.title, description: crData.header.description, link: '/for-authors/camera-ready' },
-    { title: pgData.header.title, description: pgData.header.description, link: '/for-authors/presentation-guidelines' },
-    { title: bpaData.header.title, description: bpaData.header.description, link: '/for-authors/best-paper-award' },
-    { title: ktData.header.title, description: ktData.header.description, link: '/program/keynote' },
-    { title: pschData.header.title, description: pschData.header.description, link: '/program/schedule' },
-    { title: ssData.header.title, description: ssData.header.description, link: '/program/student-symposium' },
-    { title: cpData.header.title, description: cpData.header.description, link: '/program/conference-proceeding' },
-    { title: cvData.header.title, description: cvData.header.description, link: '/venue/conference-venue' },
-    { title: accData.header.title, description: accData.header.description, link: '/venue/accommodations' },
-    { title: sightData.header.title, description: sightData.header.description, link: '/venue/sightseeing' },
-    { title: galleryData.header.title, description: galleryData.header.description, link: '/gallery' },
-    { title: pcData.header.title, description: pcData.header.description, link: '/past-conferences' },
-    { title: contactData.title, description: contactData.description, link: '/contact' },
-    { title: sponsorData.header.title, description: sponsorData.header.description, link: '/sponsorship' },
-    ...cfpData.tracks.list.map(t => ({ title: t.title, description: t.description, link: '/for-authors/call-for-papers' })),
-    ...ssData.tracks.list.map(t => ({ title: t.title, description: 'Student Symposium Track', link: '/program/student-symposium' }))
-  ], [])
+  const searchIndex = useMemo(() => {
+    const items = [
+      { title: 'Home', description: 'Conference Home Page', link: '/' },
+      { title: getTitle(aboutData), description: getDescription(aboutData), link: '/#about' },
+      { title: getTitle(cfpData), description: getDescription(cfpData), link: '/for-authors/call-for-papers' },
+      { title: getTitle(psData), description: getDescription(psData), link: '/for-authors/paper-submission' },
+      { title: getTitle(regData), description: getDescription(regData), link: '/for-authors/registration' },
+      { title: getTitle(crData), description: getDescription(crData), link: '/for-authors/camera-ready' },
+      { title: getTitle(pgData), description: getDescription(pgData), link: '/for-authors/presentation-guidelines' },
+      { title: getTitle(bpaData), description: getDescription(bpaData), link: '/for-authors/best-paper-award' },
+      { title: getTitle(ktData), description: getDescription(ktData), link: '/program/keynote' },
+      { title: getTitle(pschData), description: getDescription(pschData), link: '/program/schedule' },
+      { title: getTitle(ssData), description: getDescription(ssData), link: '/program/student-symposium' },
+      { title: getTitle(cpData), description: getDescription(cpData), link: '/program/conference-proceeding' },
+      { title: getTitle(cvData), description: getDescription(cvData), link: '/venue/conference-venue' },
+      { title: getTitle(accData), description: getDescription(accData), link: '/venue/accommodations' },
+      { title: getTitle(sightData), description: getDescription(sightData), link: '/venue/sightseeing' },
+      { title: getTitle(galleryData), description: getDescription(galleryData), link: '/gallery' },
+      { title: getTitle(pcData), description: getDescription(pcData), link: '/past-conferences' },
+      { title: getTitle(contactData), description: getDescription(contactData), link: '/contact' },
+      { title: getTitle(sponsorData), description: getDescription(sponsorData), link: '/sponsorship' },
+
+      ...getTracks(cfpData).map((t) => ({
+        title: t?.title || '',
+        description: t?.description || '',
+        link: '/for-authors/call-for-papers'
+      })),
+
+      ...getTracks(ssData).map((t) => ({
+        title: t?.title || '',
+        description: 'Student Symposium Track',
+        link: '/program/student-symposium'
+      }))
+    ]
+
+    return items.filter((item) => item.title || item.description)
+  }, [])
 
   useEffect(() => {
     if (query.trim() === '') {
@@ -120,7 +139,7 @@ const Search = ({ isOpen, onClose }) => {
             results.map((result, index) => (
               <div key={index} className="search-result-item" onClick={() => handleNavigate(result.link)}>
                 <h3>{result.title}</h3>
-                <p>{result.description.substring(0, 100)}...</p>
+                <p>{result.description ? `${result.description.substring(0, 100)}...` : ''}</p>
               </div>
             ))
           ) : (
