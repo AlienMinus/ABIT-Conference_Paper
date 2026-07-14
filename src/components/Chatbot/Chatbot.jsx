@@ -248,7 +248,7 @@ const Chatbot = () => {
         text: "**Here is the conference brochure:**",
         component: (
           <div className="chatbot-pdf-wrapper" style={{ marginTop: '10px' }}>
-            <iframe src="/assets/res/Brochure.pdf" title="Conference Brochure" style={{ width: '100%', height: '300px', border: 'none', borderRadius: '8px' }}></iframe>
+            <iframe src="assets/res/Brochure.pdf" title="Conference Brochure" style={{ width: '100%', height: '300px', border: 'none', borderRadius: '8px' }}></iframe>
           </div>
         )
       }
