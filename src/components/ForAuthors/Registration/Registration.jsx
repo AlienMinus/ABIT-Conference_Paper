@@ -2,6 +2,7 @@ import React from 'react'
 import './Registration.css'
 import registrationData from '../../../data/registration.json'
 import IconMapper from '../../IconMapper/IconMapper'
+import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const Registration = () => {
   const { title, description, feeTitle, table, notes, registrationLink } = registrationData
@@ -15,16 +16,7 @@ const Registration = () => {
 
       <div className="registration-section">
         <h2>{feeTitle}</h2>
-        <div className="registration-announcement-card">
-          <div className="registration-announcement-content">
-            <div className="registration-announcement-icon">
-              <IconMapper iconName="LuConstruction" />
-            </div>
-            <h1>To Be Announced...</h1>
-            <h2>Will be Updated Soon</h2>
-            <p>Information under this page are yet to be announced. Please feel free to check back later.</p>
-          </div>
-        </div>
+        <UnderConstruction />
       </div>
 
       <div className="registration-section">
