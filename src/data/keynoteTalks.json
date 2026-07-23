@@ -12,6 +12,20 @@
       "image": "https://th.bing.com/th/id/OIP.DCPgwhX3lzV0Or16W0o6vwHaIS?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
     },
     {
+      "name": "Dr. Alvaro Rocha",
+      "affiliation": "Professor (Professor Catedrático) at Lusofona University, Portugal",
+      "title": "",
+      "abstract": "",
+      "image": "https://0.academia-photos.com/971642/1210313/36469339/s200_alvaro.rocha.png"
+    },
+    {
+      "name": "Dr. Fernando Moreira",
+      "affiliation": "Professor, Universidade Portucalense, Portugal",
+      "title": "",
+      "abstract": "",
+      "image": "https://i1.rgstatic.net/ii/profile.image/1129490172395524-1646302850774_Q512/Fernando-Moreira-11.jpg"
+    },
+    {
       "name": "Dr. Debashis Chatterjee",
       "affiliation": "Department of Electrical Engineering, Jadavpur University",
       "title": "",
@@ -30,7 +44,7 @@
       "affiliation": "Hydro and Renewable Energy, Indian Institute of Technology Roorkee",
       "title": "",
       "abstract": "",
-      "image": "https://channeli.in/media/kernel/display_pictures/26c423af-e77a-4a63-bee6-4b5b333a2f8f.jpg"
+      "image": "/assets/images/RL.png"
     },
     {
       "name": "Dr. Suvendu Bikash Santra",
