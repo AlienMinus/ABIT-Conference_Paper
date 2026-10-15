@@ -197,12 +197,26 @@ const Chatbot = () => {
       const tracks = cfpData.tracks.list.map((t, index) => `${index + 1}. **${t.title}**`).join('\n')
       return `We invite papers in the following tracks:\n\n${tracks}`
     }
+    // Template download
+    else if (lowerInput.includes('template')) {
+      return {
+        text: "Here is the paper template for SAGAR2027.",
+        component: (
+          <a href="/assets/res/template.docx" download="SAGAR2027_Paper_Template.docx" className="chatbot-btn">
+            Download Template
+          </a>
+        )
+      }
+    }
     // Paper Submission
     else if (lowerInput.includes('paper') || lowerInput.includes('submit')) {
       return {
         text: `${cfpData.description}\n\nYou can submit your paper via the link provided below.`,
         component: (
-          <a href={psData.footer.buttonLink} target="_blank" rel="noopener noreferrer" className="chatbot-btn" style={{ display: 'inline-block', marginTop: '10px', padding: '8px 15px', backgroundColor: 'var(--primary-color)', color: '#fff', textDecoration: 'none', borderRadius: '5px' }}>{psData.footer.buttonText}</a>
+          <>
+            <a href={psData.footer.buttonLink} target="_blank" rel="noopener noreferrer" className="chatbot-btn" style={{ display: 'inline-block', marginTop: '10px', padding: '8px 15px', backgroundColor: 'var(--primary-color)', color: '#fff', textDecoration: 'none', borderRadius: '5px' }}>{psData.footer.buttonText}</a>
+            <a href="/assets/res/template.docx" download="SAGAR2027_Paper_Template.docx" className="chatbot-btn secondary" style={{ display: 'inline-block', marginTop: '10px', marginLeft: '10px', padding: '8px 15px', backgroundColor: 'transparent', color: 'var(--neon-purple)', border: '1px solid var(--neon-purple)', textDecoration: 'none', borderRadius: '5px' }}>Download Template</a>
+          </>
         )
       }
     } 
