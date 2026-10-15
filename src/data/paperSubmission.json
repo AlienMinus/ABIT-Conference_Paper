@@ -1,7 +1,8 @@
 {
   "header": {
     "title": "Submit Your Research",
-    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide."
+    "description": "Submit your research paper to our conference and be part of the global exchange of innovative ideas. We welcome original contributions related to intelligent energy systems and sustainable computing solutions, offering an excellent platform to share your work with experts and professionals worldwide.",
+    "templateLink": "/assets/res/template.docx"
   },
   "submission": {
     "title": "Paper Submission",
@@ -10,7 +11,7 @@
     "steps": [
       {
         "title": "Prepare Your Manuscript",
-        "description": "Ensure your paper follows the submission guidelines outlined in the publisher format. Manuscripts should be at least 3500 words or 10 pages."
+        "description": "Ensure your paper follows the submission guidelines outlined in the publisher format as per the template given."
       },
       {
         "title": "Create an Account or Log In",
@@ -24,7 +25,7 @@
   },
   "publication": {
     "title": "Publication & Awards",
-    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong> All the accepted papers will be published in proceedings with Scopus indexed.</strong>"
+    "description": "All submitted papers will undergo a rigorous peer-review process based on quality, originality, technical contribution, and relevance to the conference theme. <strong> All the presented & accepted papers will be considered for publication in Bentham Science Book Series (Scopus Indexed).</strong>"
   },
   "submissionGuidelines": {
     "title": "Submission Guidelines",
@@ -52,6 +53,10 @@
       {
         "title": "6. Author Policy",
         "description": "SAGAR2027 strictly prohibits authors from altering their details or the sequence of authors once a manuscript has been submitted."
+      },
+      {
+        "title": "7. Publication Policy",
+        "description": "Final acceptance & publication are subject to compliance with Bentham Science requirements."
       }
     ]
   },
