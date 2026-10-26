@@ -4,7 +4,7 @@ import ssData from '../../../data/sightseeing.json'
 import IconMapper from '../../IconMapper/IconMapper'
 
 const Sightseeing = () => {
-  const { header, intro, cuttack, odisha } = ssData
+  const { header, intro, Kataka, odisha } = ssData
 
   const renderPlaces = (places) => (
     <div className="ss-grid">
@@ -44,8 +44,8 @@ const Sightseeing = () => {
       </div>
 
       <div className="ss-section">
-        <h2>{cuttack.title}</h2>
-        {renderPlaces(cuttack.places)}
+        <h2>{Kataka.title}</h2>
+        {renderPlaces(Kataka.places)}
       </div>
 
       <div className="ss-section">

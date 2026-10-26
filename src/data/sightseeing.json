@@ -1,18 +1,18 @@
 {
   "header": {
     "title": "Sightseeing",
-    "description": "Explore the vibrant city of Cuttack and witness the beauty of its temples, forts, and museums. Discover the unique culture and history of Odisha."
+    "description": "Explore the vibrant city of Kataka and witness the beauty of its temples, forts, and museums. Discover the unique culture and history of Odisha."
   },
   "intro": {
-    "title": "Cuttack : The Silver City",
-    "description": "\"Odisha- India's best kept secret\"! We are providing excellent opportunity to the delegates of SAGAR2027 to explore the beauty of the state. Cuttack was the former capital and is the second largest city in the Indian state of Odisha. It is also known as the Millennium City as well as the Silver City due to its history of 1000 years and famous silver filigree works."
+    "title": "Kataka : The Silver City",
+    "description": "\"Odisha- India's best kept secret\"! We are providing excellent opportunity to the delegates of SAGAR2027 to explore the beauty of the state. Kataka was the former capital and is the second largest city in the Indian state of Odisha. It is also known as the Millennium City as well as the Silver City due to its history of 1000 years and famous silver filigree works."
   },
-  "cuttack": {
-    "title": "Places to Visit in Cuttack",
+  "Kataka": {
+    "title": "Places to Visit in Kataka",
     "places": [
       {
         "name": "Barabati Fort",
-        "address": "Barabati Fort, Cuttack, Odisha 753008",
+        "address": "Barabati Fort, Kataka, Odisha 753008",
         "distance": "3 KM",
         "description": "Barabati Fort is a 14th-century fort built by the Ganga dynasty. The ruins of the fort remain with its moat, gate, and the earthen mound of the nine-storied palace, which evokes the memories of past days.",
         "image": "https://www.trawell.in/admin/images/upload/127574990Barabati_fort.jpg",
@@ -20,7 +20,7 @@
       },
       {
         "name": "Odisha State Maritime Museum",
-        "address": "Jobra, Cuttack, Odisha 753003",
+        "address": "Jobra, Kataka, Odisha 753003",
         "distance": "5 KM",
         "description": "The Odisha State Maritime Museum showcases the rich maritime history of Odisha. Located on the banks of the Mahanadi River, it features exhibits on navigation, shipbuilding, and maritime trade.",
         "image": "https://i.ytimg.com/vi/d1mSM-jtExk/maxresdefault.jpg",
@@ -28,23 +28,23 @@
       },
       {
         "name": "Netaji Birth Place Museum",
-        "address": "Odia Bazar, Cuttack, Odisha 753002",
+        "address": "Odia Bazar, Kataka, Odisha 753002",
         "distance": "4 KM",
-        "description": "Janakinath Bhawan is the ancestral house of Subhas Chandra Bose, now converted into a museum. It preserves articles, letters, and rare photographs associated with his early life in Cuttack.",
+        "description": "Janakinath Bhawan is the ancestral house of Subhas Chandra Bose, now converted into a museum. It preserves articles, letters, and rare photographs associated with his early life in Kataka.",
         "image": "https://orissatours.com/ot/wp-content/uploads/2024/01/Netaji-Birth-Place-Museum-16-1024x576.jpg",
         "link": "https://en.wikipedia.org/wiki/Netaji_Birth_Place_Museum"
       },
       {
-        "name": "Cuttack Chandi Temple",
-        "address": "Chandi Chhaka, Cuttack, Odisha 753008",
+        "name": "Kataka Chandi Temple",
+        "address": "Chandi Chhaka, Kataka, Odisha 753008",
         "distance": "4 KM",
-        "description": "The Cuttack Chandi Temple is an ancient temple dedicated to the Goddess Chandi, the presiding deity of Cuttack. It is a major pilgrimage site, particularly during the Durga Puja festival.",
-        "image": "https://indiano.travel/wp-content/uploads/2024/08/Cuttack-Chandi-Temple-f.jpg",
-        "link": "https://en.wikipedia.org/wiki/Cuttack_Chandi_Temple"
+        "description": "The Kataka Chandi Temple is an ancient temple dedicated to the Goddess Chandi, the presiding deity of Kataka. It is a major pilgrimage site, particularly during the Durga Puja festival.",
+        "image": "https://indiano.travel/wp-content/uploads/2024/08/Kataka-Chandi-Temple-f.jpg",
+        "link": "https://en.wikipedia.org/wiki/Kataka_Chandi_Temple"
       },
       {
         "name": "Dhabaleswar Island",
-        "address": "Mahanadi River, Cuttack, Odisha",
+        "address": "Mahanadi River, Kataka, Odisha",
         "distance": "37 KM",
         "description": "Dhabaleswar Island is famous for its temple dedicated to Lord Shiva and its serene natural surroundings. Reached by a hanging bridge or boat, it's a popular spot for both pilgrimage and nature lovers.",
         "image": "https://trueyatra.com/wp-content/uploads/2023/12/Dhabaleswar-Island-1024x576.png",
@@ -52,25 +52,25 @@
       },
       {
         "name": "Gadachandi Temple",
-        "address": "Gadachandi, Cuttack, Odisha",
+        "address": "Gadachandi, Kataka, Odisha",
         "distance": "3 KM",
-        "description": "Gadachandi Temple is one of the revered temples in Cuttack, situated near the historical Barabati Fort. It holds significant religious importance and attracts many devotees.",
+        "description": "Gadachandi Temple is one of the revered temples in Kataka, situated near the historical Barabati Fort. It holds significant religious importance and attracts many devotees.",
         "image": "https://i.ytimg.com/vi/hmH0998HPbA/maxresdefault.jpg",
-        "link": "https://en.wikipedia.org/wiki/Cuttack"
+        "link": "https://en.wikipedia.org/wiki/Kataka"
       },
       {
         "name": "Barabati Stadium",
-        "address": "Biju Patnaik Colony, Cuttack, Odisha 753008",
+        "address": "Biju Patnaik Colony, Kataka, Odisha 753008",
         "distance": "3 KM",
-        "description": "Barabati Stadium is an iconic sports stadium in Cuttack, known for hosting international cricket matches, football games, and large cultural events. It is a major landmark of the Silver City.",
+        "description": "Barabati Stadium is an iconic sports stadium in Kataka, known for hosting international cricket matches, football games, and large cultural events. It is a major landmark of the Silver City.",
         "image": "https://assets.odishabytes.com/wp-content/uploads/2022/06/barabati-ready1-use.jpg",
         "link": "https://en.wikipedia.org/wiki/Barabati_Stadium"
       },
       {
         "name": "Silvercity Boat Club",
-        "address": "Mahanadi River, Cuttack, Odisha",
+        "address": "Mahanadi River, Kataka, Odisha",
         "distance": "5 KM",
-        "description": "Silvercity Boat Club offers a picturesque recreational experience on the Mahanadi River. With various water sports and boating facilities, it is a perfect spot to enjoy the scenic riverfront of Cuttack.",
+        "description": "Silvercity Boat Club offers a picturesque recreational experience on the Mahanadi River. With various water sports and boating facilities, it is a perfect spot to enjoy the scenic riverfront of Kataka.",
         "image": "https://i.ytimg.com/vi/DcEkzckLyBo/maxresdefault.jpg",
         "link": "https://odishatourism.gov.in"
       }

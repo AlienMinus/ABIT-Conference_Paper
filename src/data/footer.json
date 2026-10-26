@@ -12,7 +12,7 @@
   ],
   "contact": {
     "title": "Contact Us",
-    "address": "Department of Electrical and Computer Engineering (ECE) and Electrical Engineering, AJAY BINAY INSTITUTE OF TECHNOLOGY (AUTONOMOUS), Markat Nagar, Cuttack Development Authority, Sector – 1, Cuttack – 753014",
+    "address": "Department of Electrical and Computer Engineering (ECE) and Electrical Engineering, AJAY BINAY INSTITUTE OF TECHNOLOGY (AUTONOMOUS), Markat Nagar, Kataka Development Authority, Sector – 1, Kataka – 753014",
     "email": "sagar.abit2027@abit.edu.in, sagar.abit27@gmail.com",
     "phone": "+91 9853536400, +91 7978600770, +91 7978905972 ",
     "website": "https://abit.edu.in"
@@ -21,10 +21,10 @@
     { "icon": "Facebook", "url": "https://www.facebook.com/ABITCTC" },
     {
       "icon": "LinkedIn",
-      "url": "https://www.linkedin.com/school/ajay-binay-institute-of-technology-abit-cuttack/"
+      "url": "https://www.linkedin.com/school/ajay-binay-institute-of-technology-abit-Kataka/"
     },
-    { "icon": "Instagram", "url": "https://www.instagram.com/abit_cuttack/" }
+    { "icon": "Instagram", "url": "https://www.instagram.com/abit_Kataka/" }
   ],
-  "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed",
-  "copyright": "© 2027 SAGAR Organizing Committee, ABIT (Autonomous), Cuttack. All Rights Reserved."
+  "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Kataka&output=embed",
+  "copyright": "© 2027 SAGAR Organizing Committee, ABIT (Autonomous), Kataka. All Rights Reserved."
 }

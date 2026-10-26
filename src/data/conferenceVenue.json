@@ -1,15 +1,15 @@
 {
   "header": {
     "title": "Conference Venue",
-    "description": "The conference will be held at Ajay Binay Institute of Technology, Odisha. It is conveniently located in Cuttack, The Silver-City of Odisha, India. Cuttack is well connected to other major cities of the country via regular flights and trains. From the station/airport, you can take private cabs or taxis or public transport to the conference venue."
+    "description": "The conference will be held at Ajay Binay Institute of Technology, Odisha. It is conveniently located in Kataka, The Silver-City of Odisha, India. Kataka is well connected to other major cities of the country via regular flights and trains. From the station/airport, you can take private cabs or taxis or public transport to the conference venue."
   },
   "content": {
     "address": {
       "title": "Address:",
       "details": [
         "Ajay Binay Institute of Technology,",
-        "Markat Nagar, Cuttack Development Authority Sector - 1,",
-        "Cuttack - 753014",
+        "Markat Nagar, Kataka Development Authority Sector - 1,",
+        "Kataka - 753014",
         "Odisha, India."
       ],
       "icon": "FaMapMarkerAlt"
@@ -22,10 +22,10 @@
       },
       {
         "title": "By Train",
-        "description": "The nearest railway station is Cuttack Railway station.",
+        "description": "The nearest railway station is Kataka Railway station.",
         "icon": "FaTrain"
       }
     ],
-    "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Cuttack&output=embed"
+    "mapEmbed": "https://www.google.com/maps?q=Ajay%20Binay%20Institute%20of%20Technology%20Kataka&output=embed"
   }
 }

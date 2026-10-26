@@ -2,7 +2,6 @@ import React from 'react'
 import './Registration.css'
 import registrationData from '../../../data/registration.json'
 import IconMapper from '../../IconMapper/IconMapper'
-import UnderConstruction from '../../UnderConstruction/UnderConstruction'
 
 const Registration = () => {
   const { title, description, feeTitle, table, notes, registrationLink } = registrationData
@@ -16,7 +15,29 @@ const Registration = () => {
 
       <div className="registration-section">
         <h2>{feeTitle}</h2>
-        <UnderConstruction />
+        <div className="registration-table-container">
+          <table className="reg-table">
+            <thead>
+              <tr>
+                {table.headers.map((header, index) => (
+                  <th key={index}>
+                    {header.text}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {table.rows.map((row, index) => (
+                <tr key={index}>
+                  <td><strong>{row.category}</strong></td>
+                  {row.values.map((val, idx) => (
+                    <td key={idx}>{val}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className="registration-section">
