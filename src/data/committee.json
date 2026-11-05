@@ -75,7 +75,8 @@
           { "name": "Er. Tushar Ranjan Mahalik", "affiliation": "ABIT Kataka" },
           { "name": "Er. Bulbul Mallick", "affiliation": "ABIT Kataka" },
           { "name": "Mr. Sumit Kumar Mallick", "affiliation": "ABIT Kataka"},
-          { "name": "Mr. Ayeshkanta Mohapatra", "affiliation":"ABIT Kataka"}
+          { "name": "Mr. Ayeshkanta Mohapatra", "affiliation":"ABIT Kataka"},
+          { "name": "Er. Evita Bhowmik", "affiliation": "ABIT Kataka" }
         ]
       }
     }
@@ -105,7 +106,8 @@
         "members": [
           { "name": "Prof. Ming Yang", "affiliation": "Kennesaw State University" },
           { "name": "Prof. Ravita Lamba", "affiliation": "IIT Roorkee" },
-          { "name": "Prof. Debashis Chatterjee", "affiliation": "Jadavpur University" }
+          { "name": "Prof. Debashis Chatterjee", "affiliation": "Jadavpur University" },
+          { "name": "Mr. P.K Pattnaik", "affiliation": "Director, OPTCL" }
         ]
       }
     }
