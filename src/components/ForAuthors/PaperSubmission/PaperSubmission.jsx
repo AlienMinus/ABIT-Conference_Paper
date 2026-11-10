@@ -64,6 +64,11 @@ const PaperSubmission = () => {
 
         <div className="ps-column">
           <h2>{publication.title}</h2>
+          {publication.image && (
+            <div className="ps-publication-logo">
+              <img src={publication.image} alt={publication.imageAlt || "Bentham Science"} />
+            </div>
+          )}
           <p dangerouslySetInnerHTML={{ __html: publication.description }}></p>
           {Array.isArray(publication.features) && publication.features.length > 0 ? (
             <ul className="ps-check-list">

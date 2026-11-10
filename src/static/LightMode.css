@@ -211,6 +211,13 @@ body.light-mode .advertisement-section h2 {
   text-shadow: none;
 }
 
+body.light-mode .ps-publication-logo img {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 /* Call For Paper Tracks in Light Mode */
 body.light-mode .cfp-track-item {
   background: #f8f9fa;

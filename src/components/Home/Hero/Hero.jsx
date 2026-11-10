@@ -26,8 +26,18 @@ const Hero = () => {
     <section className="hero-section">
       <HeroCarousel />
       <div className="hero-content">
+        <div className="hero-logos">
+          <div className="hero-logo-item hero-logo-left">
+            <img src="/favicon.png" alt="ABIT Logo" className="hero-logo-img" />
+          </div>
+          <div className="hero-logo-item hero-logo-center">
+            <img src="/appicon.jpeg" alt="SAGAR2027 Logo" className="hero-logo-img" />
+          </div>
+          <div className="hero-logo-item hero-logo-right">
+            <img src="/bentham.png" alt="Bentham Science Logo" className="hero-logo-img" />
+          </div>
+        </div>
         <div className="conference-badge">
-          <br /> <br /> <br />
           <span>{badge}</span>
         </div>
         <h1 className="hero-title">

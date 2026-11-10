@@ -249,7 +249,7 @@
   .hero-section {
     height: auto !important;
     min-height: 100vh !important;
-    padding-top: 120px !important;
+    padding-top: 75px !important;
     padding-bottom: 60px !important;
   }
 
@@ -260,7 +260,7 @@
   .conference-badge {
     margin-bottom: 1.5rem !important;
     display: block !important;
-    margin-top: 2rem !important;
+    margin-top: 0 !important;
   }
 
   .conference-badge span {
