@@ -15,7 +15,16 @@ const ImportantDates = () => {
             <div key={index} className={`date-card ${item.featured ? 'featured' : ''}`}>
               <div className="date-icon"><IconMapper iconName={item.icon} /></div>
               <h3>{item.title}</h3>
-              <p className="date-value">{item.date}</p>
+              <p className="date-value">
+                {item.previousDate ? (
+                  <>
+                    <span className="date-previous">{item.previousDate}</span>
+                    <span className="date-current">{item.date}</span>
+                  </>
+                ) : (
+                  item.date
+                )}
+              </p>
             </div>
           ))}
         </div>

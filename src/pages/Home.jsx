@@ -1,4 +1,5 @@
 import React from 'react'
+import Headline from '../components/Home/Headline/Headline'
 import Hero from '../components/Home/Hero/Hero'
 import Welcome from '../components/Home/Welcome/Welcome'
 import ImportantDates from '../components/Home/ImportantDates/ImportantDates'
@@ -9,6 +10,7 @@ import Sponsors from '../components/Sponsorship/Sponsors'
 const Home = () => {
   return (
     <>
+      <Headline />
       <Hero />
       <Welcome />
       <ImportantDates />

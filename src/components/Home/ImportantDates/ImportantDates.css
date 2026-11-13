@@ -74,6 +74,20 @@
   font-size: 1.1rem;
   color: var(--text-secondary);
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.date-previous {
+  text-decoration: line-through;
+  color: var(--text-secondary);
+  opacity: 0.75;
+}
+
+.date-current {
+  color: var(--text-primary);
+  font-weight: 700;
 }
 
 /* Responsive Design */
