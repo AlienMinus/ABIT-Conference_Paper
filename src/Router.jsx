@@ -28,6 +28,8 @@ const Sightseeing = lazy(() => import('./components/Venue/Sightseeing/Sightseein
 const Gallery = lazy(() => import('./pages/Gallery'))
 const PastConferences = lazy(() => import('./pages/PastConferences'))
 const Contact = lazy(() => import('./pages/Contact'))
+const TermsAndConditions = lazy(() => import('./pages/TermsAndConditions'))
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 const AppRouter = () => {
@@ -55,7 +57,9 @@ const AppRouter = () => {
       '/sponsorship': 'Sponsorship',
       '/gallery': 'Gallery',
       '/past-conferences': 'Past Conferences',
-      '/contact': 'Contact'
+      '/contact': 'Contact',
+      '/terms-and-conditions': 'Terms & Conditions',
+      '/privacy-policy': 'Privacy Policy'
     }
 
     const title = titles[location.pathname]
@@ -95,6 +99,8 @@ const AppRouter = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/past-conferences" element={<PastConferences />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>

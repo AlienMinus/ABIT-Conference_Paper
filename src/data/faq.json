@@ -1,0 +1,67 @@
+{
+  "eyebrow": "Good to know",
+  "title": "Frequently Asked Questions",
+  "intro": "Find quick answers about SAGAR2027, submissions, registration, and the venue.",
+  "items": [
+    {
+      "question": "What is SAGAR2027 about?",
+      "answer": "SAGAR2027 is an international conference on soft computing applications in smart grids and renewable energy. It will take place in hybrid (online and offline) mode on February 26-27, 2027.",
+      "link": "/#about",
+      "linkText": "Learn more about the conference"
+    },
+    {
+      "question": "How do I submit a paper?",
+      "answer": "Submit your manuscript through Microsoft CMT as a PDF, following the provided publisher template and submission guidelines.",
+      "link": "/for-authors/paper-submission",
+      "linkText": "View paper submission details"
+    },
+    {
+      "question": "What are the submission deadline and conference dates?",
+      "answer": "The paper submission deadline is December 30, 2026. The conference is scheduled for February 26-27, 2027.",
+      "link": "/#important-dates",
+      "linkText": "See all important dates"
+    },
+    {
+      "question": "Who needs to register, and what are the fees?",
+      "answer": "At least one author must register for each accepted paper. Full registration is 10,000 INR for Indian authors and 200 USD for foreign authors; participation fees are 2,000 INR and 50 USD respectively. The registration link will be updated soon.",
+      "link": "/for-authors/registration",
+      "linkText": "View registration details"
+    },
+    {
+      "question": "Where will the conference be held?",
+      "answer": "The in-person event will be held at Ajay Binay Institute of Technology in Odisha. The venue is accessible from Biju Patnaik International Airport in Bhubaneswar and Cuttack railway station.",
+      "link": "/venue/conference-venue",
+      "linkText": "View venue information"
+    },
+    {
+      "question": "What topics are within the conference scope?",
+      "answer": "The conference welcomes research on soft computing techniques for renewable energy systems and smart grids, including power systems, AI and machine learning, optimization, intelligent control, and emerging technologies.",
+      "link": "/for-authors/call-for-papers",
+      "linkText": "Explore conference tracks"
+    },
+    {
+      "question": "What format and length should my paper follow?",
+      "answer": "Submit a PDF manuscript with at least six pages of main content, prepared using the provided publisher template.",
+      "link": "/for-authors/paper-submission",
+      "linkText": "View submission requirements"
+    },
+    {
+      "question": "How are papers reviewed and considered for publication?",
+      "answer": "Submissions undergo peer review based on quality, originality, technical contribution, and relevance. Presented and accepted papers will be considered for the Bentham Science Book Series, subject to publisher requirements.",
+      "link": "/for-authors/paper-submission",
+      "linkText": "Read about review and publication"
+    },
+    {
+      "question": "What should virtual presenters prepare?",
+      "answer": "Virtual presenters are required to submit a 10-12 minute pre-recorded presentation video in MP4 format. The video should be 720p or 1080p and no larger than 500 MB.",
+      "link": "/for-authors/presentation-guidelines",
+      "linkText": "View presentation guidelines"
+    },
+    {
+      "question": "Can I attend or present online?",
+      "answer": "Yes. SAGAR2027 is planned in hybrid mode. Virtual presenters should prepare a pre-recorded presentation video according to the conference guidelines.",
+      "link": "/for-authors/presentation-guidelines",
+      "linkText": "View virtual presentation guidelines"
+    }
+  ]
+}

@@ -8,7 +8,9 @@
     { "label": "Committee", "url": "/committee/program" },
     { "label": "Call for Papers", "url": "/for-authors/call-for-papers" },
     { "label": "Registration", "url": "/for-authors/registration" },
-    { "label": "Contact", "url": "/contact" }
+    { "label": "Contact", "url": "/contact" },
+    { "label": "Terms & Conditions", "url": "/terms-and-conditions" },
+    { "label": "Privacy Policy", "url": "/privacy-policy" }
   ],
   "contact": {
     "title": "Contact Us",

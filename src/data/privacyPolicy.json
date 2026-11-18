@@ -1,0 +1,56 @@
+{
+  "title": "Privacy Policy",
+  "intro": "This policy explains what information may be processed when you visit the SAGAR2027 website and how the website's features handle it.",
+  "updated": "Last updated: November 18, 2026",
+  "sections": [
+    {
+      "title": "Information you provide",
+      "paragraphs": [
+        "If you contact the organizers using the published email addresses, they receive the information and contact details included in your message so they can respond. The website itself does not provide a contact form."
+      ],
+      "link": {
+        "label": "View organizer contact details",
+        "url": "/contact"
+      }
+    },
+    {
+      "title": "Chat assistant and voice input",
+      "paragraphs": [
+        "The website's chat assistant generates replies from conference information in the page. Chat messages are held in the browser while the page is active and are not submitted to a website application server.",
+        "If you use voice input, speech recognition is provided by your browser or device and is subject to that provider's privacy practices."
+      ]
+    },
+    {
+      "title": "Analytics",
+      "paragraphs": [
+        "The website includes Vercel Analytics to measure website usage. Vercel may process technical or usage information under its own privacy policy."
+      ],
+      "link": {
+        "label": "Read Vercel's privacy policy",
+        "url": "https://vercel.com/legal/privacy-policy"
+      }
+    },
+    {
+      "title": "Browser storage",
+      "paragraphs": [
+        "The website stores your selected light or dark theme in your browser's local storage so the preference can be remembered on your next visit."
+      ]
+    },
+    {
+      "title": "Third-party websites",
+      "paragraphs": [
+        "Links to services such as Microsoft CMT and other external websites are subject to the privacy policies of those services. Review their policies before providing information to them."
+      ]
+    },
+    {
+      "title": "Questions about privacy",
+      "paragraphs": [
+        "For privacy questions related to the conference website, contact the SAGAR2027 organizing committee."
+      ],
+      "link": {
+        "label": "Contact the organizers",
+        "url": "/contact"
+      }
+    }
+  ]
+}

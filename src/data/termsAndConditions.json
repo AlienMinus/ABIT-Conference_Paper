@@ -1,0 +1,61 @@
+{
+  "title": "Terms & Conditions",
+  "intro": "These terms apply to your use of the SAGAR2027 conference website. By using this site, you agree to use it responsibly and in accordance with these terms.",
+  "updated": "Last updated: November 18, 2026",
+  "sections": [
+    {
+      "title": "About this website",
+      "paragraphs": [
+        "This website provides information about SAGAR2027, the International Conference on Soft Computing Application in Smart Grid and Renewable Energy, organized by ABIT (Autonomous)."
+      ]
+    },
+    {
+      "title": "Use of the website",
+      "paragraphs": [
+        "You may use this website to learn about the conference, its program, venue, submission process, and registration. Do not misuse the website, interfere with its operation, or attempt to access systems or information without authorization."
+      ]
+    },
+    {
+      "title": "Conference information",
+      "paragraphs": [
+        "Conference dates, schedules, fees, venue details, submission requirements, and other information may be updated. Please check the relevant pages for the latest information before making arrangements."
+      ],
+      "link": {
+        "label": "View important dates",
+        "url": "/#important-dates"
+      }
+    },
+    {
+      "title": "Submissions and registration",
+      "paragraphs": [
+        "Paper submissions, registration, reviews, and publication consideration are subject to the requirements and decisions stated in their respective conference pages and any applicable publisher or submission-platform terms."
+      ],
+      "link": {
+        "label": "Read paper submission requirements",
+        "url": "/for-authors/paper-submission"
+      }
+    },
+    {
+      "title": "Intellectual property",
+      "paragraphs": [
+        "Website content, branding, and materials belong to their respective owners. You may not reproduce or redistribute material from this site except as permitted by applicable law or with permission from the relevant rights holder."
+      ]
+    },
+    {
+      "title": "Third-party services and links",
+      "paragraphs": [
+        "This website may link to third-party websites and services, including submission and analytics providers. Those services are governed by their own terms and policies; the conference organizers do not control their content or operation."
+      ]
+    },
+    {
+      "title": "Changes and contact",
+      "paragraphs": [
+        "These terms may be updated as the website or conference information changes. For questions about these terms, contact the SAGAR2027 organizing committee using the contact details on the website."
+      ],
+      "link": {
+        "label": "Contact the organizers",
+        "url": "/contact"
+      }
+    }
+  ]
+}
