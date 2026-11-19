@@ -12,6 +12,13 @@ const DrawerPopup = () => {
   };
 
   useEffect(() => {
+    if (!isOpen) {
+      window.__drawerPopupsClosed = true;
+      window.dispatchEvent(new CustomEvent("drawer-popups-closed"));
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
     if (!isOpen) return undefined;
 
     const handleKeyDown = (event) => {

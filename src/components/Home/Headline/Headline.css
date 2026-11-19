@@ -30,6 +30,10 @@
   animation: headline-scroll 32s linear infinite;
 }
 
+.headline-banner:hover .headline-track {
+  animation-play-state: paused;
+}
+
 .headline-sequence {
   display: flex;
   flex: 0 0 auto;

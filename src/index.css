@@ -11,6 +11,37 @@
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+html,
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #34313a transparent;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: #34313a;
+  background-clip: content-box;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: #1d1b22;
+  background-clip: content-box;
+}
+
 body {
   margin: 0;
   font-family: var(--font-main);

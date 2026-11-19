@@ -228,20 +228,31 @@ const FlowChartSvg = ({ title, steps, layout, variant }) => {
   );
 };
 
-const FlowDiagram = ({ title, steps }) => (
-  <div className="help-flow">
-    <FlowChartSvg
-      title={title}
-      steps={steps}
-      layout={desktopLayout}
-      variant="desktop"
-    />
-    <FlowChartSvg
-      title={title}
-      steps={steps}
-      layout={mobileLayout}
-      variant="mobile"
-    />
+const FlowDiagram = ({ title, steps, compact = false }) => (
+  <div className={`help-flow${compact ? " help-flow-compact" : ""}`}>
+    {compact ? (
+      <FlowChartSvg
+        title={title}
+        steps={steps}
+        layout={mobileLayout}
+        variant="compact"
+      />
+    ) : (
+      <>
+        <FlowChartSvg
+          title={title}
+          steps={steps}
+          layout={desktopLayout}
+          variant="desktop"
+        />
+        <FlowChartSvg
+          title={title}
+          steps={steps}
+          layout={mobileLayout}
+          variant="mobile"
+        />
+      </>
+    )}
     <ol className="help-flow-accessible" aria-label={`${title} workflow`}>
       {steps.map((step) => (
         <li key={`${title}-${step.title}`}>

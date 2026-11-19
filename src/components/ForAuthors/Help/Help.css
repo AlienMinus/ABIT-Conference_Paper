@@ -123,6 +123,16 @@
   margin: 0 auto;
 }
 
+.help-flow-compact {
+  width: 100%;
+  min-width: 0;
+}
+
+.help-flow-compact .help-flow-svg-compact {
+  max-width: 100%;
+  margin: 0;
+}
+
 .help-flow-node-shape {
   fill: var(--bg-card);
   stroke: var(--glass-border);
