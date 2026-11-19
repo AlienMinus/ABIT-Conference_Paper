@@ -67,8 +67,8 @@
 }
 
 .kt-image {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1.5rem;
@@ -83,23 +83,19 @@
 }
 
 .kt-affiliation {
-  color: var(--neon-cyan);
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-}
-
-.kt-card h4 {
-  color: var(--text-primary);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-
-.kt-abstract {
   color: var(--text-secondary);
   font-size: 1rem;
-  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  line-height: 1.55;
+}
+
+.kt-designation {
+  color: var(--neon-purple);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
 }
 
 @media (max-width: 768px) {

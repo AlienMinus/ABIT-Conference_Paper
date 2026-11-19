@@ -1,0 +1,147 @@
+.keynote-speakers-section {
+  padding: 4rem 0;
+  background: var(--bg-dark);
+  position: relative;
+  overflow: hidden;
+  color: var(--text-primary);
+}
+
+.section-subtitle {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.keynote-speakers-scroll-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2rem;
+  padding: 20px 0;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.keynote-speakers-track {
+  display: flex;
+  gap: 30px;
+  width: fit-content;
+  animation: keynote-speakers-scroll 40s linear infinite;
+}
+
+.keynote-speaker-card {
+  width: 300px;
+  min-height: 390px;
+  flex-shrink: 0;
+  padding: 30px;
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.keynote-speaker-image {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 0 auto 18px;
+  border: 3px solid var(--neon-purple);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(176, 38, 255, 0.3);
+}
+
+.keynote-speaker-name {
+  margin-bottom: 8px;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.keynote-speaker-designation {
+  margin: 0 0 8px;
+  color: var(--neon-purple);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.keynote-speaker-affiliation {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+@keyframes keynote-speakers-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+body.light-mode .keynote-speakers-section {
+  background: #f0f2f5;
+}
+
+body.light-mode .keynote-speaker-card {
+  background: #ffffff;
+  border-color: rgba(98, 0, 234, 0.15);
+  box-shadow: 0 8px 24px rgba(26, 26, 26, 0.06);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .keynote-speakers-scroll-container:hover .keynote-speakers-track {
+    animation-play-state: paused;
+  }
+
+  .keynote-speaker-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--neon-purple);
+    box-shadow: 0 15px 40px rgba(176, 38, 255, 0.15);
+  }
+
+  body.light-mode .keynote-speaker-card:hover {
+    box-shadow: 0 15px 35px rgba(98, 0, 234, 0.12);
+  }
+}
+
+@media (max-width: 768px) {
+  .keynote-speakers-section {
+    padding: 3rem 0;
+  }
+
+  .keynote-speaker-card {
+    width: 280px;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .keynote-speakers-scroll-container {
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  }
+
+  .keynote-speaker-card {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .keynote-speakers-track {
+    animation: none;
+  }
+
+  .keynote-speakers-scroll-container {
+    overflow-x: auto;
+  }
+
+  .keynote-speaker-card--duplicate {
+    display: none;
+  }
+}

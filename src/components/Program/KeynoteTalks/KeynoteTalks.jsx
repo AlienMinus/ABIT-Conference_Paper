@@ -17,9 +17,10 @@ const KeynoteTalks = () => {
           <div key={index} className="kt-card">
             <img src={speaker.image} alt={speaker.name} className="kt-image" />
             <h3>{speaker.name}</h3>
+            {speaker.designation && (
+              <p className="kt-designation">{speaker.designation}</p>
+            )}
             <p className="kt-affiliation">{speaker.affiliation}</p>
-            {speaker.title && <h4>"{speaker.title}"</h4>}
-            <p className="kt-abstract">{speaker.abstract}</p>
           </div>
         ))}
       </div>

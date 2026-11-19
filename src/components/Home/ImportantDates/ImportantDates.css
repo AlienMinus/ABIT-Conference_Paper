@@ -99,7 +99,26 @@
 
 @media (max-width: 576px) {
   .dates-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .date-card {
+    min-width: 0;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .date-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .date-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .date-value {
+    font-size: 0.8rem;
   }
 }
 
@@ -130,4 +149,70 @@ body.light-mode .date-card:nth-child(3),
 body.light-mode .date-card:nth-child(6) {
   background: rgba(0, 86, 179, 0.03);
   border-color: var(--neon-cyan);
+}
+
+@media (max-width: 576px) {
+  .date-card:nth-child(odd),
+  .date-card:nth-child(odd):hover {
+    background: rgba(0, 243, 255, 0.03);
+    border-color: var(--neon-cyan);
+  }
+
+  .date-card:nth-child(even),
+  .date-card:nth-child(even):hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .date-card:nth-child(odd) .date-icon {
+    color: var(--neon-cyan);
+  }
+
+  .date-card:nth-child(even) .date-icon {
+    color: var(--neon-purple);
+  }
+
+  body.light-mode .date-card:nth-child(odd),
+  body.light-mode .date-card:nth-child(odd):hover {
+    background: rgba(0, 86, 179, 0.03);
+    border-color: var(--neon-cyan);
+  }
+
+  body.light-mode .date-card:nth-child(even),
+  body.light-mode .date-card:nth-child(even):hover {
+    background: #f8f9fa;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .date-card:nth-child(3),
+  .date-card:nth-child(3):hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .date-card:nth-child(4),
+  .date-card:nth-child(4):hover {
+    background: rgba(0, 243, 255, 0.03);
+    border-color: var(--neon-cyan);
+  }
+
+  body.light-mode .date-card:nth-child(3),
+  body.light-mode .date-card:nth-child(3):hover {
+    background: #f8f9fa;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+
+  body.light-mode .date-card:nth-child(4),
+  body.light-mode .date-card:nth-child(4):hover {
+    background: rgba(0, 86, 179, 0.03);
+    border-color: var(--neon-cyan);
+  }
+
+  .date-card:nth-child(3) .date-icon {
+    color: var(--neon-purple);
+  }
+
+  .date-card:nth-child(4) .date-icon {
+    color: var(--neon-cyan);
+  }
 }
