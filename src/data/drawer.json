@@ -1,0 +1,18 @@
+{
+  "drawers": [
+    {
+      "id": "sagar2027",
+      "heading": "SAGAR2027 Conference Announcement",
+      "description": "Call for papers, tracks and key dates",
+      "src": "/assets/res/drawer.jpg",
+      "alt": "SAGAR2027 call for papers announcement"
+    },
+    {
+      "id": "cmt-paper-submission",
+      "heading": "SAGAR2027 CMT Paper Submission",
+      "description": "Scan QR to submit via Microsoft CMT",
+      "src": "/assets/res/CMT.png",
+      "alt": "QR code for the SAGAR2027 Microsoft CMT paper submission portal"
+    }
+  ]
+}

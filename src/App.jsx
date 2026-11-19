@@ -4,6 +4,7 @@ import Layout from "./components/Layout/Layout";
 import ScrollToTop from "./components/ScrollToTop";
 import BackToTop from "./components/BackToTop/BackToTop";
 import Chatbot from "./components/Chatbot/Chatbot";
+import DrawerPopup from "./components/DrawerPopup/DrawerPopup";
 import AppRouter from "./Router";
 import { Analytics } from "@vercel/analytics/react";
 import "./static/LightMode.css";
@@ -12,6 +13,7 @@ import "./static/mobile.css";
 function App() {
   return (
     <Layout>
+      <DrawerPopup />
       <ScrollToTop />
       <BackToTop />
       <Chatbot />
