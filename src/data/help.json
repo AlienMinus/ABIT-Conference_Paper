@@ -1,0 +1,159 @@
+{
+  "header": {
+    "title": "Author Help Center",
+    "description": "Quick steps for common author tasks."
+  },
+  "guides": [
+    {
+      "id": "paper-submission",
+      "title": "Submit a Paper",
+      "description": "From manuscript to review.",
+      "link": "/for-authors/paper-submission",
+      "linkText": "Submission details",
+      "steps": [
+        {
+          "type": "start",
+          "title": "Check the CFP",
+          "description": "Review scope and rules."
+        },
+        {
+          "type": "process",
+          "title": "Format the paper",
+          "description": "Use the provided template."
+        },
+        {
+          "type": "process",
+          "title": "Create a PDF",
+          "description": "PDF only; at least 6 pages."
+        },
+        {
+          "type": "process",
+          "title": "Sign in to CMT",
+          "description": "Create an account or log in."
+        },
+        {
+          "type": "process",
+          "title": "Submit the paper",
+          "description": "Enter details and upload the PDF."
+        },
+        {
+          "type": "end",
+          "title": "Track review",
+          "description": "Check CMT for updates."
+        }
+      ]
+    },
+    {
+      "id": "registration",
+      "title": "Register",
+      "description": "Author and attendee registration.",
+      "link": "/for-authors/registration",
+      "linkText": "Registration details",
+      "steps": [
+        {
+          "type": "start",
+          "title": "Review options",
+          "description": "Check categories and fees."
+        },
+        {
+          "type": "process",
+          "title": "Open registration",
+          "description": "Use the link when available."
+        },
+        {
+          "type": "process",
+          "title": "Complete the form",
+          "description": "Enter the required details."
+        },
+        {
+          "type": "process",
+          "title": "Register an author",
+          "description": "One author per accepted paper."
+        },
+        {
+          "type": "end",
+          "title": "Save confirmation",
+          "description": "Keep your receipt."
+        }
+      ]
+    },
+    {
+      "id": "camera-ready",
+      "title": "Submit the Final Paper",
+      "description": "Final steps after acceptance.",
+      "link": "/for-authors/camera-ready",
+      "linkText": "Camera-ready details",
+      "steps": [
+        {
+          "type": "start",
+          "title": "Confirm acceptance",
+          "description": "Start after acceptance."
+        },
+        {
+          "type": "process",
+          "title": "Revise the paper",
+          "description": "Address reviewer comments."
+        },
+        {
+          "type": "process",
+          "title": "Format and validate",
+          "description": "Springer format; PDF eXpress ID 69723X."
+        },
+        {
+          "type": "process",
+          "title": "Complete copyright",
+          "description": "Submit the Springer eCF."
+        },
+        {
+          "type": "process",
+          "title": "Confirm registration",
+          "description": "At least one author registered."
+        },
+        {
+          "type": "end",
+          "title": "Upload to CMT",
+          "description": "Validated PDF and copyright receipt."
+        }
+      ]
+    },
+    {
+      "id": "presentation",
+      "title": "Prepare a Presentation",
+      "description": "On-site and virtual requirements.",
+      "link": "/for-authors/presentation-guidelines",
+      "linkText": "Presentation details",
+      "steps": [
+        {
+          "type": "start",
+          "title": "Choose a format",
+          "description": "On-site or virtual."
+        },
+        {
+          "type": "process",
+          "title": "Prepare slides",
+          "description": "PPT or PDF; 16:9."
+        },
+        {
+          "type": "process",
+          "title": "On-site talk",
+          "description": "12 + 3 minutes; arrive 10 minutes early."
+        },
+        {
+          "type": "process",
+          "title": "Virtual video",
+          "description": "10–12 min MP4; 720p/1080p; max 500 MB."
+        },
+        {
+          "type": "process",
+          "title": "Name the video",
+          "description": "PaperID_PresenterName.mp4"
+        },
+        {
+          "type": "end",
+          "title": "Check the guide",
+          "description": "Review the full instructions."
+        }
+      ]
+    }
+  ]
+}

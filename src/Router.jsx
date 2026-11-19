@@ -16,6 +16,7 @@ const Registration = lazy(() => import('./components/ForAuthors/Registration/Reg
 const CameraReady = lazy(() => import('./components/ForAuthors/CameraReady/CameraReady'))
 const PresentationGuidelines = lazy(() => import('./components/ForAuthors/PresentationGuidelines/PresentationGuidelines'))
 const BestPaperAward = lazy(() => import('./components/ForAuthors/BestPaperAward/BestPaperAward'))
+const Help = lazy(() => import('./components/ForAuthors/Help/Help'))
 const Program = lazy(() => import('./pages/Program'))
 const KeynoteTalks = lazy(() => import('./components/Program/KeynoteTalks/KeynoteTalks'))
 const ProgramSchedule = lazy(() => import('./components/Program/ProgramSchedule/ProgramSchedule'))
@@ -47,6 +48,7 @@ const AppRouter = () => {
       '/for-authors/camera-ready': 'Camera Ready Submission',
       '/for-authors/presentation-guidelines': 'Presentation & Video Guidelines',
       '/for-authors/best-paper-award': 'Best Paper Award',
+      '/for-authors/help': 'Author Help',
       '/program/keynote': 'Keynote Talks',
       '/program/schedule': 'Program Schedule',
       '/program/student-symposium': 'IEEE Student Symposium',
@@ -83,6 +85,7 @@ const AppRouter = () => {
           <Route path="camera-ready" element={<CameraReady />} />
           <Route path="presentation-guidelines" element={<PresentationGuidelines />} />
           <Route path="best-paper-award" element={<BestPaperAward />} />
+          <Route path="help" element={<Help />} />
         </Route>
         <Route path="/program" element={<Program />}>
           <Route path="keynote" element={<KeynoteTalks />} />

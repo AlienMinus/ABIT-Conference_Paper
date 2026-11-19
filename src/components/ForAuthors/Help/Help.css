@@ -1,0 +1,340 @@
+.author-help {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3rem) 0 4rem;
+  color: var(--text-primary);
+}
+
+.author-help-header {
+  margin: 0 auto 2rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--glass-border);
+  border-radius: 1.25rem;
+  background:
+    linear-gradient(135deg, rgba(176, 38, 255, 0.12), transparent 60%),
+    var(--bg-card);
+  text-align: center;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.16);
+}
+
+.author-help-header h1 {
+  margin-bottom: 0.75rem;
+  color: var(--neon-purple);
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.15;
+}
+
+.author-help-header p {
+  max-width: 48rem;
+  margin: 0 auto;
+  color: var(--text-secondary);
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  line-height: 1.65;
+}
+
+.author-help-guides {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.help-date-flow {
+  margin-bottom: 1.5rem;
+}
+
+.help-date-flow .help-guide-header {
+  margin-bottom: 0.5rem;
+}
+
+.help-guide {
+  min-width: 0;
+  padding: clamp(1rem, 2.5vw, 1.75rem);
+  border: 1px solid var(--glass-border);
+  border-radius: 1rem;
+  background: var(--bg-card);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.help-guide-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.help-guide-header h2 {
+  margin-bottom: 0.4rem;
+  color: var(--text-primary);
+  font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.help-guide-header p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.help-guide-link {
+  min-width: 0;
+  flex: 0 0 auto;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--neon-purple);
+  border-radius: 0.65rem;
+  color: var(--neon-purple);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  overflow-wrap: anywhere;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.help-guide-link:hover {
+  background: var(--neon-purple);
+  color: #fff;
+}
+
+.help-guide-link:focus-visible {
+  outline: 3px solid var(--neon-cyan);
+  outline-offset: 3px;
+}
+
+.help-flow {
+  position: relative;
+}
+
+.help-flow-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.help-flow-svg-desktop {
+  display: none;
+}
+
+.help-flow-svg-mobile {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.help-flow-node-shape {
+  fill: var(--bg-card);
+  stroke: var(--glass-border);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.12));
+}
+
+.help-flow-node-shape.is-start,
+.help-flow-node-shape.is-end {
+  stroke: rgba(255, 255, 255, 0.55);
+  stroke-width: 1;
+}
+
+.help-flow-node-accent {
+  opacity: 0.95;
+}
+
+.help-flow-connector-glow,
+.help-flow-connector-line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.help-flow-connector-glow {
+  opacity: 0.16;
+  stroke-width: 10;
+}
+
+.help-flow-connector-line {
+  stroke-dasharray: 12 10;
+  stroke-width: 2.5;
+  animation: help-flow-line 1.8s linear infinite;
+}
+
+.help-flow-connector-arrow {
+  vector-effect: non-scaling-stroke;
+  animation: help-flow-arrow 1.8s ease-in-out infinite;
+}
+
+.help-flow-node {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: help-flow-float 4.8s ease-in-out infinite;
+}
+
+@keyframes help-flow-line {
+  to {
+    stroke-dashoffset: -44;
+  }
+}
+
+@keyframes help-flow-arrow {
+  0%,
+  100% {
+    opacity: 0.75;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes help-flow-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.help-flow-node-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  gap: 0.85rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 0.45rem;
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  text-align: left;
+}
+
+.help-flow-node-content.is-start,
+.help-flow-node-content.is-end {
+  color: #fff;
+}
+
+.help-flow-node-index {
+  display: grid;
+  width: 2.7rem;
+  height: 2.7rem;
+  flex: 0 0 2.7rem;
+  place-items: center;
+  border: 1px solid var(--glass-border);
+  border-radius: 0.95rem;
+  background: rgba(176, 38, 255, 0.1);
+  color: var(--neon-purple);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.help-flow-node-content.is-start .help-flow-node-index,
+.help-flow-node-content.is-end .help-flow-node-index {
+  border-color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.help-flow-node-copy {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.help-flow-node-content h3 {
+  margin: 0 0 0.35rem;
+  color: inherit;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.help-flow-node-content p {
+  margin: 0;
+  color: inherit;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  opacity: 0.78;
+}
+
+.help-flow-accessible {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  clip-path: inset(50%) !important;
+}
+
+@media (min-width: 1024px) {
+  .help-guide-header {
+    align-items: center;
+  }
+
+  .help-flow-svg-desktop {
+    display: block;
+  }
+
+  .help-flow-svg-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .author-help {
+    padding-bottom: 2.5rem;
+  }
+
+  .help-guide-header {
+    flex-direction: column;
+  }
+
+  .help-guide-link {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .help-flow-node-content {
+    gap: 0.6rem;
+    padding: 0.3rem;
+  }
+
+  .help-flow-node-index {
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-basis: 2.25rem;
+    border-radius: 0.75rem;
+    font-size: 0.72rem;
+  }
+
+  .help-flow-node-content h3 {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  .help-flow-node-content p {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .help-flow-connector-line,
+  .help-flow-connector-arrow,
+  .help-flow-node {
+    animation: none;
+  }
+}

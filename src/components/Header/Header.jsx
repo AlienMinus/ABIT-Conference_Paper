@@ -102,6 +102,7 @@ const Header = () => {
                 <li><Link to="/for-authors/camera-ready">Camera Ready Submission</Link></li>
                 <li><Link to="/for-authors/presentation-guidelines">Presentation & Video Guidelines</Link></li>
                 <li><Link to="/for-authors/best-paper-award">Best Paper Award</Link></li>
+                <li><Link to="/for-authors/help">Help</Link></li>
               </ul>
             </li>
 
